@@ -110,4 +110,3 @@ model.compile(timesfm.ForecastConfig(
 # point.shape == (1, 24)        — median forecast
 # quantiles.shape == (1, 24, 10) — 10th–90th percentile bands
 ```
-

@@ -104,4 +104,3 @@ scv.pl.velocity_embedding_stream(
     title="RNA Velocity (Stochastic)"
 )
 ```
-

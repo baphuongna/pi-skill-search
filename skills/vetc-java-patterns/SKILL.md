@@ -110,3 +110,4 @@ FAIL: SQL injection via string concatenation:
 @Query(nativeQuery = true, value =
     "SELECT * FROM TABLE WHERE STATUS = '" + status + "'")
 
+

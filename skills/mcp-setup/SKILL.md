@@ -82,5 +82,3 @@ Which directories should the filesystem MCP have access to?
 Default: Current working directory
 Enter comma-separated paths, or press Enter for default
 ```
-
-

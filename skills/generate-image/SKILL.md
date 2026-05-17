@@ -106,4 +106,3 @@ Run the script multiple times with different prompts or output paths:
 python scripts/generate_image.py "Image 1 description" --output image1.png
 python scripts/generate_image.py "Image 2 description" --output image2.png
 ```
-

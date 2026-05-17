@@ -107,3 +107,4 @@ transformer = MoleculeTransformer(calc, n_jobs=-1)
 features = transformer(smiles)
 print(f"Shape: {features.shape}")  # (4, 2048)
 
+

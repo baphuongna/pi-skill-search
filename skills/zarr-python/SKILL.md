@@ -99,4 +99,3 @@ z.resize(15000, 15000)  # Expands or shrinks dimensions
 # Append data along an axis
 z.append(np.random.random((1000, 10000)), axis=0)  # Adds rows
 ```
-

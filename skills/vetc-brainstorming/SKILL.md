@@ -113,3 +113,4 @@ Apply **VETC-DR** (Drivers + Recommendation):
 
 **Why rejected**: Effort L + new infra risk + distraction from core features. LOW strategic fit.
 
+

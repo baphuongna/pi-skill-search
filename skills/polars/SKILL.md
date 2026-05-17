@@ -112,4 +112,3 @@ df.filter(
     (pl.col("age") > 25) | (pl.col("city") == "LA")
 )
 ```
-

@@ -39,3 +39,4 @@ setup mcp github       # => mcp-setup github
 
 Task: {{ARGUMENTS}}
 
+

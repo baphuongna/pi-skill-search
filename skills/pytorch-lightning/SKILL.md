@@ -116,3 +116,4 @@ Configure with: `Trainer(strategy="ddp", accelerator="gpu", devices=4)`
 
 1. **Define model:**
 
+

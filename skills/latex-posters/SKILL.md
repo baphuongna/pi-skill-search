@@ -109,3 +109,4 @@ python scripts/generate_schematic.py "Case studies: Insilico Medicine (drug cand
 python scripts/generate_schematic.py "POSTER FORMAT for A0. ONE case study card: Company logo (large), '18 MONTHS' in GIANT text (150pt), 'to discovery' below (60pt). 3 elements total: logo + number + caption. 50% white space. Readable from 10 feet." -o figures/case_single.png
 # Result: Clear, readable, impactful. Make 3 separate graphics if you need 3 cases.
 
+

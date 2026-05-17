@@ -90,4 +90,3 @@ msa = TabularMSA.read('alignment.fasta', constructor=skbio.DNA)
 # Calculate consensus
 consensus = msa.consensus()
 ```
-

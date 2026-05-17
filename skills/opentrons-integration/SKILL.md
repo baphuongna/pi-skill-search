@@ -107,3 +107,4 @@ hs_plate = hs_module.load_labware('corning_96_wellplate_360ul_flat')
 tc_module = protocol.load_module('thermocyclerModuleV2')
 tc_plate = tc_module.load_labware('nest_96_wellplate_100ul_pcr_full_skirt')
 
+

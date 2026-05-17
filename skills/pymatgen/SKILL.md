@@ -25,3 +25,4 @@ Use this skill for materials science computations.
 - Don't compare floating point coordinates directly — use `structure.matches(other)`.
 - Don't create structures with overlapping sites without checking tolerance.
 
+

@@ -115,4 +115,3 @@ public boolean verifyOtp(String phone, String otp) {
     return otp.equals(stored); // No expiry check, no attempt limit!
 }
 ```
-

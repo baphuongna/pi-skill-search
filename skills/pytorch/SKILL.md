@@ -28,3 +28,4 @@ Use this skill for deep learning model development.
 - Don't use `.item()` inside training loop on large tensors — only for scalar metrics.
 - Don't hardcode device — always use `device = 'cuda' if torch.cuda.is_available() else 'cpu'`.
 
+

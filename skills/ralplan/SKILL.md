@@ -102,3 +102,4 @@ The gate auto-passes when it detects **any** concrete signal. You do not need al
 5. On consensus approval, user chooses execution path:
    - **team**: parallel coordinated agents (recommended)
 
+

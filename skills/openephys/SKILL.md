@@ -25,3 +25,4 @@ Use this skill for electrophysiology data acquisition and analysis.
 - Don't apply spike sorting without artifact removal first.
 - Don't mix probe configurations without recalculating channel maps.
 
+

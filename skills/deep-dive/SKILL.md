@@ -112,4 +112,3 @@ Cross-boundary MOVE candidates MUST have `Default? = no` and an explicit warning
 ## Recommended Discriminating Probe
 [Single next probe that would collapse uncertainty fastest]
 ```
-

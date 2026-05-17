@@ -84,4 +84,3 @@ if command -v ruby >/dev/null 2>&1; then
 else
   echo "Ruby for Ralph: MISSING"
 ```
-

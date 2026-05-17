@@ -112,4 +112,3 @@ simplified = gdf.geometry.simplify(tolerance=5, preserve_topology=True)
 # Get centroids
 centroids = gdf.geometry.centroid
 ```
-

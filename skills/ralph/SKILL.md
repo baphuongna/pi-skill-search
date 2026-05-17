@@ -20,3 +20,4 @@ description: Self-referential loop until task completion with configurable verif
 Original task:
 {{PROMPT}}
 
+

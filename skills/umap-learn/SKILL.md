@@ -116,3 +116,4 @@ UMAP has four primary parameters that control the embedding behavior. Understand
 
 **Recommendation:** Use euclidean for numeric data, cosine for text/document vectors, hamming for binary data.
 
+

@@ -25,3 +25,4 @@ Use this skill for document format conversion and text extraction.
 - Don't process large document collections sequentially — use parallel workers.
 - Don't ignore file encoding — always specify `encoding='utf-8'` when writing.
 
+

@@ -72,4 +72,3 @@ Error: NullPointerException
   at WalletController.handleTransfer(WalletController.java:67)
   at sun.reflect.NativeMethodAccessorImpl.invoke0(Native)
 ```
-

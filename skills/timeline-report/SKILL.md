@@ -82,6 +82,4 @@ Wait for user confirmation before continuing if the timeline exceeds 100K tokens
 Deploy an Agent (using the Task tool) with the full timeline and the following analysis prompt. Pass the ENTIRE timeline as context to the agent. The agent should also be instructed to query the SQLite database at `~/.claude-mem/claude-mem.db` for the Token Economics section.
 
 **Agent prompt:**
-
 ```
-

@@ -106,4 +106,3 @@ descriptors = dm.descriptors.compute_many_descriptors(mol)
 # Returns: {'mw': 46.07, 'logp': -0.03, 'hbd': 1, 'hba': 1,
 #           'tpsa': 20.23, 'n_aromatic_atoms': 0, ...}
 ```
-

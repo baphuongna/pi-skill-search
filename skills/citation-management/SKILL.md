@@ -88,3 +88,4 @@ python scripts/search_pubmed.py \
   --date-end 2024 \
   --publication-types "Clinical Trial,Review" \
 
+

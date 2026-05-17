@@ -104,4 +104,3 @@ Reason: Real bug, caught before production
 Classification: DISCUSS
 Response: "Can you point to specific lines? Happy to refactor toward the team's style."
 ```
-

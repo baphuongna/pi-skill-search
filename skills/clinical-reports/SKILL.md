@@ -115,3 +115,4 @@ The Health Insurance Portability and Accountability Act (HIPAA) mandates protect
 
 **Key Requirements:**
 
+

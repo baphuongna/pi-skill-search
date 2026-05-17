@@ -94,4 +94,3 @@ search(type="observations", dateStart="2025-11-11", limit=20, project="my-projec
 
 Want synthesized answers instead of raw records? Use `/knowledge-agent` to build a queryable corpus from your observation history. The knowledge agent reads all matching observations and answers questions conversationally.
 ```
-

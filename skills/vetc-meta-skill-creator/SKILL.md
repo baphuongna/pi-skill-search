@@ -97,4 +97,3 @@ skills/vetc-{name}/references/
 ├── anti-patterns.md    ← Detailed anti-patterns with examples
 └── advanced.md         ← Expert-level usage
 ```
-

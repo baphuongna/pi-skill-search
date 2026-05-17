@@ -115,4 +115,3 @@ metrics = evaluate_embeddings(
     labels_file='metadata.csv'
 )
 ```
-

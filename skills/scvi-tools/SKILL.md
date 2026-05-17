@@ -112,4 +112,3 @@ de_results = model.differential_expression(
     delta=0.25      # Minimum effect size threshold
 )
 ```
-

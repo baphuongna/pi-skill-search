@@ -108,4 +108,3 @@ from sksurv.nonparametric import cumulative_incidence_competing_risks
 # Estimate cumulative incidence for each event type
 time_points, cif_event1, cif_event2 = cumulative_incidence_competing_risks(y)
 ```
-

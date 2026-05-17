@@ -27,3 +27,4 @@ Use this skill for distributed task processing and pipeline orchestration.
 - Don't create circular task dependencies — detect and break cycles.
 - Don't ignore `WorkerLostError` — it means OOM or segfault, not normal failure.
 
+

@@ -52,4 +52,3 @@ description: Automated semantic versioning and release workflow for Claude Code 
 - [ ] Discord notification run from `~/Scripts/claude-mem/`
 - [ ] `git status` shows clean tree
 ```
-

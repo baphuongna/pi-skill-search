@@ -89,4 +89,3 @@ scores = calculate_scores(references=library_spectra,
 # Get best matches
 best_matches = scores.scores_by_query(query_spectra[0], sort=True)[:10]
 ```
-

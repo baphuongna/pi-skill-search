@@ -89,3 +89,4 @@ Most tasks start with `vetc-sdlc` which routes to the correct path:
 Instructions say WHAT, not HOW. "Add X" or "Fix Y" doesn't mean skip skills. Skills guide the HOW.
 
 
+

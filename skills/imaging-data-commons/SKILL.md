@@ -116,3 +116,4 @@ The `idc-index` package provides multiple metadata index tables, accessible via 
 | `StudyInstanceUID` | index, prior_versions_index | Link studies across current and historical data |
 | `PatientID` | index, prior_versions_index | Link patients across current and historical data |
 
+

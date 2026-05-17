@@ -78,3 +78,4 @@ Validate before decomposing or running anything:
 Break work into N independent subtasks (file- or concern-scoped) to avoid write conflicts.
 
 ### Phase 2.5: Resolve workspace root for multi-repo plans
+

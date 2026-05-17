@@ -109,4 +109,3 @@ anomaly_scores = detector.fit_predict(y)
 threshold = np.percentile(anomaly_scores, 95)
 anomalies = anomaly_scores > threshold
 ```
-

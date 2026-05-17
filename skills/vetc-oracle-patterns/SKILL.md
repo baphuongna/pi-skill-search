@@ -107,4 +107,3 @@ List results = repositoryServiceBase.callStoresProcedure(
     Result.class
 );
 ```
-

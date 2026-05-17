@@ -83,4 +83,3 @@ To use Jira, add an alias with `jira_project` and `provider: "jira"`:
       "default_base": "develop",
       "provider": "jira"
 ```
-

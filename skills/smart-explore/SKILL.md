@@ -91,6 +91,4 @@ For code files over ~100 lines, prefer smart_outline + smart_unfold over Read.
 ```
 
 **Navigate a large file:**
-
 ```
-

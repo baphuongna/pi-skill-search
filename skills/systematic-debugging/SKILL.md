@@ -116,3 +116,4 @@ If you catch yourself thinking:
 - "I don't fully understand but this might work"
 - "Pattern says X but I'll adapt it differently"
 
+

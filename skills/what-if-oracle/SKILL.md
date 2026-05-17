@@ -84,3 +84,4 @@ After analyzing all branches, provide:
 Φ Contrarian ···· [████░░░░░░]  7%
 ∞ Second Order ·· [███░░░░░░░]  5%
 
+

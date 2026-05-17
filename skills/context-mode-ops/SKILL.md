@@ -84,3 +84,4 @@ They MUST be honored on every ops cycle, without exception:
 
 1. **Engineering-Manager mode by default.** You coordinate. You delegate.
 
+

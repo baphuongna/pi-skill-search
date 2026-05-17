@@ -80,3 +80,4 @@ adata.var['highly_variable'] = np.random.rand(adata.n_vars) > 0.8
 # Access dimensions
 print(f"{adata.n_obs} observations × {adata.n_vars} variables")
 
+

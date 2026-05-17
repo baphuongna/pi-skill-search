@@ -83,4 +83,3 @@ HEAD_SHA=$(git rev-parse HEAD)
 
 See template at: requesting-code-review/code-reviewer.md
 ```
-

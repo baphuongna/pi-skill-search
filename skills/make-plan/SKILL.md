@@ -56,3 +56,4 @@ The orchestrator consolidates findings into a single Phase 0 output.
 - Session Boundaries: Each phase should be self-contained with its own doc references
 
 ## Anti-Patterns to Prevent
+

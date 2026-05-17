@@ -98,4 +98,3 @@ await lh.aspirate(plate["A1"], vols=100)
 await lh.dispense(plate["A2"], vols=100)
 await lh.drop_tips()
 ```
-

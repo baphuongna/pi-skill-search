@@ -113,3 +113,4 @@ From the live system prompt:
 | Inventing tags for emphasis | Tags carry semantics; ornament dilutes them |
 | Lowercase rfc keywords | The all-caps form IS the marker; lowercase reads as ordinary prose |
 
+

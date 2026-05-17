@@ -115,3 +115,4 @@ Use these as review prompts, not absolute bans. Keep intentional brand, accessib
 
 **Good:** `cleanup the AI slop in src/auth and tighten boundaries without changing behavior`
 
+

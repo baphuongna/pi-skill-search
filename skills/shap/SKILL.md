@@ -101,4 +101,3 @@ shap.plots.scatter(shap_values[:, "Feature_Name"])
 # Colored by another feature to show interactions
 shap.plots.scatter(shap_values[:, "Age"], color=shap_values[:, "Education"])
 ```
-

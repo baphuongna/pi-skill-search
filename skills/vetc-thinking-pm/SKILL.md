@@ -107,3 +107,4 @@ design/thinking/{feature-name}/
 5. Khi user confirm → copy file (đề xuất lệnh trước khi thực thi)
 
 ## Anti-Hallucination Rules (BẮT BUỘC)
+

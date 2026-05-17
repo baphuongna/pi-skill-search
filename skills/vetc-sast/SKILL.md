@@ -115,3 +115,4 @@ Location: `security/sast-reports/{YYYY-MM-DD}-{branch}.md`
 **Description**: String concatenation in `WHERE account_no = '" + accountNo + "'"`
 **Fix**: Use `setParameter("accountNo", accountNo)`
 
+

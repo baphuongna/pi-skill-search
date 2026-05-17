@@ -112,6 +112,4 @@ Khi session kết thúc, review instincts created:
 Show: total instincts, by category, avg confidence, top 5 instincts.
 
 ### Evolve Instincts
-
 ```
-

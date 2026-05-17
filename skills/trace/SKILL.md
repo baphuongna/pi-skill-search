@@ -115,3 +115,4 @@ After the initial evidence pass, pressure-test the leaders with these lenses whe
 
 These lenses are not filler. Use them when they can surface a missed explanation, hidden dependency, or weak inference.
 
+

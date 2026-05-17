@@ -112,4 +112,3 @@ analysis = nk.eda_analyze(signals, sampling_rate=100)
 # Sympathetic nervous system activity
 sympathetic = nk.eda_sympathetic(signals, sampling_rate=100)
 ```
-

@@ -107,4 +107,3 @@ from figure_export import save_publication_figure
 from figure_export import save_for_journal
 save_for_journal(fig, 'figure1', journal='nature', figure_type='combination')
 ```
-

@@ -106,3 +106,4 @@ assert gdf1.crs == gdf2.crs, "CRS mismatch!"
 # For area/distance calculations, use projected CRS
 gdf_metric = gdf.to_crs(gdf.estimate_utm_crs())
 
+

@@ -112,4 +112,3 @@ flow = FlowData('problematic.fcs', ignore_offset_error=True)
 # Exclude specific channels during parsing
 flow = FlowData('sample.fcs', null_channel_list=['Time', 'Null'])
 ```
-
