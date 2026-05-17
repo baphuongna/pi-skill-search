@@ -1,0 +1,46 @@
+{
+	"name": "pi-skill-search",
+	"version": "0.0.0",
+	"description": "On-demand skill search extension for Pi — replaces inject-all with search tool + category summary",
+	"type": "module",
+	"main": "index.ts",
+	"peerDependencies": {
+		"@earendil-works/pi-coding-agent": ">=0.74.1"
+	},
+	"devDependencies": {
+		"@earendil-works/pi-coding-agent": ">=0.74.1",
+		"typescript": "^5.7.0",
+		"vitest": "^3.1.0",
+		"tsx": "^4.19.0",
+		"@biomejs/biome": "^1.9.0",
+		"tinybench": "^4.0.0",
+		"tiktoken": "^1.0.0",
+		"@types/node": "^22.0.0",
+		"js-yaml": "^4.1.0",
+		"@types/js-yaml": "^4.0.0"
+	},
+	"scripts": {
+		"check": "biome check . && tsc --noEmit",
+		"test": "tsx node_modules/vitest/dist/cli.js --run",
+		"test:watch": "tsx node_modules/vitest/dist/cli.js",
+		"bench:index": "tsx bench/buildIndex.bench.ts",
+		"bench:search": "tsx bench/search.bench.ts",
+		"bench": "npm run bench:index && npm run bench:search",
+		"format": "biome format --write ."
+	},
+	"files": [
+		"index.ts",
+		"src/**/*.ts",
+		"README.md",
+		"LICENSE",
+		"CHANGELOG.md"
+	],
+	"keywords": [
+		"pi",
+		"extension",
+		"skill-search",
+		"skills",
+		"agent"
+	],
+	"license": "MIT"
+}
