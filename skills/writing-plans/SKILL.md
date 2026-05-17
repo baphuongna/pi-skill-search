@@ -76,7 +76,6 @@ This structure informs the task decomposition. Each task should produce self-con
 def test_specific_behavior():
     result = function(input)
     assert result == expected
-```
 
 
 ## No Placeholders
@@ -114,7 +113,3 @@ After saving the plan, offer execution choice:
 **"Plan complete and saved to `docs/superpowers/plans/<filename>.md`. Two execution options:**
 
 **1. Subagent-Driven (recommended)** - I dispatch a fresh subagent per task, review between tasks, fast iteration
-
-
-<!-- condensed from source -->
-```

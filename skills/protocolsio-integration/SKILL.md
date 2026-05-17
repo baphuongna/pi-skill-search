@@ -115,6 +115,3 @@ Supplementary functionality including profiles, notifications, and exports.
 ## Getting Started
 
 ### Step 1: Authentication Setup
-
-<!-- condensed from source -->
-

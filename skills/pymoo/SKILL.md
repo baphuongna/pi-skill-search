@@ -88,6 +88,3 @@ result = minimize(
 print(f"Best solution: {result.X}")
 print(f"Best objective: {result.F[0]}")
 ```
-
-<!-- condensed from source -->
-

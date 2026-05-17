@@ -96,7 +96,3 @@ response = requests.post(f"{BASE_URL}/notebooks", json={
 })
 notebook = response.json()
 notebook_id = notebook["id"]
-```
-
-<!-- condensed from source -->
-```

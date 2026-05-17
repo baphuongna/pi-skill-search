@@ -115,6 +115,3 @@ Section-by-section diff format:
 
 **New EC-05**: OTP invalid
 - **Trigger**: User enters wrong OTP 3 times
-
-<!-- condensed from source -->
-

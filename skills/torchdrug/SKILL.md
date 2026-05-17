@@ -68,7 +68,6 @@ for epoch in range(100):
         optimizer.zero_grad()
         loss.backward()
         optimizer.step()
-```
 
 ## Core Capabilities
 
@@ -115,6 +114,3 @@ Predict missing links and relationships in biological knowledge graphs.
 - Multi-hop biomedical reasoning
 
 **Key Components:**
-
-<!-- condensed from source -->
-```

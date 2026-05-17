@@ -112,8 +112,3 @@ python scripts/generate_schematic.py "your diagram description" -o output.png
 The AI generation system uses **smart iteration** - it only regenerates if quality is below the threshold for your document type:
 
 ### How Smart Iteration Works
-
-```
-
-<!-- condensed from source -->
-```

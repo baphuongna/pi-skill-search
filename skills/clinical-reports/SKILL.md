@@ -115,6 +115,3 @@ The Health Insurance Portability and Accountability Act (HIPAA) mandates protect
 
 **Key Requirements:**
 - Minimum necessary disclosure
-
-<!-- condensed from source -->
-

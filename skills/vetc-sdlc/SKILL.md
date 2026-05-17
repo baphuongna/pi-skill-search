@@ -7,19 +7,7 @@ description: PROACTIVELY activate khi user bắt đầu tính năng mới, hỏi
 
 Điều phối toàn bộ quy trình phát triển Level 5 của VETC E-Wallet.
 
-<HARD-GATE>
 
-## NO IMPLEMENTATION WITHOUT A CHOSEN PATH
-
-You MUST NOT start coding until:
-1. A path (A, B, or C) has been explicitly selected
-2. The prerequisite for that path has been met (spec, plan, or BA doc)
-3. The user has confirmed the approach
-
-If no path fits, use `vetc-deep-interview` first.
-If unsure which path, ask. Do NOT guess and do NOT default to quick path.
-
-</HARD-GATE>
 
 ## When to Activate
 
@@ -105,7 +93,3 @@ Trước khi bắt đầu implementation, hỏi:
 Nếu câu trả lời là "yes" → cần justify trong spec/plan. Nếu không justify được → đừng làm.
 
 **Complexity Gate:**
-```
-
-<!-- condensed from source -->
-```

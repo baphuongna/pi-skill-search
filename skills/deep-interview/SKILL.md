@@ -86,8 +86,3 @@ Locked topology:
 ### Step 2d: Report Progress
 
 After scoring, show the user their progress:
-
-```
-
-<!-- condensed from source -->
-```

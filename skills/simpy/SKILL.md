@@ -112,7 +112,3 @@ def my_process(env, param1, param2):
 
 # Start the process
 env.process(my_process(env, 'value1', 'value2'))
-```
-
-<!-- condensed from source -->
-```

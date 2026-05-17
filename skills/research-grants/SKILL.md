@@ -39,7 +39,6 @@ This is not optional. Grant proposals without visual elements are incomplete and
 - Nano Banana Pro will automatically generate, review, and refine the schematic
 
 **How to generate schematics:**
-```bash
 
 ## Agency-Specific Overview
 
@@ -115,6 +114,3 @@ Every proposal needs a concise overview that communicates the essential elements
 **Essential Elements**:
 - Clear statement of the problem or research question
 - Why this problem matters (significance, urgency, impact)
-
-<!-- condensed from source -->
-```

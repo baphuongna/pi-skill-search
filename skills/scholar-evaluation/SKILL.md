@@ -115,6 +115,3 @@ Transform evaluation findings into constructive, actionable feedback:
 - Structured report with dimension-by-dimension analysis
 - Annotated comments mapped to specific document sections
 - Executive summary with key findings and recommendations
-
-<!-- condensed from source -->
-

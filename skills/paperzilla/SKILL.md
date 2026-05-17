@@ -112,6 +112,3 @@ pz rec <project-paper-id>
 pz rec <project-paper-id> --json
 pz rec <project-paper-id> --markdown
 ```
-
-<!-- condensed from source -->
-

@@ -115,6 +115,3 @@ This skill includes comprehensive reference documentation organized by capabilit
 ### references/data-management.md
 **Read this for:**
 - Cloud storage with LatchFile and LatchDir
-
-<!-- condensed from source -->
-

@@ -115,6 +115,3 @@ python research_lookup.py "your query" --force-backend parallel
 # Force Perplexity academic search
 python research_lookup.py "your query" --force-backend perplexity
 ```
-
-<!-- condensed from source -->
-

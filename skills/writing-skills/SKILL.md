@@ -74,7 +74,6 @@ skills/
   skill-name/
     SKILL.md              # Main reference (required)
     supporting-file.*     # Only if needed
-```
 
 **Flat namespace** - all skills in one searchable namespace
 
@@ -113,8 +112,3 @@ When NOT to use
 
 ## Core Pattern (for techniques/patterns)
 Before/after code comparison
-
-## Quick Reference
-
-<!-- condensed from source -->
-```

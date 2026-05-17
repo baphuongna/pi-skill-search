@@ -114,6 +114,3 @@ fva_result = flux_variability_analysis(
     reaction_list=["PFK", "FBA", "PGI"]
 )
 ```
-
-<!-- condensed from source -->
-

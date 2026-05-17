@@ -113,8 +113,3 @@ design/thinking/{feature-name}/
 3. **Phân biệt rõ**: đây là tài liệu đối tác vs yêu cầu hệ thống VETC
 4. AI Suggestions → đặt vào section 11, label `[AI suggestion]`, cần user confirm
 5. Khi không chắc → ghi vào GAPs, KHÔNG đoán
-
-## References
-
-<!-- condensed from source -->
-

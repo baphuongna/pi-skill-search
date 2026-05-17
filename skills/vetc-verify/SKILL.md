@@ -7,22 +7,7 @@ description: PROACTIVELY verify feature hoàn thành — build, test, coverage, 
 
 Verify toàn diện sau khi implement. Không edit code — chỉ report pass/fail.
 
-<HARD-GATE>
 
-## EVIDENCE BEFORE CLAIMS, ALWAYS
-
-You MUST NOT claim PASS for any gate without:
-1. RUNNING the actual command
-2. READING the actual output
-3. VERIFYING the actual result against the criteria
-
-"I think it should pass" is a FAILURE.
-"The tests probably pass" is a FAILURE.
-"Coverage should be fine" is a FAILURE.
-
-RUN → READ → VERIFY → ONLY THEN claim PASS.
-
-</HARD-GATE>
 
 ## When to Activate
 
@@ -113,7 +98,3 @@ mvn test -pl <module> -q
 
 # Frontend
 npm test -- --coverage
-```
-
-<!-- condensed from source -->
-```

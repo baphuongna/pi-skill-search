@@ -105,6 +105,3 @@ if __name__ == '__main__':
     high_confidence = network[network['importance'] > 0.5]
     high_confidence.to_csv('grn_high_confidence.tsv', sep='\t', index=False)
 ```
-
-<!-- condensed from source -->
-

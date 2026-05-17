@@ -102,7 +102,3 @@ transfer = benchling.containers.transfer(
     container_id="cont_abc123",
     destination_id="box_xyz789"
 )
-```
-
-<!-- condensed from source -->
-```

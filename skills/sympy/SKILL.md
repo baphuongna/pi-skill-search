@@ -113,6 +113,3 @@ L = m*(l*q.diff())**2/2 - m*g*l*(1 - cos(q))
 # Apply Lagrange's method
 LM = LagrangesMethod(L, [q])
 ```
-
-<!-- condensed from source -->
-

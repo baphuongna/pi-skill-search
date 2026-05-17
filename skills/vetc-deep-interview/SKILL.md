@@ -7,20 +7,7 @@ description: Kích hoạt khi requirement còn mơ hồ, chưa rõ scope/actor/e
 
 Làm rõ yêu cầu trước khi plan hoặc implement. Tránh rework từ misaligned implementation.
 
-<HARD-GATE>
 
-## NO CODE UNTIL CLARITY IS CONFIRMED
-
-You MUST NOT:
-- Write ANY production code during this skill
-- Start implementation before crystallization is complete
-- Skip clarification rounds because "it's simple enough"
-- Proceed past Phase 2 without meeting mandatory gates
-
-This skill PRODUCES SPECIFICATIONS, not code.
-If you feel the urge to code, you are in the WRONG skill.
-
-</HARD-GATE>
 
 ## When to Activate
 
@@ -112,7 +99,3 @@ Threshold: `<= 0.20` (Standard) | `<= 0.30` (Quick) | `<= 0.15` (Deep)
 - Research codebase trước khi hỏi user về internals
 
 **Round format:**
-```
-
-<!-- condensed from source -->
-```

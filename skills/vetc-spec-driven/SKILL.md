@@ -108,7 +108,3 @@ Ghi vào `specs/{NNN}-{slug}/spec.md`. See template: `./references/spec-template
     A) 5 minutes (chuẩn VNPAY) — Recommended: phổ biến nhất
     B) 15 minutes (thân thiện hơn)
     C) Configurable per merchant
-```
-
-<!-- condensed from source -->
-```

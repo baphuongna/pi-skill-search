@@ -115,6 +115,3 @@ LaminDB provides six interconnected capability areas, each documented in detail 
 - Local filesystem, AWS S3, Google Cloud Storage
 
 ### 6. Setup and Deployment
-
-<!-- condensed from source -->
-

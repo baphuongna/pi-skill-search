@@ -92,7 +92,3 @@ results = k.find("compound", "Geldanamycin")  # Returns cpd:C11222
 # Cross-reference KEGG → ChEMBL using UniChem
 u = UniChem()
 chembl_id = u.get_compound_id_from_kegg("C11222")  # Returns CHEMBL278315
-```
-
-<!-- condensed from source -->
-```

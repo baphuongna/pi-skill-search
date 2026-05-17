@@ -69,7 +69,6 @@ semgrep --config=.semgrep/vetc-rules.yml --error .
 
 # 6. Secret scan (gitleaks)
 gitleaks detect --source . --no-git --exit-code 1
-```
 
 ### Step 3 — Aggregate & Triage
 
@@ -115,6 +114,3 @@ Location: `security/sast-reports/{YYYY-MM-DD}-{branch}.md`
 **File**: `wallet-service/src/main/java/vn/vetc/wallet/repo/TransactionRepo.java:87`
 **Description**: String concatenation in `WHERE account_no = '" + accountNo + "'"`
 **Fix**: Use `setParameter("accountNo", accountNo)`
-
-<!-- condensed from source -->
-```

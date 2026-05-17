@@ -7,20 +7,7 @@ description: PROACTIVELY activate khi gặp bug, runtime error, build failure, h
 
 Debug có hệ thống. Không guess-and-check. Tìm root cause TRƯỚC khi fix.
 
-<HARD-GATE>
 
-## NO FIX WITHOUT ROOT CAUSE
-
-You MUST NOT:
-- Apply a fix before completing Phase 1 (Root Cause Investigation)
-- Try multiple fixes simultaneously (change ONE variable at a time)
-- Skip to Phase 4 because "I've seen this before"
-- Add logging as a "fix" (logging is for investigation, not resolution)
-
-If you cannot identify the root cause, you are NOT ready to fix it.
-If 3+ attempted fixes fail, STOP — this is likely an architectural problem.
-
-</HARD-GATE>
 
 ## When to Activate
 
@@ -85,6 +72,3 @@ Error: NullPointerException
   at WalletController.handleTransfer(WalletController.java:67)
   at sun.reflect.NativeMethodAccessorImpl.invoke0(Native)
 ```
-
-<!-- condensed from source -->
-

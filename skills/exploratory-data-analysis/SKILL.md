@@ -63,7 +63,6 @@ Use the `scripts/eda_analyzer.py` script OR implement custom analysis:
 # 4. Generates markdown report
 
 python scripts/eda_analyzer.py <filepath> [output.md]
-```
 
 **Option B: Custom analysis in the conversation**
 Based on the format information from the reference file, perform appropriate analysis:
@@ -115,6 +114,3 @@ Each format entry includes:
 **Use Cases:** Protein structure analysis, molecular visualization, docking
 **Python Libraries:**
 - `Biopython`: `Bio.PDB`
-
-<!-- condensed from source -->
-```

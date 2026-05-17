@@ -99,6 +99,3 @@ python -m inference \
   --esm_embeddings_path protein_embeddings.pt \
   --out_dir results/screening/
 ```
-
-<!-- condensed from source -->
-

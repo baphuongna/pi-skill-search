@@ -115,6 +115,3 @@ Or use CLI:
 ```bash
 npx @axe-core/cli https://localhost:3000/wallet/transfer
 ```
-
-<!-- condensed from source -->
-

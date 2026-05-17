@@ -67,7 +67,6 @@ Good: "Critical: X."
 
 Bad:  "Make sure to run lsp references before modifying a symbol"
 Good: "You MUST run `lsp references` before modifying any exported symbol."
-```
 
 Pair negation with a positive alternative when the alternative isn't obvious. Otherwise `NEVER X.` stands alone.
 
@@ -114,7 +113,3 @@ From the live system prompt:
 | Restating the bolded lead in the body | Wastes tokens, signals AI padding |
 | Inventing tags for emphasis | Tags carry semantics; ornament dilutes them |
 | Lowercase rfc keywords | The all-caps form IS the marker; lowercase reads as ordinary prose |
-
-
-<!-- condensed from source -->
-```

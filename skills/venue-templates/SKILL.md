@@ -109,8 +109,3 @@ Templates and formatting requirements for major funding agencies:
 ### Step 1: Identify Target Venue
 
 Determine the specific publication venue, conference, or funding agency:
-
-```
-
-<!-- condensed from source -->
-```

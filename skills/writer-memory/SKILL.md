@@ -79,7 +79,3 @@ Captures the dynamic between characters over time:
 | `intimacy_level` | Emotional closeness (1-10) |
 
 **Example:**
-```
-
-<!-- condensed from source -->
-```

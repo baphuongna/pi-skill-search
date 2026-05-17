@@ -33,7 +33,6 @@ This is not optional. Hypothesis reports without visual elements are incomplete.
 - Nano Banana Pro will automatically generate, review, and refine the schematic
 
 **How to generate schematics:**
-```bash
 
 ## Workflow
 
@@ -115,6 +114,3 @@ For each viable hypothesis, propose specific experiments or studies to test it. 
 - What methods or techniques would be used?
 - What sample sizes or statistical approaches are appropriate?
 - What are potential confounds and how to address them?
-
-<!-- condensed from source -->
-```

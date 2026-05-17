@@ -115,6 +115,3 @@ This skill helps medical device manufacturers prepare comprehensive documentatio
    - ISO 13485 requires comprehensive QMS documentation
    - Typically 6-12 months for full implementation
    - Can be done incrementally
-
-<!-- condensed from source -->
-

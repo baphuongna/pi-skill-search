@@ -108,13 +108,9 @@ The skill is organized into five main areas, each with detailed reference docume
 
 ### Upload and Analyze Data
 
-```python
 import dxpy
 
 # Upload input file
 input_file = dxpy.upload_local_file("sample.fastq", project="project-xxxx")
 
 # Run analysis
-
-<!-- condensed from source -->
-```

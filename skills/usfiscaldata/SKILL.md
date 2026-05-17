@@ -57,7 +57,6 @@ None required. The API is fully open and free.
 ```python
 # Multiple filters separated by comma
 "filter=country_currency_desc:in:(Canada-Dollar,Mexico-Peso),record_date:gte:2024-01-01"
-```
 
 ## Key Datasets & Endpoints
 
@@ -115,6 +114,3 @@ None required. The API is fully open and free.
   },
   "links": {"self": "...", "first": "...", "prev": null, "next": "...", "last": "..."}
 }
-
-<!-- condensed from source -->
-```

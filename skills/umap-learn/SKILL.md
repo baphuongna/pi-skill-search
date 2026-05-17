@@ -115,6 +115,3 @@ UMAP has four primary parameters that control the embedding behavior. Understand
 - **Custom metrics:** User-defined distance functions via Numba
 
 **Recommendation:** Use euclidean for numeric data, cosine for text/document vectors, hamming for binary data.
-
-<!-- condensed from source -->
-

@@ -98,6 +98,3 @@ Level 1: /src, /docs, /tests
 Level 2: /src/components, /src/utils, /docs/api
 ...
 ```
-
-<!-- condensed from source -->
-

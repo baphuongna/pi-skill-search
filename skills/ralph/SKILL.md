@@ -15,8 +15,7 @@ description: Self-referential loop until task completion with configurable verif
 - Quick status checks (git status, ls, pwd)
 - File reads and edits
 - Simple commands
-</Advanced>
+
 
 Original task:
 {{PROMPT}}
-

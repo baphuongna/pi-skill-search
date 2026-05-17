@@ -99,6 +99,3 @@ One sentence. Default:
 ```text
 Use kawaii characters to tell the story of <subject>. Keep it warm and clear.
 ```
-
-<!-- condensed from source -->
-

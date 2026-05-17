@@ -115,6 +115,3 @@ for i = 1:10
 
 ```matlab
 % Descriptive statistics
-
-<!-- condensed from source -->
-

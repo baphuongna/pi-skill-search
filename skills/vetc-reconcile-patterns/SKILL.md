@@ -113,7 +113,3 @@ public enum MatchResult {
 ReconcileEngine:        ≥ 85% (mandatory — core matching logic)
 SourceProcessor (mỗi): ≥ 80% (mandatory)
 ReconcileReportBuilder: ≥ 75% (recommended)
-```
-
-<!-- condensed from source -->
-```

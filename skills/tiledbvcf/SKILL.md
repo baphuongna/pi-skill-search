@@ -115,6 +115,3 @@ Query variant data with high performance across genomic regions, samples, and va
 
 
 ### 3. Data Export and Interoperability
-
-<!-- condensed from source -->
-

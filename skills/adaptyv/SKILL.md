@@ -90,6 +90,3 @@ results = client.experiments.get_results(exp.experiment_id)
 ```
 Draft → WaitingForConfirmation → QuoteSent → WaitingForMaterials → InQueue → InProduction → DataAnalysis → InReview → Done
 ```
-
-<!-- condensed from source -->
-

@@ -27,25 +27,7 @@ Cải thiện cấu trúc code KHÔNG thay đổi behavior. Tests xanh → refac
 - No user request and no code smell → "if it ain't broke, don't fix it"
 - Architecture change needed (not refactor) → use `vetc-ralplan`
 
-<HARD-GATE>
 
-## IRON LAW: TESTS MUST PASS BEFORE REFACTOR
-
-You MUST NOT refactor when:
-- Tests are failing (RED)
-- Tests do not exist for the code being refactored
-- You cannot run tests locally to verify
-
-If tests don't exist, FIRST invoke `vetc-tdd` to add tests (characterization tests
-for legacy code). Only THEN refactor.
-
-Running tests AFTER refactor is not sufficient. You must:
-1. Run tests BEFORE refactor → must PASS
-2. Apply refactor
-3. Run tests AFTER refactor → must still PASS
-4. If tests FAIL after refactor → revert refactor, do not fix tests to match new code
-
-</HARD-GATE>
 
 ## Core Pattern: Red-Green-Refactor
 
@@ -112,6 +94,3 @@ Phase 3: Monitor errors, increase to 50% if OK
 Phase 4: 100% traffic to new
 Phase 5: Delete legacy
 ```
-
-<!-- condensed from source -->
-

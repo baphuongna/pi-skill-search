@@ -100,6 +100,3 @@ python skills/infographics/scripts/generate_infographic.py \
   "Electric vehicles vs hydrogen vehicles comparison" \
   -o figures/ev_hydrogen.png --type comparison --research
 ```
-
-<!-- condensed from source -->
-

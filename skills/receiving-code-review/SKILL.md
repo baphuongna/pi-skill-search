@@ -101,6 +101,3 @@ FOR multi-item feedback:
   3. Test each fix individually
   4. Verify no regressions
 ```
-
-<!-- condensed from source -->
-

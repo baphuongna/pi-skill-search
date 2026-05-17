@@ -17,7 +17,6 @@ Molecular dynamics (MD) simulation computationally models the time evolution of 
 conda install -c conda-forge openmm mdanalysis nglview
 # or
 pip install openmm mdanalysis
-```
 
 ## When to Use This Skill
 
@@ -115,6 +114,3 @@ def load_trajectory(topology_file, trajectory_file):
     Args:
         topology_file: PDB, PSF, or other topology file
         trajectory_file: DCD, XTC, TRR, or other trajectory
-
-<!-- condensed from source -->
-```

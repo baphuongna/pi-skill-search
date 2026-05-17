@@ -107,6 +107,3 @@ params.forcing.enable = True
 params.forcing.type = "tcrandom"  # time-correlated random forcing
 params.forcing.forcing_rate = 1.0
 ```
-
-<!-- condensed from source -->
-

@@ -114,6 +114,3 @@ Show: total instincts, by category, avg confidence, top 5 instincts.
 ### Evolve Instincts
 
 ```
-
-<!-- condensed from source -->
-

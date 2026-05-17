@@ -52,7 +52,6 @@ fasta = pysam.FastaFile("reference.fasta")
 sequence = fasta.fetch("chr1", 1000, 2000)
 print(sequence)
 fasta.close()
-```
 
 ## Core Capabilities
 
@@ -115,6 +114,3 @@ Use `FastaFile` for random access to reference sequences and `FastxFile` for rea
 
 **Exception:** Region strings in `fetch()` follow samtools convention (1-based):
 ```python
-
-<!-- condensed from source -->
-```

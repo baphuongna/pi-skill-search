@@ -74,7 +74,6 @@ for params, result in zip(sweep, results):
     theta_val = params['theta']
     counts = result.histogram(key='m')
     print(f"θ={theta_val:.2f}: {counts}")
-```
 
 ## Core Capabilities
 
@@ -115,6 +114,3 @@ Supported providers:
 - **IonQ** (cirq-ionq) - Trapped ion quantum computers
 - **Azure Quantum** (azure-quantum) - IonQ and Honeywell backends
 - **AQT** (cirq-aqt) - Alpine Quantum Technologies
-
-<!-- condensed from source -->
-```

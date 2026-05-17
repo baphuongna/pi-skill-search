@@ -101,7 +101,3 @@ Target SLA:
   - p99 < 800ms
   - Error rate < 0.1%
   - Throughput >= 500 req/s sustained
-```
-
-<!-- condensed from source -->
-```

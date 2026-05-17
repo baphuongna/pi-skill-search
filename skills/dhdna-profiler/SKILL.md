@@ -82,8 +82,3 @@ After scoring, identify:
 ### Phase 4 — Profile Output
 
 Present the profile as:
-
-```
-
-<!-- condensed from source -->
-```

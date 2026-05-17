@@ -83,6 +83,3 @@ test('retries failed operations 3 times', async () => {
 ```bash
 npm test path/to/test.test.ts
 ```
-
-<!-- condensed from source -->
-

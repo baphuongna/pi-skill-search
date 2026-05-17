@@ -4,16 +4,9 @@ description: Durable multi-goal workflow that persists plan/ledger artifacts und
 ---
 
 
-<Purpose>
-Ultragoal breaks a brief into an ordered set of goals, records start/checkpoint/blocker/failure events in a durable append-only ledger, and tells the active Claude agent how to drive the Claude Code `/goal` slash command alongside the plan. It does not — and cannot — mutate Claude `/goal` state from the shell; it persists durable repo state and prints a model-facing handoff that the active agent must act on in-session.
-</Purpose>
 
-<Use_When>
-- The user wants a durable, repo-native way to track an ultragoal across multiple Claude sessions or worktrees
-- The work is large enough to warrant multiple ordered "stories" with attempt counts and per-story evidence
-- The user wants the final completion gated behind ai-slop-cleaner + verification + $code-review
-- The user wants the active Claude `/goal` directive coordinated with the ledger so that a session restart does not lose progress
-</Use_When>
+
+
 
 <Do_Not_Use_When>
 - The task is a single small change — use direct delegation or `ralph` instead
@@ -81,4 +74,3 @@ Claude Code `/goal` is a session-scoped Stop hook: it blocks the session from st
 - Snapshots passed via `--claude-goal-json` are model-supplied proof of the active `/goal` state; OMC validates them for textual consistency with the plan's expected objective and ledger event, but it cannot independently observe Claude `/goal` state.
 - If the Claude `/goal` slash command is renamed or restructured, only the handoff wording needs to change; the reconciliation logic is name-agnostic.
 </Important_Limitations>
-

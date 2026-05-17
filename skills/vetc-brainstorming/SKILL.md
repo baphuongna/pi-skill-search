@@ -112,7 +112,3 @@ Apply **VETC-DR** (Drivers + Recommendation):
 ## Explicitly Rejected: Self-hosted OTP
 
 **Why rejected**: Effort L + new infra risk + distraction from core features. LOW strategic fit.
-```
-
-<!-- condensed from source -->
-```

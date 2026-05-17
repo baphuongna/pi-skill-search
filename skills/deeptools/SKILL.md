@@ -114,7 +114,3 @@ Details in `references/workflows.md` → "RNA-seq Coverage Workflow"
 ### ATAC-seq Analysis Workflow
 
 ATAC-seq requires Tn5 offset correction:
-
-
-<!-- condensed from source -->
-

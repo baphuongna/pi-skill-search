@@ -114,7 +114,3 @@ This classification ensures expertise can be updated independently without desta
 - **Project-level**: `.omc/skills/<skill-name>.md` - Default. Intended to be committed with the repo when you want the team to keep the skill. In linked worktrees, uncommitted skills are still worktree-local and disappear if that worktree is deleted.
 
 ### Required File Format
-
-
-<!-- condensed from source -->
-

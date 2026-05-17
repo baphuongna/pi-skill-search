@@ -106,6 +106,3 @@ from scripts.model_diagnostics import check_diagnostics
 
 results = check_diagnostics(idata, var_names=['alpha', 'beta', 'sigma'])
 ```
-
-<!-- condensed from source -->
-

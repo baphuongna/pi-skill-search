@@ -104,6 +104,3 @@ design = "~batch + condition"  # Control for batch effects
 design = "~age + condition"     # Include continuous covariate
 design = "~group + condition + group:condition"  # Interaction effects
 ```
-
-<!-- condensed from source -->
-

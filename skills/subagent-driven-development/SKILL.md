@@ -85,8 +85,3 @@ Implementer subagents report one of four statuses. Handle each appropriately:
 - `./code-quality-reviewer-prompt.md` - Dispatch code quality reviewer subagent
 
 ## Example Workflow
-
-```
-
-<!-- condensed from source -->
-```

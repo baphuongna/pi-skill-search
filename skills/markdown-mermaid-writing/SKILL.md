@@ -50,7 +50,6 @@ Those are Phase 2 and Phase 3 — only used when Mermaid cannot express what's n
 
 ### The three-phase workflow
 
-```mermaid
 flowchart LR
     accTitle: Three-Phase Documentation Workflow
     accDescr: Phase 1 Mermaid in markdown is always required and is the source of truth. Phases 2 and 3 are optional downstream conversions for polished output.
@@ -115,6 +114,3 @@ Key rules to internalize:
 ### Step 3: Pick the diagram type and read its guide
 
 Before creating any Mermaid diagram: read `references/mermaid_style_guide.md`.
-
-<!-- condensed from source -->
-```

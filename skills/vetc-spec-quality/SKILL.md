@@ -115,6 +115,3 @@ RIGHT:  "Is API success criteria specified?"       ← tests spec completeness
 - [ ] Are transaction idempotency requirements stated? [Spec §4]
 - [ ] Is audit logging requirement stated? [Spec §14]
 ```
-
-<!-- condensed from source -->
-

@@ -4,15 +4,9 @@ description: Structured visual QA verdict for screenshot-to-reference comparison
 ---
 
 
-<Purpose>
-Use this skill to compare generated UI screenshots against one or more reference images and return a strict JSON verdict that can drive the next edit iteration.
-</Purpose>
 
-<Use_When>
-- The task includes visual fidelity requirements (layout, spacing, typography, component styling)
-- You have a generated screenshot and at least one reference image
-- You need deterministic pass/fail guidance before continuing edits
-</Use_When>
+
+
 
 <Inputs>
 - `reference_images[]` (one or more image paths)
@@ -75,4 +69,3 @@ When mismatch diagnosis is hard:
 </Example>
 
 Task: {{ARGUMENTS}}
-

@@ -115,6 +115,3 @@ For implementing the four-step quantum computing workflow:
 - **See `references/patterns.md`**
 
 Topics covered:
-
-<!-- condensed from source -->
-

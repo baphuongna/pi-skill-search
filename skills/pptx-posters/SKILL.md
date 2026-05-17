@@ -110,6 +110,3 @@ The HTML template (`assets/poster_html_template.html`) provides:
 │  FOOTER: References & Contact Info      │
 └─────────────────────────────────────────┘
 ```
-
-<!-- condensed from source -->
-

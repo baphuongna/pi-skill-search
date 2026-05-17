@@ -72,7 +72,6 @@ Grep("@Entity", src/main/java/) → phân loại theo package:
   entities/         → primary_datasource (Oracle)
   secondsource.*    → secondary_datasource
   tertiarysource.*  → tertiary_datasource
-```
 
 ### Phase 6 — INFER-BUSINESS-CONTEXTS
 Từ modules → tạo business contexts: tên, mô tả, modules liên quan, capabilities (use case)
@@ -115,6 +114,3 @@ Tạo `docs/architecture/project-knowledge.md` — persistent knowledge base:
 |------|---------|--------|
 | Bút toán | Journal entry | ACS |
 | Đối soát | Reconciliation | Reconcile |
-
-<!-- condensed from source -->
-```

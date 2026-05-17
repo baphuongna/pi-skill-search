@@ -58,7 +58,6 @@ Trước khi approve plan, verify TẤT CẢ artifacts đã aligned:
 
 Tạo Implementation Plan gồm:
 
-```markdown
 # PLAN: {Feature Name}
 
 ## Summary (1 câu)
@@ -113,8 +112,3 @@ Tạo Implementation Plan gồm:
 | Oracle sequence gap | LOW | LOW | allocationSize=1 |
 | ACS timeout | MEDIUM | HIGH | try-catch + ErrorCode |
 | ... | | | |
-
-## Acceptance Criteria
-
-<!-- condensed from source -->
-```

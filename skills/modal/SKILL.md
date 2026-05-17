@@ -100,7 +100,3 @@ def distributed_training():
 @app.function(gpu=["H100", "A100-80GB", "A100-40GB"])
 def flexible_inference():
     ...
-```
-
-<!-- condensed from source -->
-```

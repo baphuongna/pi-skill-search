@@ -41,7 +41,6 @@ vetc-analyze-codebase → vetc-thinking-pm → vetc-analyze-ba  ← skill này
 
 ## Cấu trúc output
 
-```
 specs/features/{feature}/
 ├── 00-anti-hallucination.md  ← Tạo đầu tiên (Bước 0), update sau Phase 3
 ├── 00-run-ledger.md          ← Timeline (tạo Phase 1, cập nhật mỗi phase)
@@ -114,7 +113,3 @@ Thiết kế API theo chuẩn VETC (từ `../../shared/api-design.md`):
 - Mỗi task: scope (files), boundary, rule check, dependency, risk & impact table
 
 ⏸️ DỪNG → chờ review.
-
-
-<!-- condensed from source -->
-```

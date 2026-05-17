@@ -112,9 +112,3 @@ Covers permissions, filesets, cross-group queries, delete operations, and other 
 - Access original imported files
 - Perform cross-group queries
 - Delete objects with callbacks
-
-## Quick Start
-
-
-<!-- condensed from source -->
-

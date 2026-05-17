@@ -16,5 +16,3 @@ autopilot (autonomous execution)
 ```
 
 Ultrawork is the parallelism layer. Ralph adds persistence and verification. Autopilot adds the full lifecycle pipeline.
-</Advanced>
-

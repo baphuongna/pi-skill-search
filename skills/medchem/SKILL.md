@@ -105,7 +105,3 @@ results = alert_filter(
     n_jobs=-1,
     progress=True
 )
-```
-
-<!-- condensed from source -->
-```

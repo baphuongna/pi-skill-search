@@ -111,7 +111,3 @@ if pixel_array.dtype != np.uint8:
 # Save as PNG
 image = Image.fromarray(pixel_array)
 image.save('output.png')
-```
-
-<!-- condensed from source -->
-```

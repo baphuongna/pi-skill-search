@@ -114,7 +114,3 @@ After the initial evidence pass, pressure-test the leaders with these lenses whe
 - **Science lens** -- controls, confounders, measurement bias, alternative variables, falsifiable predictions
 
 These lenses are not filler. Use them when they can surface a missed explanation, hidden dependency, or weak inference.
-
-
-<!-- condensed from source -->
-

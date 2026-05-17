@@ -115,6 +115,3 @@ Apply citation styles correctly across disciplines. For comprehensive style guid
 - **IEEE**: Numbered square brackets, engineering and computer science
 
 **Best Practices:**
-
-<!-- condensed from source -->
-

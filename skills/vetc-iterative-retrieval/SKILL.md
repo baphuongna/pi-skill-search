@@ -108,6 +108,3 @@ Use iterative retrieval (max 3 cycles):
 - No code examples for implementation tasks
 - Only theoretical without practical application
 ```
-
-<!-- condensed from source -->
-

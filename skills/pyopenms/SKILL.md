@@ -115,6 +115,3 @@ ms.MzMLFile().load("sample.mzML", exp)
 
 # Get basic statistics
 print(f"Number of spectra: {exp.getNrSpectra()}")
-
-<!-- condensed from source -->
-

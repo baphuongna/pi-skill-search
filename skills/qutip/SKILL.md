@@ -107,7 +107,3 @@ w, S = spectrum_correlation_fft(taulist, corr)
 
 # Steady states
 rho_ss = steadystate(H, c_ops)
-```
-
-<!-- condensed from source -->
-```

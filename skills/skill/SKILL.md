@@ -109,12 +109,7 @@ Edit an existing skill interactively.
    - Triggers: log, logger, logging
    - Argument hint: <level> [message]
    - Scope: user
-   ```
 
 ### /skill search <query>
 
 Search skills by content, triggers, name, or description.
-
-
-<!-- condensed from source -->
-```

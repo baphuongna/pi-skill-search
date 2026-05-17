@@ -110,6 +110,3 @@ sorting = si.run_sorter('mountainsort5', rec, folder='ms5_output')
 # Check available sorters
 print(si.installed_sorters())
 ```
-
-<!-- condensed from source -->
-

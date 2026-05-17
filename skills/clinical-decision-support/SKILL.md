@@ -114,7 +114,3 @@ The first page of every CDS document should contain ONLY the executive summary w
    - Disease state and patient population
    - Author/institution (if applicable)
    - Analysis framework or methodology
-
-
-<!-- condensed from source -->
-

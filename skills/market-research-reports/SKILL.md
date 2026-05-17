@@ -115,6 +115,3 @@ python skills/generate-image/scripts/generate_image.py \
 - **Market Snapshot Box**: Key metrics at a glance
 
 ### Core Analysis (~35 pages)
-
-<!-- condensed from source -->
-

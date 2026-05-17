@@ -80,7 +80,3 @@ df = pb.read_bed("regions.bed")
 # Lazy scan (streaming, for large files)
 lf = pb.scan_bed("regions.bed")
 result = lf.collect()
-```
-
-<!-- condensed from source -->
-```

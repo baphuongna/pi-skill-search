@@ -4,16 +4,9 @@ description: Stateful single-mission improvement loop with strict evaluator cont
 ---
 
 
-<Purpose>
-Autoresearch is a stateful skill for bounded, evaluator-driven iterative improvement. It owns one mission at a time, keeps iterating through non-passing results, records each evaluation and decision as durable artifacts, and stops only when an explicit max-runtime ceiling or another explicit terminal condition is reached.
-</Purpose>
 
-<Use_When>
-- You already have a mission and evaluator from `/deep-interview --autoresearch`
-- You want persistent single-mission improvement with strict evaluation
-- You need durable experiment logs under `.omc/autoresearch/`
-- You want a supported path for periodic reruns via Claude Code native cron
-</Use_When>
+
+
 
 <Do_Not_Use_When>
 - You need evaluator generation at runtime — use `/deep-interview --autoresearch` first

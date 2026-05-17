@@ -83,7 +83,3 @@ After analyzing all branches, provide:
 Ψ Wild Card ····· [███░░░░░░░]  8%
 Φ Contrarian ···· [████░░░░░░]  7%
 ∞ Second Order ·· [███░░░░░░░]  5%
-```
-
-<!-- condensed from source -->
-```

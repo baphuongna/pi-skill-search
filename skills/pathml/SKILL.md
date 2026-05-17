@@ -94,7 +94,3 @@ pipeline.run(wsi)
 for tile in wsi.tiles:
     processed_image = tile.image
     tissue_mask = tile.masks['tissue']
-```
-
-<!-- condensed from source -->
-```

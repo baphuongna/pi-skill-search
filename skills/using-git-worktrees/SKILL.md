@@ -108,7 +108,3 @@ Run tests to ensure workspace starts clean:
 ```bash
 # Use project-appropriate command
 npm test / cargo test / pytest / go test ./...
-```
-
-<!-- condensed from source -->
-```

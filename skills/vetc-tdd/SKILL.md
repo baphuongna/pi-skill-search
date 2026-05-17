@@ -7,20 +7,7 @@ description: PROACTIVELY activate khi viết test cho service/controller/compone
 
 Viết test trước implementation. Test từ Spec → code đúng ngay lần đầu.
 
-<HARD-GATE>
 
-## THE IRON LAW
-
-**NO PRODUCTION CODE WITHOUT A FAILING TEST FIRST.**
-
-This is not a suggestion. This is not "best practice." This is the LAW.
-
-1. You MUST write a failing test before ANY production code.
-2. The test MUST fail for the RIGHT reason (not a compile error).
-3. You MUST see the test FAIL before writing implementation.
-4. ONLY THEN write the MINIMAL code to make it pass.
-
-</HARD-GATE>
 
 ## When to Activate
 
@@ -110,6 +97,3 @@ GREEN → Write MINIMAL implementation để pass test
 REFACTOR → Clean up, verify coverage ≥ 80%
            Run ALL tests after refactor. Every time.
 ```
-
-<!-- condensed from source -->
-

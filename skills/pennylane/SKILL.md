@@ -115,6 +115,3 @@ Leverage templates, transforms, and compilation. See `references/advanced_featur
 
 ```python
 # 1. Define ansatz
-
-<!-- condensed from source -->
-

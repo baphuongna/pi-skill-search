@@ -98,6 +98,3 @@ useMutation(createFn, {
   onSuccess: () => client.invalidateQueries(['list-key'])
 });
 ```
-
-<!-- condensed from source -->
-

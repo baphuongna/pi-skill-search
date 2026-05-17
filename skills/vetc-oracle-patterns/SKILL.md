@@ -108,6 +108,3 @@ List<Result> results = repositoryServiceBase.callStoresProcedure(
     Result.class
 );
 ```
-
-<!-- condensed from source -->
-

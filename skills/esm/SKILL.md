@@ -114,6 +114,3 @@ protein_tensor = model.encode(protein)
 # Generate embeddings
 embeddings = model.forward(protein_tensor)
 ```
-
-<!-- condensed from source -->
-
