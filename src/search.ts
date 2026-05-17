@@ -55,10 +55,10 @@ export function search(index: SkillIndex, query: string, limit: number): SearchR
 			const restTokens = tokenize(rest);
 
 			if (first120Tokens.has(token)) {
-				score += 3;
+				score += 5;
 			}
 			if (restTokens.has(token)) {
-				score += 1;
+				score += 2;
 			}
 
 			// Category keyword match

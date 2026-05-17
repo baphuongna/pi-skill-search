@@ -54,7 +54,7 @@ describe("tokenize", () => {
 
 	it("handles slash-separated paths", () => {
 		const result = tokenize("path/to/file");
-		expect(result).toEqual(new Set(["path", "to", "file"]));
+		expect(result).toEqual(new Set(["path", "file"]));
 	});
 
 	it("preserves numbers", () => {

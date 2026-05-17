@@ -10,20 +10,23 @@ import { tokenize } from "./text.ts";
  */
 export const SYNONYMS: Record<string, string[]> = {
 	// Chemistry
-	molecule: ["molecular", "molecules"],
-	molecular: ["molecule", "molecules"],
+	molecule: ["molecular", "molecules", "compound"],
+	molecular: ["molecule", "molecules", "compound"],
 	drug: ["pharmaceutical", "medicinal"],
-	chem: ["chemistry", "chemical"],
-	docking: ["dock", "binding", "pose"],
+	chem: ["chemistry", "chemical", "rdkit", "cheminformatics"],
+	docking: ["dock", "binding", "pose", "diffdock"],
 	admet: ["absorption", "distribution", "metabolism", "excretion", "toxicity"],
 	metabolism: ["metabolic", "metabolite", "pathway", "flux"],
 	metabolic: ["metabolism", "metabolite", "pathway", "flux"],
+	smiles: ["rdkit", "molecular", "cheminformatics", "compound"],
 
 	// Biology
-	gene: ["genomic", "genomics", "sequence"],
-	protein: ["proteomics", "peptide"],
-	"single-cell": ["scrna-seq", "single cell", "scrnaseq"],
-	"rna-seq": ["transcriptom", "rna seq", "expression"],
+	gene: ["genomic", "genomics", "sequence", "dna", "rna"],
+	protein: ["proteomics", "peptide", "amino acid"],
+	"single-cell": ["scrna-seq", "single cell", "scrnaseq", "scanpy", "anndata"],
+	"rna-seq": ["transcriptom", "rna seq", "expression", "scrna"],
+	dna: ["genome", "genomic", "sequence", "biopython"],
+	sequence: ["dna", "rna", "protein", "genome", "alignment"],
 
 	// ML
 	ml: ["machine learning", "machine-learning"],
@@ -37,9 +40,22 @@ export const SYNONYMS: Record<string, string[]> = {
 	quantum: ["qubit", "quantum computing"],
 
 	// General
-	viz: ["visualization", "plotting", "chart"],
-	stats: ["statistics", "statistical"],
+	viz: ["visualization", "plotting", "chart", "matplotlib", "seaborn"],
+	stats: ["statistics", "statistical", "scipy"],
 	db: ["database"],
+	// Search & tools
+	pdf: ["markitdown", "convert", "document"],
+	markitdown: ["pdf", "convert", "document", "docx", "pptx"],
+	// Agent/dev workflow
+	delegation: ["subagent", "dispatch", "parallel"],
+	parallel: ["concurrent", "delegation", "dispatch"],
+	agent: ["subagent", "delegation", "worker"],
+	// Lab
+	robot: ["opentrons", "pylabrobot", "automation"],
+	opentrons: ["robot", "lab automation", "liquid handling"],
+	// Neural network
+	"neural network": ["pytorch", "deep learning", "tensorflow"],
+	"deep learning": ["pytorch", "neural network", "tensorflow"],
 };
 
 /**
