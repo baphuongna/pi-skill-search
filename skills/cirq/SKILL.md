@@ -79,7 +79,7 @@ for params, result in zip(sweep, results):
 
 ### Circuit Building
 For comprehensive information about building quantum circuits, including qubits, gates, operations, custom gates, and circuit patterns, see:
-- **[references/building.md](references/building.md)** - Complete guide to circuit construction
+- **(see docs) - Complete guide to circuit construction
 
 Common topics:
 - Qubit types (GridQubit, LineQubit, NamedQubit)
@@ -93,7 +93,7 @@ Common topics:
 
 ### Simulation
 For detailed information about simulating quantum circuits, including exact simulation, noisy simulation, parameter sweeps, and the Quantum Virtual Machine, see:
-- **[references/simulation.md](references/simulation.md)** - Complete guide to quantum simulation
+- **(see docs) - Complete guide to quantum simulation
 
 Common topics:
 - Exact simulation (state vector, density matrix)
@@ -107,6 +107,6 @@ Common topics:
 
 ### Hardware Integration
 For information about running circuits on real quantum hardware from various providers, see:
-- **[references/hardware.md](references/hardware.md)** - Complete guide to hardware integration
+- **(see docs) - Complete guide to hardware integration
 
 Supported providers:

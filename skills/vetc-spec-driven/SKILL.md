@@ -62,7 +62,7 @@ Specs có lifecycle rõ ràng — không phải static document:
 
 ## Delta Spec Convention
 
-See: `./references/delta-spec.md`
+See: `./(see docs)`
 
 ## How It Works
 
@@ -93,7 +93,7 @@ Hỏi tối đa 5 câu tập trung:
 
 ### Step 2 — Structured Spec Output
 
-Ghi vào `specs/{NNN}-{slug}/spec.md`. See template: `./references/spec-template.md`
+Ghi vào `specs/{NNN}-{slug}/spec.md`. See template: `./(see docs)`
 
 ## [NEEDS CLARIFICATION] Rules
 

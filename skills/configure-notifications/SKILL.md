@@ -3,7 +3,6 @@ name: configure-notifications
 description: Configure notification integrations (Telegram, Discord, Slack) via natural language
 ---
 
-
 # Configure Notifications
 
 Set up OMC notification integrations so you're alerted when sessions end, need input, or complete background tasks.
@@ -73,7 +72,7 @@ CREATE A BOT (if you don't have one):
 
 GET YOUR CHAT ID:
 1. Start a chat with your new bot (send /start)
-2. Visit: https://api.telegram.org/bot<YOUR_TOKEN>/getUpdates
+2. Visit: https://api.telegram.org/bot/getUpdates
 3. Look for "chat":{"id":YOUR_CHAT_ID}
    - Personal chat IDs are positive numbers (e.g., 123456789)
    - Group chat IDs are negative numbers (e.g., -1001234567890)
@@ -82,5 +81,4 @@ GET YOUR CHAT ID:
 ### Step 3: Collect Bot Token
 
 Use AskUserQuestion:
-
 

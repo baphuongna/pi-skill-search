@@ -64,7 +64,6 @@ digraph tdd_cycle {
 
 Write one minimal test showing what should happen.
 
-<Good>
 ```typescript
 test('retries failed operations 3 times', async () => {
   let attempts = 0;

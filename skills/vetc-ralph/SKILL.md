@@ -81,11 +81,11 @@ Wave 4: [Unit Tests] [Integration Tests]      ← depends on Wave 3, PARALLEL
 
 ## Task Format
 
-See: `./references/task-format.md`
+See: `./(see docs)`
 
 ## Per-Task Implementation Loop
 
-See: `./references/per-task-loop.md` (7 bước: Build → Test → Coverage → Security → Health Check → Context → Progress Update)
+See: `./(see docs)` (7 bước: Build → Test → Coverage → Security → Health Check → Context → Progress Update)
 
 ### Per-Task Test Matrix Update
 

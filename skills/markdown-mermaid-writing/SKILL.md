@@ -69,15 +69,15 @@ Mermaid covers 24 diagram types. Almost every scientific relationship fits one:
 
 | Use case | Diagram type | File |
 | -------------------------------------------- | ---------------- | ---------------------------------------------------- |
-| Experimental workflow / decision logic | Flowchart | `references/diagrams/flowchart.md` |
-| Service interactions / API calls / messaging | Sequence | `references/diagrams/sequence.md` |
-| Data model / schema | ER diagram | `references/diagrams/er.md` |
-| State machine / lifecycle | State | `references/diagrams/state.md` |
-| Project timeline / roadmap | Gantt | `references/diagrams/gantt.md` |
-| Proportions / composition | Pie | `references/diagrams/pie.md` |
-| System architecture (zoom levels) | C4 | `references/diagrams/c4.md` |
-| Concept hierarchy / brainstorm | Mindmap | `references/diagrams/mindmap.md` |
-| Chronological events / history | Timeline | `references/diagrams/timeline.md` |
+| Experimental workflow / decision logic | Flowchart | `(see docs)` |
+| Service interactions / API calls / messaging | Sequence | `(see docs)` |
+| Data model / schema | ER diagram | `(see docs)` |
+| State machine / lifecycle | State | `(see docs)` |
+| Project timeline / roadmap | Gantt | `(see docs)` |
+| Proportions / composition | Pie | `(see docs)` |
+| System architecture (zoom levels) | C4 | `(see docs)` |
+| Concept hierarchy / brainstorm | Mindmap | `(see docs)` |
+| Chronological events / history | Timeline | `(see docs)` |
 
 ## 🔧 Core workflow
 
@@ -99,7 +99,7 @@ Check if a template exists before writing from scratch:
 
 ### Step 2: Read the style guide
 
-Before writing any `.md` file: read `references/markdown_style_guide.md`.
+Before writing any `.md` file: read `(see docs)`.
 
 Key rules to internalize:
 
@@ -113,5 +113,5 @@ Key rules to internalize:
 
 ### Step 3: Pick the diagram type and read its guide
 
-Before creating any Mermaid diagram: read `references/mermaid_style_guide.md`.
+Before creating any Mermaid diagram: read `(see docs)`.
 

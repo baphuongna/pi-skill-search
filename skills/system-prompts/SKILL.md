@@ -21,7 +21,7 @@ The vocabulary actually in use:
 | `<critical>` | Inviolable rules. Place at START and END. |
 | `<completeness>` | What "done" means. Anti-shrink rules. |
 | `<yielding>` | Pre-yield checklist. Block conditions. |
-| `<workflow>` | Numbered phases (scope → edit → decompose → work → verify). |
+| `` | Numbered phases (scope → edit → decompose → work → verify). |
 ## Normative Language
 
 RFC 2119 in full caps, no bold. The all-caps form IS the marker.
@@ -52,7 +52,6 @@ Strip prose to load-bearing tokens. A bullet earns its words by saying something
 ```
 Bad:  - **Never fabricate anchor hashes.** Hashes are 2-letter content fingerprints, not arbitrary suffixes. You cannot increment them, guess the "next" one, or compute them locally. If a needed anchor is not in your last `read` output, issue another `read`.
 Good: - **NEVER fabricate anchor hashes.** Missing? Re-`read`.
-
 
 ## Voice
 

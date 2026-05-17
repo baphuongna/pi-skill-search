@@ -38,7 +38,7 @@ Manage API authentication using access tokens and OAuth flows. Includes both cli
 - Refresh expired tokens
 - Manage rate limits and permissions
 
-**Reference:** Read `references/authentication.md` for detailed authentication procedures, OAuth implementation, and security best practices.
+**Reference:** Read `(see docs)` for detailed authentication procedures, OAuth implementation, and security best practices.
 
 ### 2. Protocol Operations
 
@@ -55,7 +55,7 @@ Complete protocol lifecycle management from creation to publication.
 - Bookmark protocols for quick access
 - Generate protocol PDFs
 
-**Reference:** Read `references/protocols_api.md` for comprehensive protocol management guidance, including API endpoints, parameters, common workflows, and examples.
+**Reference:** Read `(see docs)` for comprehensive protocol management guidance, including API endpoints, parameters, common workflows, and examples.
 
 ### 3. Discussions & Collaboration
 
@@ -68,7 +68,7 @@ Enable community engagement through comments and discussions.
 - Analyze discussion patterns and feedback
 - Respond to user questions and issues
 
-**Reference:** Read `references/discussions.md` for discussion management, comment threading, and collaboration workflows.
+**Reference:** Read `(see docs)` for discussion management, comment threading, and collaboration workflows.
 
 ### 4. Workspace Management
 
@@ -82,7 +82,7 @@ Organize protocols within team workspaces with role-based permissions.
 - Create protocols within workspaces
 - Manage workspace permissions and collaboration
 
-**Reference:** Read `references/workspaces.md` for workspace organization, permission management, and team collaboration patterns.
+**Reference:** Read `(see docs)` for workspace organization, permission management, and team collaboration patterns.
 
 ### 5. File Operations
 
@@ -97,7 +97,7 @@ Upload, organize, and manage files associated with protocols.
 - Delete and restore files
 - Manage storage and organization
 
-**Reference:** Read `references/file_manager.md` for file upload procedures, organization strategies, and storage management.
+**Reference:** Read `(see docs)` for file upload procedures, organization strategies, and storage management.
 
 ### 6. Additional Features
 
@@ -110,7 +110,7 @@ Supplementary functionality including profiles, notifications, and exports.
 - Receive and manage notifications
 - Export organization data for archival
 
-**Reference:** Read `references/additional_features.md` for profile management, publication discovery, experiment tracking, and data export.
+**Reference:** Read `(see docs)` for profile management, publication discovery, experiment tracking, and data export.
 
 ## Getting Started
 

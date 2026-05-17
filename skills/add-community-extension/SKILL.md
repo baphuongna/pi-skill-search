@@ -3,7 +3,6 @@ name: add-community-extension
 description: 'Add a community extension to the Spec Kit catalog from a GitHub issue submission. USE FOR: processing extension submission issues, validating catalog entries, updating catalog.community.json and docs/community/extensions.md, creating PRs. DO NOT USE FOR: creating new extensions from scratch, or first-party extension work.'
 ---
 
-
 # Add Community Extension
 
 Process an extension submission issue and add or update it in the community catalog.
@@ -59,7 +58,7 @@ Use the existing entries as the format template. Required fields:
 ```json
 {
   "<id>": {
-    "name": "<name>",
+    "name": "",
     "id": "<id>",
     "description": "<description>",
     "author": "<author>",

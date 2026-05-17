@@ -62,7 +62,7 @@ Ask the user to clarify if the scope is ambiguous.
 
 Systematically evaluate the work across the ScholarEval dimensions. For each applicable dimension, assess quality, identify strengths and weaknesses, and provide scores where appropriate.
 
-Refer to `references/evaluation_framework.md` for detailed criteria and rubrics for each dimension.
+Refer to `(see docs)` for detailed criteria and rubrics for each dimension.
 
 **Core Evaluation Dimensions:**
 

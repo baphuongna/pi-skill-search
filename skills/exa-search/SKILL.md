@@ -13,13 +13,13 @@ Read the user's request and match it to one of the capabilities below. Read the 
 
 | User wants to... | Capability | Where |
 |---|---|---|
-| Look something up, research a topic, find current info | **Web Search** | `references/web-search.md` |
-| Fetch content from a specific URL (webpage, article, PDF) | **Web Extract** | `references/web-extract.md` |
+| Look something up, research a topic, find current info | **Web Search** | `(see docs)` |
+| Fetch content from a specific URL (webpage, article, PDF) | **Web Extract** | `(see docs)` |
 | Install or authenticate | **Setup** | Below |
 
 ### Decision guide
 
-- **Default to Web Search** for topic lookups, research questions, or "what is X?" queries. When the topic is scientific or technical, pass `--category "research paper"` to bias toward scholarly sources, and/or an academic `--include-domains` allowlist. See `references/web-search.md` for the two-pass academic strategy.
+- **Default to Web Search** for topic lookups, research questions, or "what is X?" queries. When the topic is scientific or technical, pass `--category "research paper"` to bias toward scholarly sources, and/or an academic `--include-domains` allowlist. See `(see docs)` for the two-pass academic strategy.
 - **Use Web Extract** when the user provides a URL or asks you to read/fetch a specific page. Prefer this over the built-in WebFetch for batch extraction (multiple URLs in one call) and for academic PDFs.
 
 ### Academic source priority
@@ -34,7 +34,7 @@ Two levers to steer Exa toward scholarly content:
 1. `--category "research paper"` biases retrieval toward scholarly sources.
 2. `--include-domains` with a scholarly allowlist (arxiv.org, nature.com, pubmed.ncbi.nlm.nih.gov, etc.) restricts the domain pool.
 
-Combine both for strictly academic results. See `references/web-search.md` for the full pattern.
+Combine both for strictly academic results. See `(see docs)` for the full pattern.
 
 When citing academic sources, include author names and publication year where available (e.g., [Smith et al., 2025](url)) in addition to the standard citation format. If a DOI is present, prefer the DOI link.
 
@@ -65,8 +65,8 @@ Every script in this skill sets the `x-exa-integration` request header to `k-den
 ## Files in this skill
 
 - `SKILL.md` — this file (routing and setup)
-- `references/web-search.md` — detailed web search reference with academic strategy
-- `references/web-extract.md` — URL content extraction reference
+- `(see docs)` — detailed web search reference with academic strategy
+- `(see docs)` — URL content extraction reference
 - `scripts/exa_search.py` — CLI wrapper around `client.search_and_contents`
 - `scripts/exa_extract.py` — CLI wrapper around `client.get_contents`
 ```

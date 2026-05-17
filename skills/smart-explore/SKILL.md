@@ -16,7 +16,7 @@ This skill only loads instructions. You must call the MCP tools yourself. Your n
 ```
 smart_search(query="<topic>", path="./src")    -- discover files + symbols across a directory
 smart_outline(file_path="<file>")              -- structural skeleton of one file
-smart_unfold(file_path="<file>", symbol_name="<name>")  -- full source of one symbol
+smart_unfold(file_path="<file>", symbol_name="")  -- full source of one symbol
 ```
 
 Do NOT run Grep, Glob, Read, or find to discover files first. `smart_search` walks directories, parses all code files, and returns ranked symbols in one call. It replaces the Glob → Grep → Read discovery cycle.

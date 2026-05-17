@@ -37,7 +37,7 @@ scikit-survival provides multiple model families, each suited for different scen
 - `CoxnetSurvivalAnalysis`: Penalized Cox with elastic net for high-dimensional data
 - `IPCRidge`: Ridge regression for accelerated failure time models
 
-**See**: `references/cox-models.md` for detailed guidance on Cox models, regularization, and interpretation
+**See**: `(see docs)` for detailed guidance on Cox models, regularization, and interpretation
 
 #### Ensemble Methods
 **Use for**: High predictive performance with complex non-linear relationships
@@ -65,7 +65,7 @@ y = Surv.from_dataframe('event', 'time', df)
 4. **Validate data quality**: Check for negative times, sufficient events per feature
 5. **Train-test split**: Maintain similar censoring rates across splits
 
-**See**: `references/data-handling.md` for complete preprocessing workflows, data validation, and best practices
+**See**: `(see docs)` for complete preprocessing workflows, data validation, and best practices
 
 ### 3. Model Evaluation
 

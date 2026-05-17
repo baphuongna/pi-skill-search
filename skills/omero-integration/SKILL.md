@@ -26,7 +26,7 @@ This skill should be used when:
 This skill covers eight major capability areas. Each is documented in detail in the references/ directory:
 
 ### 1. Connection & Session Management
-**File**: `references/connection.md`
+**File**: `(see docs)`
 
 Establish secure connections to OMERO servers, manage sessions, handle authentication, and work with group contexts. Use this for initial setup and connection patterns.
 
@@ -37,7 +37,7 @@ Establish secure connections to OMERO servers, manage sessions, handle authentic
 - Manage connection lifecycle with context managers
 
 ### 2. Data Access & Retrieval
-**File**: `references/data_access.md`
+**File**: `(see docs)`
 
 Navigate OMERO's hierarchical data structure (Projects → Datasets → Images) and screening data (Screens → Plates → Wells). Retrieve objects, query by attributes, and access metadata.
 
@@ -48,7 +48,7 @@ Navigate OMERO's hierarchical data structure (Projects → Datasets → Images) 
 - Query objects with filters
 
 ### 3. Metadata & Annotations
-**File**: `references/metadata.md`
+**File**: `(see docs)`
 
 Create and manage annotations including tags, key-value pairs, file attachments, and comments. Link annotations to images, datasets, or other objects.
 
@@ -59,7 +59,7 @@ Create and manage annotations including tags, key-value pairs, file attachments,
 - Query annotations by namespace
 
 ### 4. Image Processing & Rendering
-**File**: `references/image_processing.md`
+**File**: `(see docs)`
 
 Access raw pixel data as NumPy arrays, manipulate rendering settings, create derived images, and manage physical dimensions.
 
@@ -70,7 +70,7 @@ Access raw pixel data as NumPy arrays, manipulate rendering settings, create der
 - Modify channel rendering settings
 
 ### 5. Regions of Interest (ROIs)
-**File**: `references/rois.md`
+**File**: `(see docs)`
 
 Create, retrieve, and analyze ROIs with various shapes (rectangles, ellipses, polygons, masks, points, lines). Extract intensity statistics from ROI regions.
 
@@ -81,7 +81,7 @@ Create, retrieve, and analyze ROIs with various shapes (rectangles, ellipses, po
 - Export ROI coordinates
 
 ### 6. OMERO Tables
-**File**: `references/tables.md`
+**File**: `(see docs)`
 
 Store and query structured tabular data associated with OMERO objects. Useful for analysis results, measurements, and metadata.
 
@@ -92,7 +92,7 @@ Store and query structured tabular data associated with OMERO objects. Useful fo
 - Link tables to specific images or datasets
 
 ### 7. Scripts & Batch Operations
-**File**: `references/scripts.md`
+**File**: `(see docs)`
 
 Create OMERO.scripts that run server-side for batch processing, automated workflows, and integration with OMERO clients.
 
@@ -103,7 +103,7 @@ Create OMERO.scripts that run server-side for batch processing, automated workfl
 - Export data in custom formats
 
 ### 8. Advanced Features
-**File**: `references/advanced.md`
+**File**: `(see docs)`
 
 Covers permissions, filesets, cross-group queries, delete operations, and other advanced functionality.
 

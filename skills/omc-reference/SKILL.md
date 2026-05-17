@@ -56,7 +56,7 @@ Prefix: `oh-my-claudecode:`. See `agents/*.md` for full prompts.
 
 ## Skills Registry
 
-Invoke built-in workflows via `/oh-my-claudecode:<name>`.
+Invoke built-in workflows via `/oh-my-claudecode:`.
 
 ### Workflow skills
 - `autopilot` — full autonomous execution from idea to working code

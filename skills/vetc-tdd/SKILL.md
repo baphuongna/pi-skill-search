@@ -7,8 +7,6 @@ description: PROACTIVELY activate khi viết test cho service/controller/compone
 
 Viết test trước implementation. Test từ Spec → code đúng ngay lần đầu.
 
-
-
 ## When to Activate
 
 - Viết test cho service, controller, hoặc component mới
@@ -25,11 +23,10 @@ Viết test trước implementation. Test từ Spec → code đúng ngay lần �
 
 ## Rationalization Prevention
 
-See: `./references/rationalizations.md` (11 common TDD rationalizations and why they're wrong)
+See: `./(see docs)` (11 common TDD rationalizations and why they're wrong)
 
 ## Good vs Bad Test Patterns
 
-<Good>
 ```java
 // GOOD: Test name describes behavior, not implementation
 @Test

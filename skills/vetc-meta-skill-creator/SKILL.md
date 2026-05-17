@@ -74,12 +74,12 @@ mkdir -p skills/vetc-{name}/references/
 # (use content from Step 4 below)
 
 # Create first reference file if needed
-touch skills/vetc-{name}/references/checklist.md
+touch skills/vetc-{name}/(see docs)
 ```
 
 ### Step 4 — SKILL.md Structure
 
-See full template: `./references/skill-template.md`
+See full template: `./(see docs)`
 
 Quick rules:
 - **Naming**: `vetc-{verb}-{noun}` hoặc `vetc-{domain}`, 10-40 chars, prefix `vetc-` mandatory

@@ -3,7 +3,6 @@ name: sciomc
 description: Orchestrate parallel scientist agents for comprehensive analysis with AUTO mode
 ---
 
-
 # Research Skill
 
 Orchestrate parallel scientist agents for comprehensive research workflows with optional AUTO mode for fully autonomous execution.
@@ -20,20 +19,20 @@ Research is a multi-stage workflow that decomposes complex research goals into p
 ## Usage Examples
 
 ```
-/oh-my-claudecode:sciomc <goal>                    # Standard research with user checkpoints
-/oh-my-claudecode:sciomc AUTO: <goal>              # Fully autonomous until complete
-/oh-my-claudecode:sciomc status                    # Check current research session status
-/oh-my-claudecode:sciomc resume                    # Resume interrupted research session
-/oh-my-claudecode:sciomc list                      # List all research sessions
-/oh-my-claudecode:sciomc report <session-id>       # Generate report for session
+sciomc <goal>                    # Standard research with user checkpoints
+sciomc AUTO: <goal>              # Fully autonomous until complete
+sciomc status                    # Check current research session status
+sciomc resume                    # Resume interrupted research session
+sciomc list                      # List all research sessions
+sciomc report <session-id>       # Generate report for session
 ```
 
 ### Quick Examples
 
 ```
-/oh-my-claudecode:sciomc What are the performance characteristics of different sorting algorithms?
-/oh-my-claudecode:sciomc AUTO: Analyze authentication patterns in this codebase
-/oh-my-claudecode:sciomc How does the error handling work across the API layer?
+sciomc What are the performance characteristics of different sorting algorithms?
+sciomc AUTO: Analyze authentication patterns in this codebase
+sciomc How does the error handling work across the API layer?
 ```
 
 ## Research Protocol

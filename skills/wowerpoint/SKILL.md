@@ -61,7 +61,7 @@ Generation takes ~10 minutes; never block on it. Use the template below with `ru
 Print the notebook URL so the user can watch live:
 
 ```text
-https://notebooklm.google.com/notebook/<NOTEBOOK_ID>
+https://notebooklm.google.com/notebook/
 ```
 
 The subagent's completion notification fires when the file is on disk.

@@ -63,7 +63,7 @@ gdf.to_file("output.gpkg")
 - **GeoSeries**: Vector of geometries with spatial operations
 - **GeoDataFrame**: Tabular data structure with geometry column
 
-See [data-structures.md](references/data-structures.md) for details.
+See data-structures.md for details.
 
 ### Reading and Writing Data
 
@@ -77,7 +77,7 @@ gdf = gpd.read_file("data.gpkg", bbox=(xmin, ymin, xmax, ymax))
 gdf.to_file("output.gpkg", use_arrow=True)
 ```
 
-See [data-io.md](references/data-io.md) for comprehensive I/O operations.
+See data-io.md for comprehensive I/O operations.
 
 ### Coordinate Reference Systems
 
@@ -94,7 +94,7 @@ gdf_projected = gdf.to_crs("EPSG:3857")
 gdf = gdf.set_crs("EPSG:4326")
 ```
 
-See [crs-management.md](references/crs-management.md) for CRS operations.
+See crs-management.md for CRS operations.
 
 ## Common Operations
 

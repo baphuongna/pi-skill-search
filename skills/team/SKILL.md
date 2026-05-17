@@ -3,7 +3,6 @@ name: team
 description: N coordinated agents on shared task list using Claude Code native teams
 ---
 
-
 # Team Skill
 
 Spawn N coordinated agents working on a shared task list using Claude Code's native team tools. Replaces the legacy `/swarm` skill (SQLite-based) with built-in team management, inter-agent messaging, and task dependencies -- no external dependencies required.
@@ -13,9 +12,9 @@ The `swarm` compatibility alias was removed in #1131.
 ## Usage
 
 ```
-/oh-my-claudecode:team N:agent-type "task description"
-/oh-my-claudecode:team "task description"
-/oh-my-claudecode:team ralph "task description"
+team N:agent-type "task description"
+team "task description"
+team ralph "task description"
 ```
 
 ### Parameters

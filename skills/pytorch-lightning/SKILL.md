@@ -34,7 +34,7 @@ Organize PyTorch models into six logical sections:
 
 **Quick template reference:** See `scripts/template_lightning_module.py` for a complete boilerplate.
 
-**Detailed documentation:** Read `references/lightning_module.md` for comprehensive method documentation, hooks, properties, and best practices.
+**Detailed documentation:** Read `(see docs)` for comprehensive method documentation, hooks, properties, and best practices.
 
 ### 2. Trainer - Training Automation
 
@@ -48,7 +48,7 @@ The Trainer automates the training loop, device management, gradient operations,
 
 **Quick setup reference:** See `scripts/quick_trainer_setup.py` for common Trainer configurations.
 
-**Detailed documentation:** Read `references/trainer.md` for all parameters, methods, and configuration options.
+**Detailed documentation:** Read `(see docs)` for all parameters, methods, and configuration options.
 
 ### 3. LightningDataModule - Data Pipeline Organization
 
@@ -62,7 +62,7 @@ Encapsulate all data processing steps in a reusable class:
 
 **Quick template reference:** See `scripts/template_datamodule.py` for a complete boilerplate.
 
-**Detailed documentation:** Read `references/data_module.md` for method details and usage patterns.
+**Detailed documentation:** Read `(see docs)` for method details and usage patterns.
 
 ### 4. Callbacks - Extensible Training Logic
 
@@ -73,7 +73,7 @@ Add custom functionality at specific training hooks without modifying your Light
 - **LearningRateMonitor** - Track LR scheduler changes
 - **BatchSizeFinder** - Auto-determine optimal batch size
 
-**Detailed documentation:** Read `references/callbacks.md` for built-in callbacks and custom callback creation.
+**Detailed documentation:** Read `(see docs)` for built-in callbacks and custom callback creation.
 
 ### 5. Logging - Experiment Tracking
 
@@ -88,7 +88,7 @@ Integrate with multiple logging platforms:
 
 Log metrics using `self.log("metric_name", value)` in any LightningModule method.
 
-**Detailed documentation:** Read `references/logging.md` for logger setup and configuration.
+**Detailed documentation:** Read `(see docs)` for logger setup and configuration.
 
 ### 6. Distributed Training - Scale to Multiple Devices
 
@@ -100,7 +100,7 @@ Choose the right strategy based on model size:
 
 Configure with: `Trainer(strategy="ddp", accelerator="gpu", devices=4)`
 
-**Detailed documentation:** Read `references/distributed_training.md` for strategy comparison and configuration.
+**Detailed documentation:** Read `(see docs)` for strategy comparison and configuration.
 
 ### 7. Best Practices
 
@@ -110,7 +110,7 @@ Configure with: `Trainer(strategy="ddp", accelerator="gpu", devices=4)`
 - Reproducibility - Use `seed_everything()` and `Trainer(deterministic=True)`
 - Debugging - Use `Trainer(fast_dev_run=True)` to test with 1 batch
 
-**Detailed documentation:** Read `references/best_practices.md` for common patterns and pitfalls.
+**Detailed documentation:** Read `(see docs)` for common patterns and pitfalls.
 
 ## Quick Workflow
 

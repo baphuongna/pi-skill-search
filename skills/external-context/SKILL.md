@@ -10,15 +10,15 @@ Fetch external documentation, references, and context for a query. Decomposes in
 ## Usage
 
 ```
-/oh-my-claudecode:external-context <topic or question>
+external-context <topic or question>
 ```
 
 ### Examples
 
 ```
-/oh-my-claudecode:external-context What are the best practices for JWT token rotation in Node.js?
-/oh-my-claudecode:external-context Compare Prisma vs Drizzle ORM for PostgreSQL
-/oh-my-claudecode:external-context Latest React Server Components patterns and conventions
+external-context What are the best practices for JWT token rotation in Node.js?
+external-context Compare Prisma vs Drizzle ORM for PostgreSQL
+external-context Latest React Server Components patterns and conventions
 ```
 
 ## Protocol
@@ -65,10 +65,10 @@ Present synthesized results in this format:
 
 ### Detailed Results
 
-#### Facet 1: <name>
+#### Facet 1: 
 <aggregated findings with citations>
 
-#### Facet 2: <name>
+#### Facet 2: 
 <aggregated findings with citations>
 
 ### Sources

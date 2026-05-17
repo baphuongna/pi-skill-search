@@ -79,7 +79,7 @@ total = sequences.estimated_count()
 
 Entity types: `dna_sequences`, `rna_sequences`, `aa_sequences`, `custom_entities`, `mixtures`
 
-For comprehensive SDK reference and advanced patterns, refer to `references/sdk_reference.md`.
+For comprehensive SDK reference and advanced patterns, refer to `(see docs)`.
 
 ### 3. Inventory Management
 

@@ -41,7 +41,7 @@ model = PPO.load("ppo_cartpole", env=env)
 - The replay buffer is NOT saved with the model to save space
 
 **Algorithm Selection:**
-Use `references/algorithms.md` for detailed algorithm characteristics and selection guidance. Quick reference:
+Use `(see docs)` for detailed algorithm characteristics and selection guidance. Quick reference:
 - **PPO/A2C**: General-purpose, supports all action space types, good for multiprocessing
 - **SAC/TD3**: Continuous control, off-policy, sample-efficient
 - **DQN**: Discrete actions, off-policy

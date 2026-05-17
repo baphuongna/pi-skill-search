@@ -24,7 +24,7 @@ Apply this skill when:
 
 ### 1. Time Series Classification
 
-Categorize time series into predefined classes. See `references/classification.md` for complete algorithm catalog.
+Categorize time series into predefined classes. See `(see docs)` for complete algorithm catalog.
 
 **Quick Start:**
 ```python
@@ -49,7 +49,7 @@ accuracy = clf.score(X_test, y_test)
 
 ### 2. Time Series Regression
 
-Predict continuous values from time series. See `references/regression.md` for algorithms.
+Predict continuous values from time series. See `(see docs)` for algorithms.
 
 **Quick Start:**
 ```python
@@ -66,7 +66,7 @@ predictions = reg.predict(X_test)
 
 ### 3. Time Series Clustering
 
-Group similar time series without labels. See `references/clustering.md` for methods.
+Group similar time series without labels. See `(see docs)` for methods.
 
 **Quick Start:**
 ```python
@@ -83,7 +83,7 @@ centers = clusterer.cluster_centers_
 
 ### 4. Forecasting
 
-Predict future time series values. See `references/forecasting.md` for forecasters.
+Predict future time series values. See `(see docs)` for forecasters.
 
 **Quick Start:**
 ```python
@@ -96,7 +96,7 @@ y_pred = forecaster.predict(fh=[1, 2, 3, 4, 5])
 
 ### 5. Anomaly Detection
 
-Identify unusual patterns or outliers. See `references/anomaly_detection.md` for detectors.
+Identify unusual patterns or outliers. See `(see docs)` for detectors.
 
 **Quick Start:**
 ```python

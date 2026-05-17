@@ -3,7 +3,6 @@ name: ultraqa
 description: QA cycling workflow - test, verify, fix, repeat until goal met
 ---
 
-
 # UltraQA Skill
 
 [ULTRAQA ACTIVATED - AUTONOMOUS QA CYCLING]
@@ -20,11 +19,11 @@ Parse the goal from arguments. Supported formats:
 
 | Invocation | Goal Type | What to Check |
 |------------|-----------|---------------|
-| `/oh-my-claudecode:ultraqa --tests` | tests | All test suites pass |
-| `/oh-my-claudecode:ultraqa --build` | build | Build succeeds with exit 0 |
-| `/oh-my-claudecode:ultraqa --lint` | lint | No lint errors |
-| `/oh-my-claudecode:ultraqa --typecheck` | typecheck | No TypeScript errors |
-| `/oh-my-claudecode:ultraqa --custom "pattern"` | custom | Custom success pattern in output |
+| `ultraqa --tests` | tests | All test suites pass |
+| `ultraqa --build` | build | Build succeeds with exit 0 |
+| `ultraqa --lint` | lint | No lint errors |
+| `ultraqa --typecheck` | typecheck | No TypeScript errors |
+| `ultraqa --custom "pattern"` | custom | Custom success pattern in output |
 
 If no structured goal provided, interpret the argument as a custom goal.
 

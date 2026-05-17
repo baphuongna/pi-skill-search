@@ -48,7 +48,7 @@ LaminDB provides six interconnected capability areas, each documented in detail 
 - Visualize data lineage graphs with `artifact.view_lineage()`
 - Query by provenance (find all outputs from specific code/inputs)
 
-**Reference:** `references/core-concepts.md` - Read this for detailed information on artifacts, records, runs, transforms, features, versioning, and lineage tracking.
+**Reference:** `(see docs)` - Read this for detailed information on artifacts, records, runs, transforms, features, versioning, and lineage tracking.
 
 ### 2. Data Management and Querying
 

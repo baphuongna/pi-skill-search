@@ -58,7 +58,7 @@ sx, sy, sz = sigmax(), sigmay(), sigmaz()  # Pauli matrices
 psi_AB = tensor(psi_A, psi_B)  # Tensor product
 ```
 
-**See** `references/core_concepts.md` for comprehensive coverage of quantum objects, states, operators, and tensor products.
+**See** `(see docs)` for comprehensive coverage of quantum objects, states, operators, and tensor products.
 
 ### 2. Time Evolution and Dynamics
 
@@ -83,7 +83,7 @@ result = mcsolve(H, psi0, tlist, c_ops, ntraj=500, e_ops=[num(N)])
 - `brmesolve`: Weak system-bath coupling
 - `fmmesolve`: Time-periodic Hamiltonians (Floquet)
 
-**See** `references/time_evolution.md` for detailed solver documentation, time-dependent Hamiltonians, and advanced options.
+**See** `(see docs)` for detailed solver documentation, time-dependent Hamiltonians, and advanced options.
 
 ### 3. Analysis and Measurement
 

@@ -41,7 +41,7 @@ ReconcileEngine
 ```java
 public interface SourceProcessor {
     boolean canHandle(ReconcileContext context);
-    List<ReconcileRecord> extract(ReconcileContext context);
+    List extract(ReconcileContext context);
 }
 
 // Chain implementation

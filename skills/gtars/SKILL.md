@@ -49,7 +49,7 @@ igd = gtars.igd.build_index("regions.bed")
 overlaps = igd.query("chr1", 1000, 2000)
 ```
 
-See `references/overlap.md` for comprehensive overlap detection documentation.
+See `(see docs)` for comprehensive overlap detection documentation.
 
 ### 2. Coverage Track Generation
 
@@ -67,7 +67,7 @@ Generate coverage tracks from sequencing data with the uniwig module.
 gtars uniwig generate --input fragments.bed --output coverage.bw --format bigwig
 ```
 
-See `references/coverage.md` for detailed coverage analysis workflows.
+See `(see docs)` for detailed coverage analysis workflows.
 
 ### 3. Genomic Tokenization
 

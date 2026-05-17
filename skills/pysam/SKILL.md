@@ -68,7 +68,7 @@ Use the `AlignmentFile` class to work with aligned sequencing reads. This is app
 - Perform pileup analysis (base-by-base coverage)
 - Access read sequences, quality scores, and alignment information
 
-**Reference:** See `references/alignment_files.md` for detailed documentation on:
+**Reference:** See `(see docs)` for detailed documentation on:
 - Opening and reading alignment files
 
 ### 2. Variant File Operations (VCF/BCF)
@@ -84,7 +84,7 @@ Use the `VariantFile` class to work with genetic variants from variant calling p
 - Annotate variants with additional information
 - Subset samples or regions
 
-**Reference:** See `references/variant_files.md` for detailed documentation on:
+**Reference:** See `(see docs)` for detailed documentation on:
 - Opening and reading variant files
 
 ### 3. Sequence File Operations (FASTA/FASTQ)
@@ -100,7 +100,7 @@ Use `FastaFile` for random access to reference sequences and `FastxFile` for rea
 - Filter reads by quality or length
 - Convert between FASTA and FASTQ formats
 
-**Reference:** See `references/sequence_files.md` for detailed documentation on:
+**Reference:** See `(see docs)` for detailed documentation on:
 - FASTA file access and indexing
 
 ## Key Concepts

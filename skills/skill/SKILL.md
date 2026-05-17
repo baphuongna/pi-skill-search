@@ -39,9 +39,9 @@ Interactive wizard for creating a new skill.
 4. **Ask for argument hint** (optional)
    - Example: "<file> [options]"
 5. **Ask for scope:**
-   - `user` → `${CLAUDE_CONFIG_DIR:-~/.claude}/skills/omc-learned/<name>/SKILL.md`
+   - `user` → `${CLAUDE_CONFIG_DIR:-~/.claude}/skills/omc-learned//SKILL.md`
 
-# <Name> Skill
+#  Skill
 
 ## Purpose
 
@@ -60,7 +60,7 @@ Interactive wizard for creating a new skill.
 ## Examples
 
 ```
-/oh-my-claudecode:<name> example-arg
+/oh-my-claudecode: example-arg
 ```
 
 ## Notes
@@ -69,7 +69,7 @@ Interactive wizard for creating a new skill.
 ```
 
 7. **Report success** with file path
-8. **Suggest:** "Edit `/skill edit <name>` to customize content"
+8. **Suggest:** "Edit `/skill edit ` to customize content"
 
 **Example:**
 ```
@@ -79,23 +79,23 @@ Assistant: Creating new skill 'custom-logger'...
 Description: Enhanced logging with structured output
 Triggers (comma-separated): log, logger, logging
 
-### /skill remove <name>
+### /skill remove 
 
 Remove a skill by name.
 
 **Behavior:**
 1. **Search for skill** in both scopes:
-   - `${CLAUDE_CONFIG_DIR:-~/.claude}/skills/omc-learned/<name>/SKILL.md`
-   - `.omc/skills/<name>/SKILL.md`
+   - `${CLAUDE_CONFIG_DIR:-~/.claude}/skills/omc-learned//SKILL.md`
+   - `.omc/skills//SKILL.md`
 2. **If found:**
    - Display skill info (name, description, scope)
-   - **Ask for confirmation:** "Delete '<name>' skill from <scope>? (yes/no)"
+   - **Ask for confirmation:** "Delete '' skill from <scope>? (yes/no)"
 3. **If confirmed:**
-   - Delete entire skill directory (e.g., `${CLAUDE_CONFIG_DIR:-~/.claude}/skills/omc-learned/<name>/`)
-   - Report: "✓ Removed skill '<name>' from <scope>"
+   - Delete entire skill directory (e.g., `${CLAUDE_CONFIG_DIR:-~/.claude}/skills/omc-learned//`)
+   - Report: "✓ Removed skill '' from <scope>"
 4. **If not found:**
 
-### /skill edit <name>
+### /skill edit 
 
 Edit an existing skill interactively.
 

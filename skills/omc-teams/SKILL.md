@@ -3,7 +3,6 @@ name: omc-teams
 description: CLI-team runtime for claude, codex, or gemini workers in tmux panes when you need process-based parallel execution
 ---
 
-
 # OMC Teams Skill
 
 Spawn N CLI worker processes in tmux panes to execute tasks in parallel. Supports `claude`, `codex`, and `gemini` agent types.
@@ -13,9 +12,9 @@ Spawn N CLI worker processes in tmux panes to execute tasks in parallel. Support
 ## Usage
 
 ```bash
-/oh-my-claudecode:omc-teams N:claude "task description"
-/oh-my-claudecode:omc-teams N:codex "task description"
-/oh-my-claudecode:omc-teams N:gemini "task description"
+omc-teams N:claude "task description"
+omc-teams N:codex "task description"
+omc-teams N:gemini "task description"
 ```
 
 ### Parameters
@@ -72,7 +71,7 @@ Validate before decomposing or running anything:
 
 - Reject unsupported agent types up front. `/omc-teams` only supports **`claude`**, **`codex`**, and **`gemini`**.
 - If the user asks for an unsupported type such as `expert`, explain that `/omc-teams` launches external CLI workers only.
-- For native Claude Code team agents/roles, direct them to **`/oh-my-claudecode:team`** instead.
+- For native Claude Code team agents/roles, direct them to **`team`** instead.
 
 ### Phase 2: Decompose task
 

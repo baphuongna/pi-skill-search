@@ -65,15 +65,15 @@ Read the descriptions and tags. Match to the user's task with judgment, not keyw
 
 If you're not sure which resource to pick, briefly present the top 2–3 candidates to the user with their tradeoffs, then proceed once they choose. Don't pick silently when the choice materially changes the work.
 
-For domain-specific go-to picks (the "if in doubt, start here" entries), see `references/flagship-resources.md`.
+For domain-specific go-to picks (the "if in doubt, start here" entries), see `(see docs)`.
 
 ### 4. Use the resource
 
 The mechanics depend on resource type. Read the matching reference file before writing code:
 
-- **Datasets** → `references/using-datasets.md` — loading via `datasets`, streaming for huge corpora, common columns, splits
-- **Models** → `references/using-models.md` — local `transformers`, Hugging Face Inference API, Inference Providers for very large models, GPU sizing
-- **Spaces (interactive demos)** → `references/using-spaces.md` — `gradio_client` pattern with a worked BoltzGen example
+- **Datasets** → `(see docs)` — loading via `datasets`, streaming for huge corpora, common columns, splits
+- **Models** → `(see docs)` — local `transformers`, Hugging Face Inference API, Inference Providers for very large models, GPU sizing
+- **Spaces (interactive demos)** → `(see docs)` — `gradio_client` pattern with a worked BoltzGen example
 
 The reference files are short and focused. If you're already fluent in the relevant API, skim; if not, read fully before writing code. The patterns are different from generic HF usage in a few important places (e.g., `trust_remote_code` requirements, scientific-data dtype gotchas).
 

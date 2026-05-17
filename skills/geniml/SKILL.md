@@ -24,7 +24,7 @@ Train unsupervised embeddings of genomic regions using word2vec-style learning.
 2. Train Region2Vec model on tokens
 3. Generate embeddings for regions
 
-**Reference:** See `references/region2vec.md` for detailed workflow, parameters, and examples.
+**Reference:** See `(see docs)` for detailed workflow, parameters, and examples.
 
 ### 2. BEDspace: Joint Region and Metadata Embeddings
 
@@ -38,7 +38,7 @@ Train shared embeddings for region sets and metadata labels using StarSpace.
 3. Compute distances
 4. Query across regions and labels
 
-**Reference:** See `references/bedspace.md` for detailed workflow, search types, and examples.
+**Reference:** See `(see docs)` for detailed workflow, search types, and examples.
 
 ### 3. scEmbed: Single-Cell Chromatin Accessibility Embeddings
 
@@ -53,7 +53,7 @@ Train Region2Vec models on single-cell ATAC-seq data for cell-level embeddings.
 4. Generate cell embeddings
 5. Cluster and visualize with scanpy
 
-**Reference:** See `references/scembed.md` for detailed workflow, parameters, and examples.
+**Reference:** See `(see docs)` for detailed workflow, parameters, and examples.
 
 ### 4. Consensus Peaks: Universe Building
 
@@ -82,7 +82,7 @@ Additional tools for caching, randomization, evaluation, and search.
 - **Tokenization**: Region tokenization utilities (hard, soft, universe-based)
 - **Text2BedNN**: Neural search backends for genomic queries
 
-**Reference:** See `references/utilities.md` for detailed usage of each utility.
+**Reference:** See `(see docs)` for detailed usage of each utility.
 
 ## Common Workflows
 

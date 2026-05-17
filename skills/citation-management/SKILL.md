@@ -68,7 +68,7 @@ python scripts/search_google_scholar.py "machine learning protein folding" \
   --output ml_proteins.json
 ```
 
-**Advanced Search Strategies** (see `references/google_scholar_search.md`):
+**Advanced Search Strategies** (see `(see docs)`):
 - Use quotation marks for exact phrases: `"deep learning"`
 - Search by author: `author:LeCun`
 - Search in title: `intitle:"neural networks"`

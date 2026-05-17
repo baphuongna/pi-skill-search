@@ -51,7 +51,7 @@ model = ESM3ForgeInferenceClient(model="esm3-medium-2024-08", url="https://forge
 protein = model.generate(protein, GenerationConfig(track="sequence", num_steps=8))
 ```
 
-See `references/esm3-api.md` for detailed ESM3 model specifications, advanced generation configurations, and multimodal prompting examples.
+See `(see docs)` for detailed ESM3 model specifications, advanced generation configurations, and multimodal prompting examples.
 
 ### 2. Structure Prediction and Inverse Folding
 

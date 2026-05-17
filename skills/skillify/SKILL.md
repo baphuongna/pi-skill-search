@@ -7,7 +7,7 @@ description: Turn a repeatable workflow from the current session into a reusable
 
 Use this skill when the current session uncovered a repeatable workflow that should become a reusable OMC skill.
 
-> Compatibility: `/oh-my-claudecode:learner` is a deprecated alias for this skill. Prefer `/oh-my-claudecode:skillify` in docs, prompts, and new workflows. Internal implementation modules may still use the learner name.
+> Compatibility: `learner` is a deprecated alias for this skill. Prefer `skillify` in docs, prompts, and new workflows. Internal implementation modules may still use the learner name.
 
 ## Goal
 Capture a successful multi-step workflow as a concrete skill draft instead of rediscovering it later.
@@ -42,5 +42,4 @@ Prefer skills that encode decision-making heuristics, constraints, pitfalls, and
 - Prefer explicit success criteria over vague prose.
 - If the workflow still has unresolved branching decisions, note them before drafting.
 - Keep `omc-learned` as the storage directory name for compatibility; do not present it as the public invocation name.
-
 

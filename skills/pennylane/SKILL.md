@@ -56,7 +56,7 @@ for i in range(100):
 
 ### 1. Quantum Circuit Construction
 
-Build circuits with gates, measurements, and state preparation. See `references/quantum_circuits.md` for:
+Build circuits with gates, measurements, and state preparation. See `(see docs)` for:
 - Single and multi-qubit gates
 - Controlled operations and conditional logic
 - Mid-circuit measurements and adaptive circuits
@@ -65,7 +65,7 @@ Build circuits with gates, measurements, and state preparation. See `references/
 
 ### 2. Quantum Machine Learning
 
-Create hybrid quantum-classical models. See `references/quantum_ml.md` for:
+Create hybrid quantum-classical models. See `(see docs)` for:
 - Integration with PyTorch, JAX, TensorFlow
 - Quantum neural networks and variational classifiers
 - Data encoding strategies (angle, amplitude, basis, IQP)
@@ -74,7 +74,7 @@ Create hybrid quantum-classical models. See `references/quantum_ml.md` for:
 
 ### 3. Quantum Chemistry
 
-Simulate molecules and compute ground state energies. See `references/quantum_chemistry.md` for:
+Simulate molecules and compute ground state energies. See `(see docs)` for:
 - Molecular Hamiltonian generation
 - Variational Quantum Eigensolver (VQE)
 - UCCSD ansatz for chemistry
@@ -83,7 +83,7 @@ Simulate molecules and compute ground state energies. See `references/quantum_ch
 
 ### 4. Device Management
 
-Execute on simulators or quantum hardware. See `references/devices_backends.md` for:
+Execute on simulators or quantum hardware. See `(see docs)` for:
 - Built-in simulators (default.qubit, lightning.qubit, default.mixed)
 - Hardware plugins (IBM, Amazon Braket, Google, Rigetti, IonQ)
 - Device selection and configuration
@@ -92,7 +92,7 @@ Execute on simulators or quantum hardware. See `references/devices_backends.md` 
 
 ### 5. Optimization
 
-Train quantum circuits with various optimizers. See `references/optimization.md` for:
+Train quantum circuits with various optimizers. See `(see docs)` for:
 - Built-in optimizers (Adam, gradient descent, momentum, RMSProp)
 - Gradient computation methods (backprop, parameter-shift, adjoint)
 - Variational algorithms (VQE, QAOA)
@@ -101,7 +101,7 @@ Train quantum circuits with various optimizers. See `references/optimization.md`
 
 ### 6. Advanced Features
 
-Leverage templates, transforms, and compilation. See `references/advanced_features.md` for:
+Leverage templates, transforms, and compilation. See `(see docs)` for:
 - Circuit templates and layers
 - Transforms and circuit optimization
 - Pulse-level programming

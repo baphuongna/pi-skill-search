@@ -44,10 +44,10 @@ This skill helps medical device manufacturers prepare comprehensive documentatio
 **When to use:** User needs to understand specific ISO 13485 requirements
 
 **Available references:**
-- `references/iso-13485-requirements.md` - Complete clause-by-clause breakdown
-- `references/mandatory-documents.md` - All 31 required procedures explained
-- `references/gap-analysis-checklist.md` - Detailed compliance checklist
-- `references/quality-manual-guide.md` - How to create Quality Manual
+- `(see docs)` - Complete clause-by-clause breakdown
+- `(see docs)` - All 31 required procedures explained
+- `(see docs)` - Detailed compliance checklist
+- `(see docs)` - How to create Quality Manual
 
 **How to use:**
 
@@ -70,7 +70,6 @@ This skill helps medical device manufacturers prepare comprehensive documentatio
    - Based on gap analysis or user request
    - Prioritize critical documents first (Quality Manual, CAPA, Complaints, Audits)
 
-
 ### 4. Develop Specific Documents
 
 #### Creating a Quality Manual
@@ -78,7 +77,7 @@ This skill helps medical device manufacturers prepare comprehensive documentatio
 **Process:**
 
 1. **Read the comprehensive guide:**
-   - Read `references/quality-manual-guide.md` in full
+   - Read `(see docs)` in full
    - Understand structure and required content
    - Review examples provided
 
@@ -94,7 +93,7 @@ This skill helps medical device manufacturers prepare comprehensive documentatio
 **Process:**
 
 1. **Use comprehensive checklist:**
-   - Open `references/gap-analysis-checklist.md`
+   - Open `(see docs)`
    - Work through clause by clause
    - Mark status for each requirement: Compliant, Partial, Non-compliant, N/A
 

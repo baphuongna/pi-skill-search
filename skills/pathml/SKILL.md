@@ -36,13 +36,13 @@ Build modular preprocessing pipelines by composing transforms for image manipula
 - `MedianBlur`, `GaussianBlur` - Noise reduction
 - `LabelArtifactTileHE` - Quality control for artifacts
 
-**See:** `references/preprocessing.md` for complete transform catalog, pipeline construction, and preprocessing workflows.
+**See:** `(see docs)` for complete transform catalog, pipeline construction, and preprocessing workflows.
 
 ### 3. Graph Construction
 
 Construct spatial graphs representing cellular and tissue-level relationships. Extract features from segmented objects to create graph-based representations suitable for graph neural networks and spatial analysis.
 
-**See:** `references/graphs.md` for graph construction methods, feature extraction, and spatial analysis workflows.
+**See:** `(see docs)` for graph construction methods, feature extraction, and spatial analysis workflows.
 
 ### 4. Machine Learning
 
@@ -52,19 +52,19 @@ Train and deploy deep learning models for nucleus detection, segmentation, and c
 - **HoVer-Net** - Simultaneous nucleus segmentation and classification
 - **HACTNet** - Hierarchical cell-type classification
 
-**See:** `references/machine_learning.md` for model training, evaluation, inference workflows, and working with public datasets.
+**See:** `(see docs)` for model training, evaluation, inference workflows, and working with public datasets.
 
 ### 5. Multiparametric Imaging
 
 Analyze spatial proteomics and gene expression data from CODEX, Vectra, MERFISH, and other multiplex imaging platforms. PathML provides specialized slide classes and transforms for processing multiparametric data, cell segmentation with Mesmer, and quantification workflows.
 
-**See:** `references/multiparametric.md` for CODEX/Vectra workflows, cell segmentation, marker quantification, and integration with AnnData.
+**See:** `(see docs)` for CODEX/Vectra workflows, cell segmentation, marker quantification, and integration with AnnData.
 
 ### 6. Data Management
 
 Efficiently store and manage large pathology datasets using HDF5 format. PathML handles tiles, masks, metadata, and extracted features in unified storage structures optimized for machine learning workflows.
 
-**See:** `references/data_management.md` for HDF5 integration, tile management, dataset organization, and batch processing strategies.
+**See:** `(see docs)` for HDF5 integration, tile management, dataset organization, and batch processing strategies.
 
 ## Quick Start
 

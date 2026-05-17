@@ -49,7 +49,7 @@ User: "Analyze data.fastq"
 → Extension: .fastq
 → Category: bioinformatics_genomics
 → Format: FASTQ Format (sequence data with quality scores)
-→ Reference: references/bioinformatics_genomics_formats.md
+→ Reference: (see docs)
 ```
 
 ### Step 3: Perform Data Analysis

@@ -32,7 +32,7 @@ uv add pyhealth
 uv run python train.py
 ```
 
-For a one-off script without a project, use `uv run --with pyhealth python script.py`. For the legacy 1.x line (Python 3.9+), `uv add pyhealth==1.16`. Detailed install notes, MIMIC access, and GPU/CPU device tips are in `references/installation.md`.
+For a one-off script without a project, use `uv run --with pyhealth python script.py`. For the legacy 1.x line (Python 3.9+), `uv add pyhealth==1.16`. Detailed install notes, MIMIC access, and GPU/CPU device tips are in `(see docs)`.
 
 ## The 5-stage pipeline
 
@@ -86,7 +86,7 @@ These are the mistakes that PyHealth code most commonly trips on. Internalize th
 
 2. **Always split by patient (or visit), not by sample.** Random sample-level splits leak information across train/test because the same patient can appear in both. Use `split_by_patient` for patient-level prediction, `split_by_visit` only when visits are independent.
 
-3. **Match the task to the dataset.** Tasks are dataset-specific: `MortalityPredictionMIMIC3` won't work on MIMIC-IV — use `MortalityPredictionMIMIC4` or `InHospitalMortalityMIMIC4`. The full mapping is in `references/tasks.md`.
+3. **Match the task to the dataset.** Tasks are dataset-specific: `MortalityPredictionMIMIC3` won't work on MIMIC-IV — use `MortalityPredictionMIMIC4` or `InHospitalMortalityMIMIC4`. The full mapping is in `(see docs)`.
 
 4. **Pick `monitor` to match the task type.** For binary classification use `"pr_auc"` or `"roc_auc"`. For multilabel (drug rec) use `"pr_auc_samples"` or `"jaccard_samples"`. For multiclass use `"accuracy"` or `"f1_macro"`. Wrong monitor → checkpoint selection saves the wrong epoch.
 
@@ -100,12 +100,12 @@ PyHealth has a large API surface — there's no point loading it all at once. Re
 
 | If the user is asking about… | Read |
 |---|---|
-| Installing, env setup, MIMIC access, GPU | `references/installation.md` |
-| Which dataset class to use, loading patterns, splitting | `references/datasets.md` |
-| What prediction task to choose (mortality, readmission, drug rec, sleep…) | `references/tasks.md` |
-| Picking a model architecture, model-specific arguments | `references/models.md` |
-| Looking up or cross-mapping ICD/ATC/NDC/RxNorm/CCS codes, tokenizers | `references/medcode.md` |
-| End-to-end recipes for common scenarios | `references/examples.md` |
+| Installing, env setup, MIMIC access, GPU | `(see docs)` |
+| Which dataset class to use, loading patterns, splitting | `(see docs)` |
+| What prediction task to choose (mortality, readmission, drug rec, sleep…) | `(see docs)` |
+| Picking a model architecture, model-specific arguments | `(see docs)` |
+| Looking up or cross-mapping ICD/ATC/NDC/RxNorm/CCS codes, tokenizers | `(see docs)` |
+| End-to-end recipes for common scenarios | `(see docs)` |
 
 For multi-step tasks (e.g., "build a drug recommendation pipeline on MIMIC-IV"), read `tasks.md` + `models.md` + `examples.md` together — they cross-reference each other.
 

@@ -10,7 +10,7 @@ A thin, repo-aware release assistant. On first run it inspects the project and C
 ## Usage
 
 ```
-/oh-my-claudecode:release [version]
+release [version]
 ```
 
 - `version` is optional. If omitted the skill will ask. Accepts `patch`, `minor`, `major`, or an explicit semver like `2.4.0`.
@@ -42,7 +42,6 @@ Inspect the repo and answer the following. Write answers into `.omc/RELEASE_RULE
 
 - npm (`package.json` with `publishConfig` or `npm publish` in CI), PyPI (`pyproject.toml` + `twine`/`flit`), Cargo (`Cargo.toml`), Docker (`Dockerfile` + push step), GitHub Packages, other.
 - Is there a CI step that publishes automatically on tag push? Which workflow file and job?
-
 
 ### Step 2 — Write `.omc/RELEASE_RULE.md`
 

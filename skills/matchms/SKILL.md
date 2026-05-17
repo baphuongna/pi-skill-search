@@ -37,7 +37,7 @@ save_as_json(spectra, "output.json")
 - metabolomics-USI references
 - Pickle (Python serialization)
 
-For detailed importing/exporting documentation, consult `references/importing_exporting.md`.
+For detailed importing/exporting documentation, consult `(see docs)`.
 
 ### 2. Spectrum Filtering and Processing
 
@@ -66,7 +66,7 @@ spectrum = require_minimum_number_of_peaks(spectrum, n_required=5)
 - **Quality control**: Require minimum peaks, validate precursor m/z, ensure metadata completeness
 - **Chemical annotation**: Add fingerprints, derive InChI/SMILES, repair structural mismatches
 
-Matchms provides 40+ filters. For the complete filter reference, consult `references/filtering.md`.
+Matchms provides 40+ filters. For the complete filter reference, consult `(see docs)`.
 
 ### 3. Calculating Spectral Similarities
 

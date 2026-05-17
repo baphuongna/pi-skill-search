@@ -60,7 +60,6 @@ public class EntityName {
     @Column(name = "AUTOID")
     private Long id;
 
-
 ## Native Query Patterns
 
 PASS: Parameterized native query — LUÔN LUÔN dùng `:param`:
@@ -71,7 +70,7 @@ PASS: Parameterized native query — LUÔN LUÔN dùng `:param`:
     "AND t.STATUS = :status " +
     "AND t.CREATED_DATE BETWEEN :fromDate AND :toDate " +
     "ORDER BY t.CREATED_DATE DESC")
-List<WalletTransaction> findByFilter(
+List findByFilter(
     @Param("customerId") Long customerId,
     @Param("status") String status,
     @Param("fromDate") Date fromDate,
@@ -99,7 +98,7 @@ public class VCustomerWallet {
 
 ```java
 // VETC pattern: RepositoryServiceBase.callStoresProcedure
-List<Result> results = repositoryServiceBase.callStoresProcedure(
+List results = repositoryServiceBase.callStoresProcedure(
     "PROC_NAME",
     List.of(
         new ParameterDto("p_customer_id", customerId, ParameterType.IN),

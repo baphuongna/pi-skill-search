@@ -3,7 +3,6 @@ name: omc-setup
 description: Install or refresh oh-my-claudecode for plugin, npm, and local-dev setups from the canonical setup flow
 ---
 
-
 # OMC Setup
 
 This is the **only command you need to learn**. After running this, everything else is automatic.
@@ -37,11 +36,11 @@ When user runs with `--help`, display this and stop:
 OMC Setup - Configure oh-my-claudecode
 
 USAGE:
-  /oh-my-claudecode:omc-setup           Run initial setup wizard (or update if already configured)
-  /oh-my-claudecode:omc-setup --local   Configure local project (.claude/CLAUDE.md)
-  /oh-my-claudecode:omc-setup --global  Configure global settings (~/.claude/CLAUDE.md)
-  /oh-my-claudecode:omc-setup --force   Force full setup wizard even if already configured
-  /oh-my-claudecode:omc-setup --help    Show this help
+  omc-setup           Run initial setup wizard (or update if already configured)
+  omc-setup --local   Configure local project (.claude/CLAUDE.md)
+  omc-setup --global  Configure global settings (~/.claude/CLAUDE.md)
+  omc-setup --force   Force full setup wizard even if already configured
+  omc-setup --help    Show this help
 
 MODES:
   Initial Setup (no flags)
@@ -74,10 +73,10 @@ MODES:
     - Use when you want to reconfigure preferences
 
 EXAMPLES:
-  /oh-my-claudecode:omc-setup           # First time setup (or update CLAUDE.md if configured)
-  /oh-my-claudecode:omc-setup --local   # Update this project
-  /oh-my-claudecode:omc-setup --global  # Update all projects
-  /oh-my-claudecode:omc-setup --force   # Re-run full setup wizard
+  omc-setup           # First time setup (or update CLAUDE.md if configured)
+  omc-setup --local   # Update this project
+  omc-setup --global  # Update all projects
+  omc-setup --force   # Re-run full setup wizard
 
 For more info: https://github.com/Yeachan-Heo/oh-my-claudecode
 ```

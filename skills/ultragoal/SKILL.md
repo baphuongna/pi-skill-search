@@ -3,22 +3,11 @@ name: ultragoal
 description: Durable multi-goal workflow that persists plan/ledger artifacts under .omc/ultragoal and prints Claude /goal handoff text for the active session
 ---
 
-
-
-
-
-
-<Do_Not_Use_When>
 - The task is a single small change — use direct delegation or `ralph` instead
 - The user wants the assistant to literally invoke `/goal` itself from the shell — that is not possible; `omc ultragoal` only writes artifacts and prints handoff text
 - The user wants a planning-only artifact with no execution loop — use `plan` instead
-</Do_Not_Use_When>
 
-<Why_This_Exists>
 Claude Code `/goal` is a session-scoped Stop hook: it blocks the session from stopping until a condition holds, and auto-clears on success. That is a great single-session execution primitive, but it loses state across sessions and does not by itself enforce a final review gate. `omc ultragoal` adds a durable plan, ledger, and gating layer so a long multi-step initiative can survive session restarts, fresh worktrees, and review iterations while still leveraging Claude `/goal` to keep the active agent focused.
-</Why_This_Exists>
-
-<How_To_Use>
 
 1. Create a plan from a brief:
    ```
@@ -67,11 +56,7 @@ Claude Code `/goal` is a session-scoped Stop hook: it blocks the session from st
    omc ultragoal status
    ```
 
-</How_To_Use>
-
-<Important_Limitations>
 - The shell cannot invoke or mutate Claude Code `/goal` state. `omc ultragoal` only persists durable artifacts and prints instructions that the active Claude agent reads and acts on in-session.
 - Snapshots passed via `--claude-goal-json` are model-supplied proof of the active `/goal` state; OMC validates them for textual consistency with the plan's expected objective and ledger event, but it cannot independently observe Claude `/goal` state.
 - If the Claude `/goal` slash command is renamed or restructured, only the handoff wording needs to change; the reconciliation logic is name-agnostic.
-</Important_Limitations>
 

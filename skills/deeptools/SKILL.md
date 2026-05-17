@@ -95,7 +95,7 @@ For full ChIP-seq analysis from BAM to visualizations:
 
 Use `scripts/workflow_generator.py chipseq_analysis` to generate template.
 
-Complete command sequences in `references/workflows.md` → "ChIP-seq Analysis Workflow"
+Complete command sequences in `(see docs)` → "ChIP-seq Analysis Workflow"
 
 ### RNA-seq Coverage Workflow
 
@@ -109,7 +109,7 @@ Use normalization: CPM for fixed bins, RPKM for gene-level analysis.
 
 Template available: `scripts/workflow_generator.py rnaseq_coverage`
 
-Details in `references/workflows.md` → "RNA-seq Coverage Workflow"
+Details in `(see docs)` → "RNA-seq Coverage Workflow"
 
 ### ATAC-seq Analysis Workflow
 

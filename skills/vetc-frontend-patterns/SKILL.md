@@ -67,8 +67,7 @@ enum TransactionStatus { PENDING = 'PENDING', SUCCESS = 'SUCCESS' }
 const customerData = fetchCustomer(id);
 
 // Component: PascalCase matching filename
-const CustomerDetailPage: React.FC<Props> = ({ id }) => { };
-
+const CustomerDetailPage: React.FC = ({ id }) => { };
 
 ## API Module Pattern
 

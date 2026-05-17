@@ -33,7 +33,7 @@ export FLUIDDYN_PATH_SCRATCH=/path/to/working/directory
 
 No API keys or authentication required.
 
-See `references/installation.md` for complete installation instructions and environment configuration.
+See `(see docs)` for complete installation instructions and environment configuration.
 
 ### 2. Running Simulations
 
@@ -97,7 +97,6 @@ sim.output.phys_fields.plot("vx")
 ```python
 sim.output.spatial_means.plot()
 ```
-
 
 ### 6. Advanced Features
 

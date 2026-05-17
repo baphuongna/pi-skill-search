@@ -49,7 +49,7 @@ plot_histogram(counts)   # Results histogram
 
 ### 2. Building Quantum Circuits
 For constructing quantum circuits with gates, measurements, and composition:
-- **See `references/circuits.md`**
+- **See `(see docs)`**
 
 Topics covered:
 - Creating circuits with QuantumCircuit
@@ -61,7 +61,7 @@ Topics covered:
 
 ### 3. Primitives (Sampler and Estimator)
 For executing quantum circuits and computing results:
-- **See `references/primitives.md`**
+- **See `(see docs)`**
 
 Topics covered:
 - **Sampler**: Get bitstring measurements and probability distributions
@@ -73,7 +73,7 @@ Topics covered:
 
 ### 4. Transpilation and Optimization
 For optimizing circuits and preparing for hardware execution:
-- **See `references/transpilation.md`**
+- **See `(see docs)`**
 
 Topics covered:
 - Why transpilation is necessary
@@ -85,7 +85,7 @@ Topics covered:
 
 ### 5. Visualization
 For displaying circuits, results, and quantum states:
-- **See `references/visualization.md`**
+- **See `(see docs)`**
 
 Topics covered:
 - Circuit drawings (text, matplotlib, LaTeX)
@@ -97,7 +97,7 @@ Topics covered:
 
 ### 6. Hardware Backends
 For running on simulators and real quantum computers:
-- **See `references/backends.md`**
+- **See `(see docs)`**
 
 Topics covered:
 - IBM Quantum backends and authentication
@@ -112,7 +112,7 @@ Topics covered:
 
 ### 7. Qiskit Patterns Workflow
 For implementing the four-step quantum computing workflow:
-- **See `references/patterns.md`**
+- **See `(see docs)`**
 
 Topics covered:
 

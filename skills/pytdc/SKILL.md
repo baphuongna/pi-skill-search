@@ -25,16 +25,16 @@ This skill should be used when:
 The basic pattern for accessing any TDC dataset follows this structure:
 
 ```python
-from tdc.<problem> import <Task>
-data = <Task>(name='<Dataset>')
+from tdc.<problem> import 
+data = (name='')
 split = data.get_split(method='scaffold', seed=1, frac=[0.7, 0.1, 0.2])
 df = data.get_data(format='df')
 ```
 
 Where:
 - `<problem>`: One of `single_pred`, `multi_pred`, or `generation`
-- `<Task>`: Specific task category (e.g., ADME, DTI, MolGen)
-- `<Dataset>`: Dataset name within that task
+- ``: Specific task category (e.g., ADME, DTI, MolGen)
+- ``: Dataset name within that task
 
 # Returns dict with 'train', 'valid', 'test' DataFrames
 ```

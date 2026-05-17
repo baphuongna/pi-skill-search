@@ -3,7 +3,6 @@ name: cancel
 description: Cancel any active OMC mode (autopilot, ralph, ultrawork, ultraqa, swarm, ultrapilot, pipeline, team)
 ---
 
-
 # Cancel Skill
 
 Intelligent cancellation that detects and cancels the active OMC mode.
@@ -30,7 +29,7 @@ Automatically detects which mode is active and cancels it:
 ## Usage
 
 ```
-/oh-my-claudecode:cancel
+cancel
 ```
 
 Or say: "cancelomc", "stopomc"

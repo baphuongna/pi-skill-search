@@ -57,7 +57,7 @@ clean_smiles = dm.standardize_smiles(smiles)
 
 ### 2. Reading and Writing Molecular Files
 
-Refer to `references/io_module.md` for comprehensive I/O documentation.
+Refer to `(see docs)` for comprehensive I/O documentation.
 
 **Reading files**:
 ```python
@@ -97,7 +97,7 @@ dm.to_sdf(mols, "s3://bucket/output.sdf")
 
 ### 3. Molecular Descriptors and Properties
 
-Refer to `references/descriptors_viz.md` for detailed descriptor documentation.
+Refer to `(see docs)` for detailed descriptor documentation.
 
 **Computing descriptors for a single molecule**:
 ```python

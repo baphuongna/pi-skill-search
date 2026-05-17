@@ -46,7 +46,7 @@ expand((x + 1)**3)  # x**3 + 3*x**2 + 3*x + 1
 factor(x**2 - 1)    # (x - 1)*(x + 1)
 ```
 
-**For detailed basics:** See `references/core-capabilities.md`
+**For detailed basics:** See `(see docs)`
 
 ### 2. Calculus
 

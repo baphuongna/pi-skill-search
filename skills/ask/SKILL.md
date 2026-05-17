@@ -3,7 +3,6 @@ name: ask
 description: Process-first advisor routing for Claude, Codex, or Gemini via `omc ask`, with artifact capture and no raw CLI assembly
 ---
 
-
 # Ask
 
 Use OMC's canonical advisor skill to route a prompt through the local Claude, Codex, or Gemini CLI and persist the result as an ask artifact.
@@ -11,15 +10,15 @@ Use OMC's canonical advisor skill to route a prompt through the local Claude, Co
 ## Usage
 
 ```bash
-/oh-my-claudecode:ask <claude|codex|gemini> <question or task>
+ask <claude|codex|gemini> <question or task>
 ```
 
 Examples:
 
 ```bash
-/oh-my-claudecode:ask codex "review this patch from a security perspective"
-/oh-my-claudecode:ask gemini "suggest UX improvements for this flow"
-/oh-my-claudecode:ask claude "draft an implementation plan for issue #123"
+ask codex "review this patch from a security perspective"
+ask gemini "suggest UX improvements for this flow"
+ask claude "draft an implementation plan for issue #123"
 ```
 
 ## Routing
@@ -52,5 +51,4 @@ gemini --version
 ```
 
 Task: {{ARGUMENTS}}
-
 

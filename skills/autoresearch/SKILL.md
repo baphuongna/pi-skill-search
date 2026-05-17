@@ -3,26 +3,16 @@ name: autoresearch
 description: Stateful single-mission improvement loop with strict evaluator contract, markdown decision logs, and max-runtime stop behavior
 ---
 
-
-
-
-
-
-<Do_Not_Use_When>
 - You need evaluator generation at runtime — use `/deep-interview --autoresearch` first
 - You need multiple missions orchestrated together — v1 forbids that
 - You want the deprecated `omc autoresearch` CLI flow — it is no longer authoritative
-</Do_Not_Use_When>
 
-<Contract>
 - Single-mission only in v1
 - Mission setup/evaluator generation stays in `deep-interview --autoresearch`
 - Evaluator output must be structured JSON with required boolean `pass` and optional numeric `score`
 - Non-passing iterations do **not** stop the run
 - Stop conditions are explicit and bounded, with max-runtime as the primary strict stop hook
-</Contract>
 
-<Required_Artifacts>
 Canonical persistent storage lives under `.omc/autoresearch/<mission-slug>/` and/or `.omc/logs/autoresearch/<run-id>/`.
 
 Minimum required artifacts:
@@ -43,9 +33,7 @@ Recommended canonical shape:
     decision-log.md
 ```
 Reuse existing runtime artifacts when available rather than duplicating them unnecessarily.
-</Required_Artifacts>
 
-<Workflow>
 1. Confirm a single mission exists and evaluator setup is already available.
 2. Ensure mode/state is active for `autoresearch` and records:
    - mission slug/dir
@@ -63,17 +51,13 @@ Reuse existing runtime artifacts when available rather than duplicating them unn
    - max-runtime ceiling is reached
    - user explicitly cancels
    - another explicit terminal condition is recorded by the runtime
-</Workflow>
 
-<Cron_Integration>
 Claude Code native cron is a supported integration point for periodic mission enhancement. In v1, prefer documenting/configuring cron inputs over building a large scheduler UI.
 
 If cron is used:
 - keep one mission per scheduled job
 - preserve the same mission/evaluator contract
 - append new run artifacts rather than overwriting prior experiments
-</Cron_Integration>
 
-<Execution_Policy>
 - Do not hand execution back to `omc autoresearch`
 

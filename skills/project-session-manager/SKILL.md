@@ -3,7 +3,6 @@ name: project-session-manager
 description: Worktree-first dev environment manager for issues, PRs, and features with optional tmux sessions
 ---
 
-
 # Project Session Manager (PSM) Skill
 
 `psm` is the compatibility alias for this canonical skill entrypoint.
@@ -18,7 +17,7 @@ description: Worktree-first dev environment manager for issues, PRs, and feature
 
 Automate isolated development environments using git worktrees and tmux sessions with Claude Code. Enables parallel work across multiple tasks, projects, and repositories.
 
-Canonical slash command: `/oh-my-claudecode:project-session-manager` (alias: `/oh-my-claudecode:psm`).
+Canonical slash command: `project-session-manager` (alias: `psm`).
 
 ## Commands
 
@@ -26,7 +25,7 @@ Canonical slash command: `/oh-my-claudecode:project-session-manager` (alias: `/o
 |---------|-------------|---------|
 | `review <ref>` | PR review session | `/psm review omc#123` |
 | `fix <ref>` | Issue fix session | `/psm fix omc#42` |
-| `feature <proj> <name>` | Feature development | `/psm feature omc add-webhooks` |
+| `feature <proj> ` | Feature development | `/psm feature omc add-webhooks` |
 | `list [project]` | List active sessions | `/psm list` |
 | `attach <session>` | Attach to session | `/psm attach omc:pr-123` |
 | `kill <session>` | Kill session | `/psm kill omc:pr-123` |

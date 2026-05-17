@@ -26,7 +26,7 @@ Use this skill when:
 
 PyLabRobot provides comprehensive laboratory automation through six main capability areas, each detailed in the references/ directory:
 
-### 1. Liquid Handling (`references/liquid-handling.md`)
+### 1. Liquid Handling (`(see docs)`)
 
 Control liquid handling robots for aspirating, dispensing, and transferring liquids. Key operations include:
 - **Basic Operations**: Aspirate, dispense, transfer liquids between wells
@@ -35,7 +35,7 @@ Control liquid handling robots for aspirating, dispensing, and transferring liqu
 - **Volume Tracking**: Automatic tracking of liquid volumes in wells
 - **Hardware Support**: Hamilton STAR/STARlet, Opentrons OT-2, Tecan EVO, and others
 
-### 2. Resource Management (`references/resources.md`)
+### 2. Resource Management (`(see docs)`)
 
 Manage laboratory resources in a hierarchical system:
 - **Resource Types**: Plates, tip racks, troughs, tubes, carriers, and custom labware
@@ -44,7 +44,7 @@ Manage laboratory resources in a hierarchical system:
 - **Serialization**: Save and load deck layouts and states from JSON files
 - **Resource Discovery**: Access wells, tips, and containers through intuitive APIs
 
-### 3. Hardware Backends (`references/hardware-backends.md`)
+### 3. Hardware Backends (`(see docs)`)
 
 Connect to diverse laboratory equipment through backend abstraction:
 - **Liquid Handlers**: Hamilton STAR (full support), Opentrons OT-2, Tecan EVO
@@ -52,7 +52,7 @@ Connect to diverse laboratory equipment through backend abstraction:
 - **Platform Support**: Works on Windows, macOS, Linux, and Raspberry Pi
 - **Backend Switching**: Change robots by swapping backend without rewriting protocols
 
-### 4. Analytical Equipment (`references/analytical-equipment.md`)
+### 4. Analytical Equipment (`(see docs)`)
 
 Integrate plate readers and analytical instruments:
 - **Plate Readers**: BMG CLARIOstar for absorbance, luminescence, fluorescence
@@ -60,7 +60,7 @@ Integrate plate readers and analytical instruments:
 - **Integration Patterns**: Combine liquid handlers with analytical equipment
 - **Automated Workflows**: Move plates between devices automatically
 
-### 5. Material Handling (`references/material-handling.md`)
+### 5. Material Handling (`(see docs)`)
 
 Control environmental and material handling equipment:
 - **Heater Shakers**: Hamilton HeaterShaker, Inheco ThermoShake
@@ -69,7 +69,7 @@ Control environmental and material handling equipment:
 - **Pumps**: Cole Parmer Masterflex for fluid pumping operations
 - **Temperature Control**: Set and monitor temperatures during protocols
 
-### 6. Visualization & Simulation (`references/visualization.md`)
+### 6. Visualization & Simulation (`(see docs)`)
 
 Visualize and simulate laboratory protocols:
 - **Browser Visualizer**: Real-time 3D visualization of deck state

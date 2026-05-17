@@ -38,7 +38,7 @@ Dask provides five main components, each suited to different use cases:
 - Pandas operations are slow and need parallelization
 - Scaling from pandas prototype to production
 
-**Reference Documentation**: For comprehensive guidance on Dask DataFrames, refer to `references/dataframes.md` which includes:
+**Reference Documentation**: For comprehensive guidance on Dask DataFrames, refer to `(see docs)` which includes:
 - Reading data (single files, multiple files, glob patterns)
 - Common operations (filtering, groupby, joins, aggregations)
 - Custom operations with `map_partitions`
@@ -67,7 +67,7 @@ result = filtered.groupby('category').mean().compute()
 - Working with scientific datasets (HDF5, Zarr, NetCDF)
 - Need parallel linear algebra or array operations
 
-**Reference Documentation**: For comprehensive guidance on Dask Arrays, refer to `references/arrays.md` which includes:
+**Reference Documentation**: For comprehensive guidance on Dask Arrays, refer to `(see docs)` which includes:
 - Creating arrays (from NumPy, random, from disk)
 - Chunking strategies and optimization
 - Common operations (arithmetic, reductions, linear algebra)

@@ -3,7 +3,6 @@ name: hud
 description: Configure HUD display options (layout, presets, display elements)
 ---
 
-
 # HUD Skill
 
 Configure the OMC HUD (Heads-Up Display) for the statusline.
@@ -14,16 +13,16 @@ Note: All `~/.claude/...` paths in this guide respect `CLAUDE_CONFIG_DIR` when t
 
 | Command | Description |
 |---------|-------------|
-| `/oh-my-claudecode:hud` | Show current HUD status (auto-setup if needed) |
-| `/oh-my-claudecode:hud setup` | Install/repair HUD statusline |
-| `/oh-my-claudecode:hud minimal` | Switch to minimal display |
-| `/oh-my-claudecode:hud focused` | Switch to focused display (default) |
-| `/oh-my-claudecode:hud full` | Switch to full display |
-| `/oh-my-claudecode:hud status` | Show detailed HUD status |
+| `hud` | Show current HUD status (auto-setup if needed) |
+| `hud setup` | Install/repair HUD statusline |
+| `hud minimal` | Switch to minimal display |
+| `hud focused` | Switch to focused display (default) |
+| `hud full` | Switch to full display |
+| `hud status` | Show detailed HUD status |
 
 ## Auto-Setup
 
-When you run `/oh-my-claudecode:hud` or `/oh-my-claudecode:hud setup`, the system will automatically:
+When you run `hud` or `hud setup`, the system will automatically:
 1. Check if `~/.claude/hud/omc-hud.mjs` exists
 2. Check if `statusLine` is configured in `~/.claude/settings.json`
 3. If missing, create the HUD wrapper script and configure settings

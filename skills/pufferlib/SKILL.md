@@ -59,7 +59,7 @@ for iteration in range(num_iterations):
     trainer.mean_and_log()  # Log results
 ```
 
-**For comprehensive training guidance**, read `references/training.md` for:
+**For comprehensive training guidance**, read `(see docs)` for:
 - Complete training workflow and CLI options
 - Hyperparameter tuning with Protein
 - Distributed multi-GPU/multi-node training

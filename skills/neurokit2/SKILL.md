@@ -25,7 +25,7 @@ Apply this skill when working with:
 
 ### 1. Cardiac Signal Processing (ECG/PPG)
 
-Process electrocardiogram and photoplethysmography signals for cardiovascular analysis. See `references/ecg_cardiac.md` for detailed workflows.
+Process electrocardiogram and photoplethysmography signals for cardiovascular analysis. See `(see docs)` for detailed workflows.
 
 **Primary workflows:**
 - ECG processing pipeline: cleaning → R-peak detection → delineation → quality assessment
@@ -49,7 +49,7 @@ hrv = nk.hrv(peaks, sampling_rate=1000)  # Time, frequency, nonlinear domains
 
 ### 2. Heart Rate Variability Analysis
 
-Compute comprehensive HRV metrics from cardiac signals. See `references/hrv.md` for all indices and domain-specific analysis.
+Compute comprehensive HRV metrics from cardiac signals. See `(see docs)` for all indices and domain-specific analysis.
 
 **Supported domains:**
 - **Time domain**: SDNN, RMSSD, pNN50, SDSD, and derived metrics
@@ -71,7 +71,7 @@ hrv_rsa = nk.hrv_rsa(peaks, rsp_signal, sampling_rate=1000)
 
 ### 3. Brain Signal Analysis (EEG)
 
-Analyze electroencephalography signals for frequency power, complexity, and microstate patterns. See `references/eeg.md` for detailed workflows and MNE integration.
+Analyze electroencephalography signals for frequency power, complexity, and microstate patterns. See `(see docs)` for detailed workflows and MNE integration.
 
 **Primary capabilities:**
 - Frequency band power analysis (Delta, Theta, Alpha, Beta, Gamma)
@@ -93,7 +93,7 @@ dynamic = nk.microstates_dynamic(microstates)
 
 ### 4. Electrodermal Activity (EDA)
 
-Process skin conductance signals for autonomic nervous system assessment. See `references/eda.md` for detailed workflows.
+Process skin conductance signals for autonomic nervous system assessment. See `(see docs)` for detailed workflows.
 
 **Primary workflows:**
 - Signal decomposition into tonic and phasic components

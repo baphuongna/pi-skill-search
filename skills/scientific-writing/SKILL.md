@@ -78,7 +78,7 @@ Every document should be richly illustrated. Generate figures liberally - when i
 - **Results**: Present findings objectively without interpretation
 - **Discussion**: Interpret results, acknowledge limitations, propose future directions
 
-For detailed guidance on IMRAD structure, refer to `references/imrad_structure.md`.
+For detailed guidance on IMRAD structure, refer to `(see docs)`.
 
 **Alternative Structures**: Support discipline-specific formats including:
 - Review articles (narrative, systematic, scoping)
@@ -105,7 +105,7 @@ For detailed guidance on IMRAD structure, refer to `references/imrad_structure.m
 
 ### 3. Citation and Reference Management
 
-Apply citation styles correctly across disciplines. For comprehensive style guides, refer to `references/citation_styles.md`.
+Apply citation styles correctly across disciplines. For comprehensive style guides, refer to `(see docs)`.
 
 **Major Citation Styles:**
 - **AMA (American Medical Association)**: Numbered superscript citations, common in medicine

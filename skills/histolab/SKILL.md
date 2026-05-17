@@ -50,7 +50,7 @@ Load, inspect, and work with whole slide images in various formats.
 
 **Key classes:** `Slide`
 
-**Reference:** `references/slide_management.md` contains comprehensive documentation on:
+**Reference:** `(see docs)` contains comprehensive documentation on:
 - Slide initialization and configuration
 
 # Load sample data
@@ -81,7 +81,7 @@ Automatically identify tissue regions and filter background/artifacts.
 
 **Key classes:** `TissueMask`, `BiggestTissueBoxMask`, `BinaryMask`
 
-**Reference:** `references/tissue_masks.md` contains comprehensive documentation on:
+**Reference:** `(see docs)` contains comprehensive documentation on:
 - TissueMask: Segments all tissue regions using automated filters
 
 # Create tissue mask for all tissue regions

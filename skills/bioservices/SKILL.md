@@ -48,7 +48,7 @@ kegg_ids = u.mapping(fr="UniProtKB_AC-ID", to="KEGG", query="P43403")
 - `retrieve()`: Get protein entries in various formats (FASTA, XML, tab)
 - `mapping()`: Convert identifiers between databases
 
-Reference: `references/services_reference.md` for complete UniProt API details.
+Reference: `(see docs)` for complete UniProt API details.
 
 ### 2. Pathway Discovery and Analysis
 

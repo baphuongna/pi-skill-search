@@ -23,7 +23,7 @@ for spectrum in exp:
     print(f"Spectrum: {len(mz)} peaks")
 ```
 
-**For detailed file handling**: See `references/file_io.md`
+**For detailed file handling**: See `(see docs)`
 
 ### 2. Signal Processing
 
@@ -40,7 +40,7 @@ gaussian.setParameters(params)
 gaussian.filterExperiment(exp)
 ```
 
-**For algorithm details**: See `references/signal_processing.md`
+**For algorithm details**: See `(see docs)`
 
 ### 3. Feature Detection
 
@@ -52,7 +52,7 @@ ff = ms.FeatureFinder()
 ff.run("centroided", exp, features, params, ms.FeatureMap())
 ```
 
-**For complete workflows**: See `references/feature_detection.md`
+**For complete workflows**: See `(see docs)`
 
 ### 4. Peptide and Protein Identification
 
@@ -73,7 +73,7 @@ fdr = ms.FalseDiscoveryRate()
 fdr.apply(peptide_ids)
 ```
 
-**For detailed workflows**: See `references/identification.md`
+**For detailed workflows**: See `(see docs)`
 
 ### 5. Metabolomics Analysis
 
@@ -86,7 +86,7 @@ Typical workflow:
 4. Link features to consensus map
 5. Annotate with compound databases
 
-**For complete metabolomics workflows**: See `references/metabolomics.md`
+**For complete metabolomics workflows**: See `(see docs)`
 
 ## Data Structures
 
@@ -100,7 +100,7 @@ PyOpenMS uses these primary objects:
 - **PeptideIdentification**: Search results for peptides
 - **ProteinIdentification**: Search results for proteins
 
-**For detailed documentation**: See `references/data_structures.md`
+**For detailed documentation**: See `(see docs)`
 
 ## Common Workflows
 

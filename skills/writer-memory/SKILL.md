@@ -23,17 +23,17 @@ All data persists in `.writer-memory/memory.json` for git-friendly collaboration
 
 | Command | Action |
 |---------|--------|
-| `/oh-my-claudecode:writer-memory init <project-name>` | Initialize new project memory |
-| `/oh-my-claudecode:writer-memory status` | Show memory overview (character count, scene count, etc) |
-| `/oh-my-claudecode:writer-memory char add <name>` | Add new character |
-| `/oh-my-claudecode:writer-memory char <name>` | View character details |
-| `/oh-my-claudecode:writer-memory char update <name> <field> <value>` | Update character field |
-| `/oh-my-claudecode:writer-memory char list` | List all characters |
-| `/oh-my-claudecode:writer-memory rel add <char1> <char2> <type>` | Add relationship |
-| `/oh-my-claudecode:writer-memory rel <char1> <char2>` | View relationship |
-| `/oh-my-claudecode:writer-memory rel update <char1> <char2> <event>` | Add relationship event |
-| `/oh-my-claudecode:writer-memory scene add <title>` | Add new scene |
-| `/oh-my-claudecode:writer-memory scene <id>` | View scene details |
+| `writer-memory init <project-name>` | Initialize new project memory |
+| `writer-memory status` | Show memory overview (character count, scene count, etc) |
+| `writer-memory char add ` | Add new character |
+| `writer-memory char ` | View character details |
+| `writer-memory char update  <field> <value>` | Update character field |
+| `writer-memory char list` | List all characters |
+| `writer-memory rel add <char1> <char2> <type>` | Add relationship |
+| `writer-memory rel <char1> <char2>` | View relationship |
+| `writer-memory rel update <char1> <char2> <event>` | Add relationship event |
+| `writer-memory scene add <title>` | Add new scene |
+| `writer-memory scene <id>` | View scene details |
 
 ## Memory Types
 
@@ -51,7 +51,6 @@ Tracks individual character attributes essential for consistent portrayal:
 | `taboo` | 금기어 | Words/phrases they would never say |
 | `emotional_baseline` | 감정 기준선 | Default emotional state |
 | `triggers` | 트리거 | What provokes emotional reactions |
-
 
 ### 세계관 메모리 (World Memory)
 

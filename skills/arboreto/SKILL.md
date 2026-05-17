@@ -37,7 +37,7 @@ For standard GRN inference workflows including:
 - Filtering by transcription factors
 - Output format and interpretation
 
-**See**: `references/basic_inference.md`
+**See**: `(see docs)`
 
 **Use the ready-to-run script**: `scripts/basic_grn_inference.py` for standard inference tasks:
 ```bash
@@ -69,7 +69,7 @@ network_grnboost = grnboost2(expression_data=matrix)
 network_genie3 = genie3(expression_data=matrix)
 ```
 
-**For detailed algorithm comparison, parameters, and selection guidance**: `references/algorithms.md`
+**For detailed algorithm comparison, parameters, and selection guidance**: `(see docs)`
 
 ### 3. Distributed Computing
 

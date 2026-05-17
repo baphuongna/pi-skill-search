@@ -91,7 +91,7 @@ features = fp.featurize(['CCO', 'c1ccccc1'])
 - **Large datasets (>100K)**: Graph featurizers (MolGraphConvFeaturizer, DMPNNFeaturizer)
 - **Transfer learning**: Pretrained model featurizers (GroverFeaturizer)
 
-See `references/api_reference.md` for complete featurizer documentation.
+See `(see docs)` for complete featurizer documentation.
 
 ### 3. Data Splitting
 

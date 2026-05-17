@@ -49,7 +49,7 @@ G.add_edges_from([(1, 3), (2, 4)])
 G.add_edge(1, 4, weight=0.8, relation='interacts')
 ```
 
-**Reference**: See `references/graph-basics.md` for comprehensive guidance on creating, modifying, examining, and managing graph structures, including working with attributes and subgraphs.
+**Reference**: See `(see docs)` for comprehensive guidance on creating, modifying, examining, and managing graph structures, including working with attributes and subgraphs.
 
 ### 2. Graph Algorithms
 
@@ -91,7 +91,7 @@ is_connected = nx.is_connected(G)
 components = list(nx.connected_components(G))
 ```
 
-**Reference**: See `references/algorithms.md` for detailed documentation on all available algorithms including shortest paths, centrality measures, clustering, community detection, flows, matching, tree algorithms, and graph traversal.
+**Reference**: See `(see docs)` for detailed documentation on all available algorithms including shortest paths, centrality measures, clustering, community detection, flows, matching, tree algorithms, and graph traversal.
 
 ### 3. Graph Generators
 

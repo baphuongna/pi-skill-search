@@ -5,12 +5,12 @@ description: Consensus planning entrypoint that auto-gates vague ralph/autopilot
 
 # Ralplan (Consensus Planning Alias)
 
-Ralplan is a shorthand alias for `/oh-my-claudecode:plan --consensus`. It triggers iterative planning with Planner, Architect, and Critic agents until consensus is reached, with **RALPLAN-DR structured deliberation** (short mode by default, deliberate mode for high-risk work).
+Ralplan is a shorthand alias for `plan --consensus`. It triggers iterative planning with Planner, Architect, and Critic agents until consensus is reached, with **RALPLAN-DR structured deliberation** (short mode by default, deliberate mode for high-risk work).
 
 ## Usage
 
 ```
-/oh-my-claudecode:ralplan "task description"
+ralplan "task description"
 ```
 
 ## Flags
@@ -23,7 +23,7 @@ Ralplan is a shorthand alias for `/oh-my-claudecode:plan --consensus`. It trigge
 ## Usage with interactive mode
 
 ```
-/oh-my-claudecode:ralplan --interactive "task description"
+ralplan --interactive "task description"
 ```
 
 ## Behavior
@@ -35,7 +35,7 @@ Ralplan is a planning module. It may inspect context and draft or update plan/sp
 This skill invokes the Plan skill in consensus mode:
 
 ```
-/oh-my-claudecode:plan --consensus <arguments>
+plan --consensus <arguments>
 ```
 
 The consensus workflow:

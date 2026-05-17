@@ -72,7 +72,7 @@ START
 
 ### Quick Reference: Choosing the Right Test
 
-Use `references/test_selection_guide.md` for comprehensive guidance. Quick reference:
+Use `(see docs)` for comprehensive guidance. Quick reference:
 
 **Comparing Two Groups:**
 - Independent, continuous, normal → Independent t-test

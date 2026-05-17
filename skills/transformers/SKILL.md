@@ -53,7 +53,7 @@ Use for simple, optimized inference across many tasks. Supports text generation,
 
 **When to use**: Quick prototyping, simple inference tasks, no custom preprocessing needed.
 
-See `references/pipelines.md` for comprehensive task coverage and optimization.
+See `(see docs)` for comprehensive task coverage and optimization.
 
 ### 2. Model Loading and Management
 
@@ -61,7 +61,7 @@ Load pre-trained models with fine-grained control over configuration, device pla
 
 **When to use**: Custom model initialization, advanced device management, model inspection.
 
-See `references/models.md` for loading patterns and best practices.
+See `(see docs)` for loading patterns and best practices.
 
 ### 3. Text Generation
 
@@ -69,7 +69,7 @@ Generate text with LLMs using various decoding strategies (greedy, beam search, 
 
 **When to use**: Creative text generation, code generation, conversational AI, text completion.
 
-See `references/generation.md` for generation strategies and parameters.
+See `(see docs)` for generation strategies and parameters.
 
 ### 4. Training and Fine-Tuning
 
@@ -77,7 +77,7 @@ Fine-tune pre-trained models on custom datasets using the Trainer API with autom
 
 **When to use**: Task-specific model adaptation, domain adaptation, improving model performance.
 
-See `references/training.md` for training workflows and best practices.
+See `(see docs)` for training workflows and best practices.
 
 ### 5. Tokenization
 
@@ -85,7 +85,7 @@ Convert text to tokens and token IDs for model input, with padding, truncation, 
 
 **When to use**: Custom preprocessing pipelines, understanding model inputs, batch processing.
 
-See `references/tokenizers.md` for tokenization details.
+See `(see docs)` for tokenization details.
 
 ## Common Patterns
 

@@ -28,7 +28,7 @@ You are an expert GPU optimization engineer. Your job is to help users write new
 Choose the right tool based on what the user's code actually does. Read the appropriate reference file(s) before writing any GPU code.
 
 ### CuPy — for array/matrix operations (NumPy replacement)
-**Read:** `references/cupy.md`
+**Read:** `(see docs)`
 
 Use CuPy when the user's code is primarily:
 - NumPy array operations (element-wise math, linear algebra, FFT, sorting, reductions)
@@ -40,7 +40,7 @@ CuPy wraps NVIDIA's optimized libraries (cuBLAS, cuFFT, cuSOLVER, cuSPARSE, cuRA
 **Best for:** Linear algebra, FFTs, array math, image processing, signal processing, Monte Carlo with array ops, any NumPy-heavy workflow.
 
 ### Numba CUDA — for custom GPU kernels
-**Read:** `references/numba.md`
+**Read:** `(see docs)`
 
 Use Numba when the user needs:
 - Custom algorithms that don't map to standard array operations
@@ -55,7 +55,7 @@ Numba compiles Python directly into CUDA kernels. It gives full control over the
 **Best for:** Custom kernels, particle simulations, stencil codes, custom reductions, algorithms needing shared memory, any code with complex per-element logic.
 
 ### Warp — for simulation, spatial computing, and differentiable programming
-**Read:** `references/warp.md`
+**Read:** `(see docs)`
 
 Use Warp when the user's code is primarily:
 - Physics simulation (particles, cloth, fluids, rigid bodies, DEM, SPH)
@@ -72,7 +72,7 @@ Warp JIT-compiles `@wp.kernel` Python functions to CUDA, with built-in types for
 **Warp vs Numba:** Both compile Python to CUDA, but Warp provides higher-level spatial types (vec3, quat, Mesh, Volume) and automatic differentiation, while Numba gives raw CUDA control (shared memory, block/thread management, atomics). Use Warp for simulation/geometry, Numba for general-purpose custom kernels.
 
 ### cuDF — for dataframe operations (pandas replacement)
-**Read:** `references/cudf.md`
+**Read:** `(see docs)`
 
 Use cuDF when the user's code is primarily:
 - pandas DataFrame operations (filtering, groupby, joins, aggregations)
@@ -85,7 +85,7 @@ cuDF's `cudf.pandas` accelerator mode can speed up existing pandas code with zer
 **Best for:** Data wrangling, ETL, groupby/aggregations, joins, string processing on dataframes, time series on tabular data.
 
 ### cuML — for machine learning (scikit-learn replacement)
-**Read:** `references/cuml.md`
+**Read:** `(see docs)`
 
 Use cuML when the user's code is primarily:
 - scikit-learn estimators (classification, regression, clustering, dimensionality reduction)
@@ -99,7 +99,7 @@ cuML's `cuml.accel` accelerator mode can speed up existing sklearn code with zer
 **Best for:** Classification, regression, clustering, dimensionality reduction, preprocessing pipelines, model inference, any scikit-learn-heavy workflow.
 
 ### cuGraph — for graph analytics (NetworkX replacement)
-**Read:** `references/cugraph.md`
+**Read:** `(see docs)`
 
 Use cuGraph when the user's code is primarily:
 - NetworkX graph algorithms (centrality, community detection, shortest paths, PageRank)
@@ -112,7 +112,7 @@ cuGraph's `nx-cugraph` backend can accelerate existing NetworkX code with zero c
 **Best for:** PageRank, betweenness centrality, community detection (Louvain, Leiden), BFS/SSSP, connected components, link prediction, graph neural network sampling, any NetworkX-heavy workflow.
 
 ### KvikIO — for high-performance GPU file IO
-**Read:** `references/kvikio.md`
+**Read:** `(see docs)`
 
 Use KvikIO when the user's code is primarily:
 

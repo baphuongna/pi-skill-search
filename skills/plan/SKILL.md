@@ -3,23 +3,13 @@ name: plan
 description: Strategic planning with optional interview workflow
 ---
 
-
-
-
-
-
-<Do_Not_Use_When>
 - User wants autonomous end-to-end execution -- use `autopilot` instead
 - User wants to start coding immediately with a clear task -- use `ralph` or delegate to executor
 - User asks a simple question that can be answered directly -- just answer it
 - Task is a single focused fix with obvious scope -- use an execution skill instead of running it from this planning module
-</Do_Not_Use_When>
 
-<Why_This_Exists>
 Jumping into code without understanding requirements leads to rework, scope creep, and missed edge cases. Plan provides structured requirements gathering, expert analysis, and quality-gated plans so that execution starts from a solid foundation. The consensus mode adds multi-perspective validation for high-stakes projects.
-</Why_This_Exists>
 
-<Execution_Policy>
 - Auto-detect interview vs direct mode based on request specificity
 - Ask one question at a time during interviews -- never batch multiple questions
 - Gather codebase facts via `explore` agent before asking the user about them
@@ -27,9 +17,6 @@ Jumping into code without understanding requirements leads to rework, scope cree
 - Consensus mode runs fully automated by default; add `--interactive` to enable user prompts at draft review and final approval steps
 - Consensus mode uses RALPLAN-DR short mode by default; switch to deliberate mode with `--deliberate` or when the request explicitly signals high risk (auth/security, data migration, destructive/irreversible changes, production incident, compliance/PII, public API breakage)
 - **Planning/execution boundary:** planning modes inspect context and produce plans/specs/proposals only. They MUST mark artifacts as `pending approval` unless the user has explicitly opted into execution in the current turn or via the structured approval UI. Before explicit execution approval, planning modes MUST NOT run mutation-oriented shell commands, edit source files, commit, push, open PRs, invoke execution skills, or delegate implementation tasks.
-</Execution_Policy>
-
-<Steps>
 
 ### Mode Selection
 

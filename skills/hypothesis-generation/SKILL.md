@@ -92,7 +92,7 @@ Develop 3-5 distinct hypotheses that could explain the phenomenon. Each hypothes
 
 ### 5. Evaluate Hypothesis Quality
 
-Assess each hypothesis against established quality criteria from `references/hypothesis_quality_criteria.md`:
+Assess each hypothesis against established quality criteria from `(see docs)`:
 
 **Testability:** Can the hypothesis be empirically tested?
 **Falsifiability:** What observations would disprove it?
@@ -106,7 +106,7 @@ Explicitly note the strengths and weaknesses of each hypothesis.
 
 ### 6. Design Experimental Tests
 
-For each viable hypothesis, propose specific experiments or studies to test it. Consult `references/experimental_design_patterns.md` for common approaches:
+For each viable hypothesis, propose specific experiments or studies to test it. Consult `(see docs)` for common approaches:
 
 **Experimental design elements:**
 - What would be measured or observed?

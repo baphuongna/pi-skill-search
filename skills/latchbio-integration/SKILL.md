@@ -94,7 +94,7 @@ This skill should be used when encountering any of the following scenarios:
 
 This skill includes comprehensive reference documentation organized by capability:
 
-### references/workflow-creation.md
+### (see docs)
 **Read this for:**
 - Creating and registering workflows
 - Task definition and decorators
@@ -112,6 +112,6 @@ This skill includes comprehensive reference documentation organized by capabilit
 - Launch plans with preset parameters
 - Conditional UI sections
 
-### references/data-management.md
+### (see docs)
 **Read this for:**
 
