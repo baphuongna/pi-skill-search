@@ -1,7 +1,8 @@
 # Agent Operating Guide
 
 This repository is in **implementation phase**. Phases 0–10 are complete
-with 106 passing tests across 12 test files.
+with 123 passing tests across 14 test files.
+258 bundled skills from 10 source repos, 14/14 categories, 0 Other.
 application source folders, package scripts, CI, or tests until a story
 (starting with E01-S01) explicitly moves the project into implementation.
 

@@ -4,7 +4,7 @@
 
 ## Problem
 
-Pi injects **all** skill `<available_skills>` descriptions into every agent's system prompt. With 137 scientific skills, that's ~23,500 tokens wasted per turn — even when the agent never uses any skill.
+Pi injects **all** skill `<available_skills>` descriptions into every agent's system prompt. With 258 skills across 14 categories, that's ~40,000+ tokens wasted per turn — even when the agent never uses any skill.
 
 ## Solution
 
@@ -50,7 +50,7 @@ test/
   format.test.ts      ← 12 tests
   strip.test.ts       ← 6 tests
   lifecycle.test.ts   ← 15 tests
-  integration.test.ts ← 8 tests (137-skill fixture)
+  integration.test.ts ← 8 tests (258-skill corpus)
   failure-isolation.test.ts ← 3 tests
   coverage.test.ts    ← 3 tests (classifier coverage)
   proactive.test.ts   ← 9 tests

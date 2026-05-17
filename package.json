@@ -1,8 +1,9 @@
 {
 	"name": "pi-skill-search",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"description": "On-demand skill search extension for Pi — replaces inject-all with search tool + category summary",
 	"type": "module",
+	"types": "index.ts",
 	"main": "index.ts",
 	"peerDependencies": {
 		"@earendil-works/pi-coding-agent": ">=0.74.1"
@@ -31,6 +32,7 @@
 	"files": [
 		"index.ts",
 		"src/**/*.ts",
+		"skills/",
 		"README.md",
 		"LICENSE",
 		"CHANGELOG.md"
