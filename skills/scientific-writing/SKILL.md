@@ -1,0 +1,120 @@
+---
+name: scientific-writing
+description: Core skill for the deep research and writing tool. Write scientific manuscripts in full paragraphs (never bullet points). Use two-stage process with (1) section outlines with key points using research-lookup then (2) convert to flowing prose. IMRAD structure, citations (APA/AMA/Vancouver), figures/tables, reporting guidelines (CONSORT/STROBE/PRISMA), for research papers and journal submissions.
+---
+
+# Scientific Writing
+
+## Overview
+
+**This is the core skill for the deep research and writing tool**—combining AI-driven deep research with well-formatted written outputs. Every document produced is backed by comprehensive literature search and verified citations through the research-lookup skill.
+
+Scientific writing is a process for communicating research with precision and clarity. Write manuscripts using IMRAD structure, citations (APA/AMA/Vancouver), figures/tables, and reporting guidelines (CONSORT/STROBE/PRISMA). Apply this skill for research papers and journal submissions.
+
+**Critical Principle: Always write in full paragraphs with flowing prose. Never submit bullet points in the final manuscript.** Use a two-stage process: first create section outlines with key points using research-lookup, then convert those outlines into complete paragraphs.
+
+## When to Use This Skill
+
+This skill should be used when:
+- Writing or revising any section of a scientific manuscript (abstract, introduction, methods, results, discussion)
+- Structuring a research paper using IMRAD or other standard formats
+- Formatting citations and references in specific styles (APA, AMA, Vancouver, Chicago, IEEE)
+- Creating, formatting, or improving figures, tables, and data visualizations
+- Applying study-specific reporting guidelines (CONSORT for trials, STROBE for observational studies, PRISMA for reviews)
+- Drafting abstracts that meet journal requirements (structured or unstructured)
+- Preparing manuscripts for submission to specific journals
+- Improving writing clarity, conciseness, and precision
+- Ensuring proper use of field-specific terminology and nomenclature
+- Addressing reviewer comments and revising manuscripts
+
+## Visual Enhancement with Scientific Schematics
+
+**⚠️ MANDATORY: Every scientific paper MUST include a graphical abstract plus 1-2 additional AI-generated figures using the scientific-schematics skill.**
+
+This is not optional. Scientific papers without visual elements are incomplete. Before finalizing any document:
+1. **ALWAYS generate a graphical abstract** as the first visual element
+2. Generate at minimum ONE additional schematic or diagram using scientific-schematics
+3. Prefer 3-4 total figures for comprehensive papers (graphical abstract + methods flowchart + results visualization + conceptual diagram)
+
+### Graphical Abstract (REQUIRED)
+
+**Every scientific writeup MUST include a graphical abstract.** This is a visual summary of your paper that:
+- Appears before or immediately after the text abstract
+- Captures the entire paper's key message in one image
+- Is suitable for journal table of contents display
+- Uses landscape orientation (typically 1200x600px)
+
+**Generate the graphical abstract FIRST:**
+```bash
+python scripts/generate_schematic.py "Graphical abstract for [paper title]: [brief description showing workflow from input → methods → key findings → conclusions]" -o figures/graphical_abstract.png
+```
+
+**Graphical Abstract Requirements:**
+- **Content**: Visual summary showing workflow, key methods, main findings, and conclusions
+
+### Additional Figures (GENERATE EXTENSIVELY)
+
+**⚠️ CRITICAL: Use BOTH scientific-schematics AND generate-image EXTENSIVELY throughout all documents.**
+
+Every document should be richly illustrated. Generate figures liberally - when in doubt, add a visual.
+
+**MINIMUM Figure Requirements:**
+
+| Document Type | Minimum | Recommended |
+|--------------|---------|-------------|
+| Research Papers | 5 | 6-8 |
+| Literature Reviews | 4 | 5-7 |
+| Market Research | 20 | 25-30 |
+| Presentations | 1/slide | 1-2/slide |
+| Posters | 6 | 8-10 |
+
+## Core Capabilities
+
+### 1. Manuscript Structure and Organization
+
+**IMRAD Format**: Guide papers through the standard Introduction, Methods, Results, And Discussion structure used across most scientific disciplines. This includes:
+- **Introduction**: Establish research context, identify gaps, state objectives
+- **Methods**: Detail study design, populations, procedures, and analysis approaches
+- **Results**: Present findings objectively without interpretation
+- **Discussion**: Interpret results, acknowledge limitations, propose future directions
+
+For detailed guidance on IMRAD structure, refer to `references/imrad_structure.md`.
+
+**Alternative Structures**: Support discipline-specific formats including:
+- Review articles (narrative, systematic, scoping)
+- Case reports and case series
+- Meta-analyses and pooled analyses
+- Theoretical/modeling papers
+- Methods papers and protocols
+
+### 2. Section-Specific Writing Guidance
+
+**Abstract Composition**: Craft concise, standalone summaries (100-250 words) that capture the paper's purpose, methods, results, and conclusions. Support both structured abstracts (with labeled sections) and unstructured single-paragraph formats.
+
+**Introduction Development**: Build compelling introductions that:
+- Establish the research problem's importance
+- Review relevant literature systematically
+- Identify knowledge gaps or controversies
+- State clear research questions or hypotheses
+- Explain the study's novelty and significance
+
+**Methods Documentation**: Ensure reproducibility through:
+- Detailed participant/sample descriptions
+- Clear procedural documentation
+- Statistical methods with justification
+
+### 3. Citation and Reference Management
+
+Apply citation styles correctly across disciplines. For comprehensive style guides, refer to `references/citation_styles.md`.
+
+**Major Citation Styles:**
+- **AMA (American Medical Association)**: Numbered superscript citations, common in medicine
+- **Vancouver**: Numbered citations in square brackets, biomedical standard
+- **APA (American Psychological Association)**: Author-date in-text citations, common in social sciences
+- **Chicago**: Notes-bibliography or author-date, humanities and sciences
+- **IEEE**: Numbered square brackets, engineering and computer science
+
+**Best Practices:**
+
+<!-- condensed from source -->
+
