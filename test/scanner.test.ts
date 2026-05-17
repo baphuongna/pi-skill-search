@@ -7,8 +7,8 @@ describe("scanSkillDirectory", () => {
 		const dir = `${root}/skills`;
 		const skills = scanSkillDirectory(dir);
 
-		expect(skills.length).toBeGreaterThanOrEqual(150);
-		expect(skills.length).toBeLessThanOrEqual(200);
+		expect(skills.length).toBeGreaterThanOrEqual(200);
+		expect(skills.length).toBeLessThanOrEqual(300);
 
 		// Every skill has required fields
 		for (const s of skills) {
