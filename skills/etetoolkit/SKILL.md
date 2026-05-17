@@ -101,3 +101,4 @@ ortho_groups = tree.get_speciation_trees()
 for i, ortho_tree in enumerate(ortho_groups):
     ortho_tree.write(outfile=f"ortholog_group_{i}.nw")
 ```
+

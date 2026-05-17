@@ -75,3 +75,4 @@ Without cleanup, the stop hook blocks all subsequent stops with `[RALPLAN - CONS
 1. **Planner** creates initial plan and a compact **RALPLAN-DR summary** before any Architect review. The summary **MUST** include:
    - **Principles** (3-5)
    - **Decision Drivers** (top 3)
+

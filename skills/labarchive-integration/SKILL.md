@@ -94,3 +94,4 @@ python3 scripts/entry_operations.py upload --uid USER_ID --nbid NOTEBOOK_ID --en
 
 # Create a new entry with text content
 python3 scripts/entry_operations.py create --uid USER_ID --nbid NOTEBOOK_ID --title "Experiment Results" --content "Results from today's experiment..."
+

@@ -29,9 +29,3 @@ Find the real failure signal quickly and explain the next corrective step.
 - Do not prescribe broad rewrites before isolating the failure.
 
 ## Output
-- Observed failure
-- Root-cause hypothesis
-- Evidence for that hypothesis
-- Smallest next action
-
-

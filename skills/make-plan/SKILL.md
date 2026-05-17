@@ -56,9 +56,3 @@ The orchestrator consolidates findings into a single Phase 0 output.
 - Session Boundaries: Each phase should be self-contained with its own doc references
 
 ## Anti-Patterns to Prevent
-
-- Inventing API methods that "should" exist
-- Adding parameters not in documentation
-- Skipping verification steps
-- Assuming structure without checking examples
-

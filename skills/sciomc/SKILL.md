@@ -83,3 +83,4 @@ Task(subagent_type="oh-my-claudecode:scientist", model="opus", prompt="[RESEARCH
 | Complex reasoning | `scientist` | opus | Architecture analysis, cross-cutting concerns, hypothesis validation |
 
 ### Routing Decision Guide
+

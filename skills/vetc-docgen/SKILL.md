@@ -106,3 +106,4 @@ New: Smart OTP via app push (free, <2s delivery).
 - Disable feature flag → falls back to SMS OTP
 - No schema rollback needed
 ```
+

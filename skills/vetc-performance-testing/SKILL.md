@@ -100,4 +100,4 @@ Target SLA:
   - p95 < 300ms (Tier 0)
   - p99 < 800ms
   - Error rate < 0.1%
-  - Throughput >= 500 req/s sustained
+

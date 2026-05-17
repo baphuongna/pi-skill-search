@@ -25,3 +25,4 @@ Use this skill for knowledge graph and RDF data processing.
 - Don't use string concatenation for URIs — use `Namespace` to ensure consistency.
 - Don't load large RDF files into memory — use `g.parse()` with streaming.
 - Don't write raw SPARQL without testing in a SPARQL playground first.
+

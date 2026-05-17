@@ -25,3 +25,4 @@ Use this skill for gradient boosting on tabular data.
 - Don't use default hyperparameters for production — always tune.
 - Don't ignore categorical encoding — XGBoost needs numeric input.
 - Don't interpret feature importance as causal relationship.
+

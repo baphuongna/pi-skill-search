@@ -25,3 +25,4 @@ Use this skill for statistical analysis and modeling.
 - Don't interpret p-values without checking model assumptions.
 - Don't use OLS for time series without testing stationarity first.
 - Don't ignore confidence intervals — point estimates are incomplete.
+

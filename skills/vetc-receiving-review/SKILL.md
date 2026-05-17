@@ -104,3 +104,4 @@ Agent reviewers (`vetc-java-reviewer`, `vetc-typescript-reviewer`, `vetc-securit
 **Issue:** {description}
 **Suggestion:** {how to fix}
 ```
+

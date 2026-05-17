@@ -112,3 +112,4 @@ Tạo Implementation Plan gồm:
 | Oracle sequence gap | LOW | LOW | allocationSize=1 |
 | ACS timeout | MEDIUM | HIGH | try-catch + ErrorCode |
 | ... | | | |
+

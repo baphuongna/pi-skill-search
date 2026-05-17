@@ -111,4 +111,4 @@ Bullet list with SYMPTOMS and use cases
 When NOT to use
 
 ## Core Pattern (for techniques/patterns)
-Before/after code comparison
+

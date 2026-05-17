@@ -108,7 +108,3 @@ Create OMERO.scripts that run server-side for batch processing, automated workfl
 Covers permissions, filesets, cross-group queries, delete operations, and other advanced functionality.
 
 **Common scenarios:**
-- Handle group permissions
-- Access original imported files
-- Perform cross-group queries
-- Delete objects with callbacks

@@ -95,3 +95,4 @@ sns.lineplot(data=timeseries, x='date', y='value', hue='category')
 sns.relplot(data=df, x='total_bill', y='tip',
             col='time', row='sex', hue='smoker', kind='scatter')
 ```
+

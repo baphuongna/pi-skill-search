@@ -114,3 +114,4 @@ Tạo `docs/architecture/project-knowledge.md` — persistent knowledge base:
 |------|---------|--------|
 | Bút toán | Journal entry | ACS |
 | Đối soát | Reconciliation | Reconcile |
+

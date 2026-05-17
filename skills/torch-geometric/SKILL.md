@@ -114,3 +114,4 @@ Pick based on your task and graph structure:
 All conv layers accept `(x, edge_index)` at minimum. Many also accept `edge_attr` for edge features.
 
 ### Lazy Initialization
+

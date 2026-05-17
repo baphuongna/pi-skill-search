@@ -118,3 +118,4 @@ Created by AHK Strategies — consciousness infrastructure for the age of AI.
 Learn more: https://ahkstrategies.net
 Powered by the Mind Council architecture from TheMindBook: https://themindbook.app
 ```
+

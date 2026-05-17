@@ -114,4 +114,4 @@ SOAP notes are the most common format for progress notes in clinical practice.
 The Health Insurance Portability and Accountability Act (HIPAA) mandates protection of patient health information.
 
 **Key Requirements:**
-- Minimum necessary disclosure
+

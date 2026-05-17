@@ -49,9 +49,3 @@ For protocols not listed above, use the **EstiMate** chat to describe a custom p
 Access Ginkgo Cloud Lab at https://cloud.ginkgo.bio. Account creation or institutional access may be required. Contact Ginkgo at cloud@ginkgo.bio for access questions.
 
 ## Key Infrastructure
-
-- **RACs (Reconfigurable Automation Carts):** Modular robotic units with high-precision arms and maglev transport
-- **Catalyst Software:** Protocol orchestration, scheduling, parameterization, and real-time monitoring
-- **70+ integrated instruments:** Sample prep, liquid handling, analytical readouts, storage, incubation
-- **Nebula:** Ginkgo's autonomous lab facility in Boston, MA
-

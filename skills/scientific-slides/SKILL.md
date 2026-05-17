@@ -113,4 +113,4 @@ Include these elements in every prompt (customize as needed):
 [Slide content description]
 
 # Combine all slides into a PDF presentation
-python scripts/slides_to_pdf.py slides/*.png -o presentation.pdf
+

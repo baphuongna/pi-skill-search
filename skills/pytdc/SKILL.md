@@ -98,3 +98,4 @@ Predict binding affinity between drugs and protein targets.
 from tdc.multi_pred import DTI
 data = DTI(name='BindingDB_Kd')
 split = data.get_split()
+

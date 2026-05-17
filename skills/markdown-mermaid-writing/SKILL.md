@@ -114,3 +114,4 @@ Key rules to internalize:
 ### Step 3: Pick the diagram type and read its guide
 
 Before creating any Mermaid diagram: read `references/mermaid_style_guide.md`.
+

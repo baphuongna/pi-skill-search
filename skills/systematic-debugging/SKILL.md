@@ -115,3 +115,4 @@ If you catch yourself thinking:
 - "It's probably X, let me fix that"
 - "I don't fully understand but this might work"
 - "Pattern says X but I'll adapt it differently"
+

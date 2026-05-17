@@ -111,3 +111,4 @@ mvn verify -Djacoco.threshold=0.80
 # Frontend — Jest coverage
 npm test -- --coverage --watchAll=false
 ```
+

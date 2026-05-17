@@ -36,8 +36,3 @@ Promote durable, reusable knowledge into the right memory surface instead of lea
 - If something is uncertain, mark it as uncertain rather than storing it as fact.
 
 ## Output
-- What was stored
-- Where it was stored
-- Any duplicates/conflicts found
-
-

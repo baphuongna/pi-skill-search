@@ -100,3 +100,4 @@ Handle reference genome sequences and compute digests following the GA4GH refget
 # Load reference and extract sequences
 store = gtars.RefgetStore.from_fasta("hg38.fa")
 sequence = store.get_subsequence("chr1", 1000, 2000)
+

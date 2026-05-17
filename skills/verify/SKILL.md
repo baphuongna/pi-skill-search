@@ -29,3 +29,4 @@ Turn vague “it should work” claims into concrete evidence.
 - If no realistic verification path exists, say that explicitly instead of bluffing.
 - Prefer concise evidence summaries over noisy logs.
 
+

@@ -112,6 +112,3 @@ Transform evaluation findings into constructive, actionable feedback:
 - **Evidence-based** - Ground feedback in evaluation criteria
 
 **Feedback Format Options:**
-- Structured report with dimension-by-dimension analysis
-- Annotated comments mapped to specific document sections
-- Executive summary with key findings and recommendations

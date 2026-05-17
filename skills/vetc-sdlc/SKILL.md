@@ -93,3 +93,4 @@ Trước khi bắt đầu implementation, hỏi:
 Nếu câu trả lời là "yes" → cần justify trong spec/plan. Nếu không justify được → đừng làm.
 
 **Complexity Gate:**
+

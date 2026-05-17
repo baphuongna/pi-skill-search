@@ -115,3 +115,4 @@ The goal is professional, clinically complete documentation that respects clinic
   - Basic medical facts and routine clinical practices
   - General patient education content
 - **Citation Format**: 
+

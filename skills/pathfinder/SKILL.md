@@ -110,3 +110,4 @@ Format each as a fenced code block the user can copy directly into `/make-plan`.
 - Handoff prompts that lack concrete call sites — rewrite with Phase 2 evidence
 - Skipping Phase 0 boundary review — fanning out on bad feature boundaries wastes all of Phase 1
 
+

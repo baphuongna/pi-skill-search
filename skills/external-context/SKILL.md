@@ -77,7 +77,3 @@ Present synthesized results in this format:
 ```
 
 ## Configuration
-
-- Maximum 5 parallel document-specialist agents
-- No magic keyword trigger - explicit invocation only
-

@@ -107,9 +107,3 @@ design/thinking/{feature-name}/
 5. Khi user confirm → copy file (đề xuất lệnh trước khi thực thi)
 
 ## Anti-Hallucination Rules (BẮT BUỘC)
-
-1. **Chỉ ghi thông tin có Source rõ ràng** — file đã đọc, line number
-2. **KHÔNG thêm field/endpoint/rule** không có trong tài liệu input
-3. **Phân biệt rõ**: đây là tài liệu đối tác vs yêu cầu hệ thống VETC
-4. AI Suggestions → đặt vào section 11, label `[AI suggestion]`, cần user confirm
-5. Khi không chắc → ghi vào GAPs, KHÔNG đoán

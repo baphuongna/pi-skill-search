@@ -79,7 +79,3 @@ Validate before decomposing or running anything:
 Break work into N independent subtasks (file- or concern-scoped) to avoid write conflicts.
 
 ### Phase 2.5: Resolve workspace root for multi-repo plans
-
-`omc team` launches all workers with one shared working directory. For single-repo
-tasks, the current repo is usually correct. For multi-repo tasks, especially when a
-plan lives in one repo but the implementation touches sibling repos, resolve the

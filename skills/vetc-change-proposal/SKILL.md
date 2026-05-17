@@ -108,10 +108,3 @@ Section-by-section diff format:
 6. **(NEW)** System validates OTP
 
 ## §5 Edge Cases — ADDED
-
-**New EC-04**: OTP timeout
-- **Trigger**: User doesn't enter OTP within 60s
-- **Expected**: Show "OTP expired", allow resend once
-
-**New EC-05**: OTP invalid
-- **Trigger**: User enters wrong OTP 3 times

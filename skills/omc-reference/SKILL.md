@@ -115,3 +115,4 @@ Use git trailers to preserve decision context in every commit message.
 - `Directive:` forward-looking warning or instruction
 - `Confidence:` `high` | `medium` | `low`
 - `Scope-risk:` `narrow` | `moderate` | `broad`
+

@@ -106,3 +106,4 @@ transformer = MoleculeTransformer(calc, n_jobs=-1)
 # Featurize molecules
 features = transformer(smiles)
 print(f"Shape: {features.shape}")  # (4, 2048)
+

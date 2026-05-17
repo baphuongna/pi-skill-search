@@ -26,3 +26,4 @@ Use this skill for astronomical data analysis.
 - Don't mix time scales without conversion (UTC vs TDB vs TT).
 - Don't assume FITS data axis order — check `CDELT`/`CRVAL` headers.
 - Don't compute angular separations with Euclidean distance — use `skycoord.separation()`.
+

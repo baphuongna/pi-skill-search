@@ -24,3 +24,4 @@ Use this skill for clinical trial data analysis and medical research.
 - Don't use per-protocol analysis as primary — ITT is gold standard.
 - Don't ignore censoring in survival analysis — it biases estimates.
 - Don't share patient-level data without IRB approval.
+

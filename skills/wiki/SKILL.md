@@ -65,3 +65,4 @@ At session end, significant discoveries are automatically captured as session-lo
 - NO vector embeddings — query uses keyword + tag matching only
 - Wiki pages are git-ignored by default (`.omc/wiki/` is project-local)
 
+

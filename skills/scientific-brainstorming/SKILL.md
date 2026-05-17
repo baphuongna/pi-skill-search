@@ -114,4 +114,4 @@ Help crystallize insights and create concrete paths forward.
 - Identify resources or expertise that would be valuable
 
 **Close with encouragement:**
-- Acknowledge the creative work done
+

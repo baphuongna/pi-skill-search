@@ -26,3 +26,4 @@ Use this skill for molecular cheminformatics tasks in Python.
 - Don't parse SMILES without try/catch — invalid SMILES throw silently.
 - Don't compare molecules by SMILES string — use `Chem.MolToInchiKey()` for identity.
 - Don't compute 3D coords without embedding: `AllChem.EmbedMolecule()` first.
+

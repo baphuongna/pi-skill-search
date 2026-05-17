@@ -87,4 +87,4 @@ python scripts/search_pubmed.py \
   --date-start 2020 \
   --date-end 2024 \
   --publication-types "Clinical Trial,Review" \
-  --output alzheimers_trials.json
+

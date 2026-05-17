@@ -97,4 +97,4 @@ mvn test -Dtest=XxxServiceImplTest -q
 mvn test -pl <module> -q
 
 # Frontend
-npm test -- --coverage
+

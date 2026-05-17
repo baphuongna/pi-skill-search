@@ -25,3 +25,4 @@ Use this skill for neuroimaging data analysis.
 - Don't compare brain images across subjects without normalization.
 - Don't interpret correlation matrices without multiple comparison correction.
 - Don't load 4D fMRI entirely into float64 — use `dtype='auto'`.
+

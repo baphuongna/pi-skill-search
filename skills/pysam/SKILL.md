@@ -114,3 +114,4 @@ Use `FastaFile` for random access to reference sequences and `FastxFile` for rea
 
 **Exception:** Region strings in `fetch()` follow samtools convention (1-based):
 ```python
+

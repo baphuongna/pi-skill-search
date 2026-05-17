@@ -41,3 +41,4 @@ repo=$(jq -r '.name' <<<"$repo_json")
 - Before final reporting, do one fresh sweep of PR status, unresolved threads, recent comments, and local `git status`.
 - Report concrete evidence: latest commit SHA, check names and results, unresolved thread count, tests run, and any dirty local files left untouched.
 ```
+

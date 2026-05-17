@@ -24,3 +24,4 @@ Use this skill for electrophysiology data acquisition and analysis.
 - Don't load entire recordings into RAM — stream or chunk.
 - Don't apply spike sorting without artifact removal first.
 - Don't mix probe configurations without recalculating channel maps.
+

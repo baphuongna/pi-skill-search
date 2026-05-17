@@ -115,3 +115,4 @@ Update `state_write(mode='self-improve', active=true, status="running")`.
 
 1. List all worktrees in the target repo: `git -C {repo_path} worktree list`
 2. For any worktree matching `worktrees/round_*` that does NOT belong to the current iteration: remove it with `git -C {repo_path} worktree remove {path} --force`
+

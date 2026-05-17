@@ -100,5 +100,3 @@ POST /endpoint:
 
 ## After Design
 
-→ Tiếp theo: dùng `vetc-planner` agent để tạo implementation task list
-

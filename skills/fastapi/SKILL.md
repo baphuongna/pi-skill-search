@@ -26,3 +26,4 @@ Use this skill for building scientific web APIs and microservices.
 - Don't block the event loop — use `async def` with `await` for I/O.
 - Don't load ML models inside route handlers — load at startup with `@app.on_event("startup")`.
 - Don't return raw dicts — use Pydantic response models for documentation.
+

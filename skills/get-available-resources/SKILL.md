@@ -98,3 +98,4 @@ if resources['recommendations']['gpu_acceleration']['available']:
     backends = resources['recommendations']['gpu_acceleration']['backends']
     # Use appropriate GPU library based on available backend
 ```
+

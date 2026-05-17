@@ -101,6 +101,4 @@ The gate auto-passes when it detects **any** concrete signal. You do not need al
    - **Critic** validates quality and testability
 5. On consensus approval, user chooses execution path:
    - **team**: parallel coordinated agents (recommended)
-   - **ralph**: sequential execution with verification
-6. Execution begins with a clear, bounded plan
 

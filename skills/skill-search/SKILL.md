@@ -63,3 +63,4 @@ The search engine applies **synonym expansion** automatically (e.g., "ml" → "m
 - **Don't** skip reading the SKILL.md — the search result description is a summary, not the full instructions.
 - **Don't** assume the category summary lists every skill — it shows domain names and a few examples. Search for specifics.
 - **Don't** use overly specific queries like exact error messages — use domain keywords instead.
+

@@ -83,3 +83,4 @@ These are the **mandatory translations** of the directive into operational rules
 They MUST be honored on every ops cycle, without exception:
 
 1. **Engineering-Manager mode by default.** You coordinate. You delegate.
+

@@ -70,3 +70,4 @@ Every script in this skill sets the `x-exa-integration` request header to `k-den
 - `scripts/exa_search.py` — CLI wrapper around `client.search_and_contents`
 - `scripts/exa_extract.py` — CLI wrapper around `client.get_contents`
 ```
+

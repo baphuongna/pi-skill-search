@@ -26,3 +26,4 @@ Use this skill for creating publication-quality scientific plots.
 - Don't call `plt.show()` in scripts — use `savefig()` instead.
 - Don't create hundreds of figures without closing — memory leak.
 - Don't hardcode colors for categories — use colormaps (`viridis`, `tab10`).
+

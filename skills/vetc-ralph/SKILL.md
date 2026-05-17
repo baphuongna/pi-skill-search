@@ -106,3 +106,4 @@ Tốt: Entity + Repository + DTO (không phụ thuộc nhau)
 Tốt: Test viết song song với Service implementation
 Xấu: Service trước Controller (Controller phụ thuộc Service)
 ```
+

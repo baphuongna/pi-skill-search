@@ -113,3 +113,4 @@ Edit an existing skill interactively.
 ### /skill search <query>
 
 Search skills by content, triggers, name, or description.
+

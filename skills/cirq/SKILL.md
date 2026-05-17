@@ -110,7 +110,3 @@ For information about running circuits on real quantum hardware from various pro
 - **[references/hardware.md](references/hardware.md)** - Complete guide to hardware integration
 
 Supported providers:
-- **Google Quantum AI** (cirq-google) - Sycamore, Weber processors
-- **IonQ** (cirq-ionq) - Trapped ion quantum computers
-- **Azure Quantum** (azure-quantum) - IonQ and Honeywell backends
-- **AQT** (cirq-aqt) - Alpine Quantum Technologies

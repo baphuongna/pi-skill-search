@@ -115,3 +115,4 @@ Configure with: `Trainer(strategy="ddp", accelerator="gpu", devices=4)`
 ## Quick Workflow
 
 1. **Define model:**
+

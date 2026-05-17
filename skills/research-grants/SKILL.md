@@ -114,3 +114,4 @@ Every proposal needs a concise overview that communicates the essential elements
 **Essential Elements**:
 - Clear statement of the problem or research question
 - Why this problem matters (significance, urgency, impact)
+

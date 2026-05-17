@@ -113,3 +113,4 @@ Thiết kế API theo chuẩn VETC (từ `../../shared/api-design.md`):
 - Mỗi task: scope (files), boundary, rule check, dependency, risk & impact table
 
 ⏸️ DỪNG → chờ review.
+

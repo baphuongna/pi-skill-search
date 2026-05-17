@@ -26,3 +26,4 @@ Use this skill for distributed task processing and pipeline orchestration.
 - Don't pass large objects as arguments — use storage references (S3 path, DB ID).
 - Don't create circular task dependencies — detect and break cycles.
 - Don't ignore `WorkerLostError` — it means OOM or segfault, not normal failure.
+

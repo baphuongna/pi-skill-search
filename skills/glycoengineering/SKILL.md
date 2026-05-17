@@ -102,3 +102,4 @@ def submit_netoglycv4(fasta_sequence: str) -> str:
 # Also: NetNGlyc for N-glycosylation prediction
 # URL: https://services.healthtech.dtu.dk/services/NetNGlyc-1.0/
 ```
+

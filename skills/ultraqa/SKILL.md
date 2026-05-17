@@ -84,3 +84,4 @@ Output progress each cycle:
 [ULTRAQA Cycle 1/5] Running tests...
 [ULTRAQA Cycle 1/5] FAILED - 3 tests failing
 ```
+

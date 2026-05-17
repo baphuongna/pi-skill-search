@@ -107,3 +107,4 @@ For enhanced PDF conversion with Microsoft Document Intelligence:
 ```bash
 # Command line
 markitdown document.pdf -o output.md -d -e "<document_intelligence_endpoint>"
+

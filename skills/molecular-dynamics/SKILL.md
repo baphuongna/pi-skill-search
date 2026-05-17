@@ -112,5 +112,4 @@ def load_trajectory(topology_file, trajectory_file):
     Load an MD trajectory with MDAnalysis.
 
     Args:
-        topology_file: PDB, PSF, or other topology file
-        trajectory_file: DCD, XTC, TRR, or other trajectory
+

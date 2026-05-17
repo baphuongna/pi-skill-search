@@ -96,3 +96,4 @@ mask_array = tissue_mask(slide)
 # Use largest tissue region (default for most extractors)
 biggest_mask = BiggestTissueBoxMask()
 ```
+

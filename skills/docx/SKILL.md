@@ -115,3 +115,4 @@ const doc = new Document({
 **CRITICAL: Tables need dual widths** - set both `columnWidths` on the table AND `width` on each cell. Without both, tables render incorrectly on some platforms.
 
 ```javascript
+

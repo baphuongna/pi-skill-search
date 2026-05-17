@@ -25,3 +25,4 @@ Use this skill for satellite imagery and geospatial analysis.
 - Don't load entire raster into memory for large scenes — use windowed reading.
 - Don't reproject vector data repeatedly — reproject once, cache result.
 - Don't compute NDVI with integer division — cast to float first.
+

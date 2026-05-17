@@ -25,3 +25,4 @@ Use this skill for computational biology and bioinformatics.
 - Don't compare sequences as strings — use `seq1 == seq2` which handles case.
 - Don't parse XML BLAST results manually — use `NCBIXML.parse()`.
 - Don't store full genome sequences in memory — iterate with `SeqIO.parse()`.
+

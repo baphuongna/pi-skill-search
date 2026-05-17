@@ -114,3 +114,4 @@ Choose colors that match your topic — don't default to generic blue. Use these
 - Leave breathing room—don't fill every inch
 
 ### Avoid (Common Mistakes)
+

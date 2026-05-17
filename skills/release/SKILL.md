@@ -114,3 +114,4 @@ Help the user write good release notes. Apply whichever convention the repo uses
 - Omit changes users never see (refactors, CI tweaks, test-only changes) unless they affect build reproducibility.
 
 **Example entry format:**
+

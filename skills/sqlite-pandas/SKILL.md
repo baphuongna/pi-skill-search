@@ -26,3 +26,4 @@ Use this skill for database operations with pandas DataFrames.
 - Don't load entire database into memory — filter in SQL first.
 - Don't use `pd.read_sql_query()` without `params` for user input — SQL injection risk.
 - Don't mix datetime formats — SQLite stores dates as text; parse with `parse_dates` parameter.
+

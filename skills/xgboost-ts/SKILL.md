@@ -24,3 +24,4 @@ Use this skill for time series forecasting with ML approaches.
 - Don't use future data in lag features — check for lookahead bias.
 - Don't forecast too far ahead — uncertainty grows quadratically.
 - Don't ignore seasonality — decompose before modeling.
+

@@ -63,3 +63,4 @@ The server returns structured results including:
 - **Paid**: $0.01 per result with an API key from [bgpt.pro/mcp](https://bgpt.pro/mcp)
 
 
+

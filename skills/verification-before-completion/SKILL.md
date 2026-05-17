@@ -86,3 +86,4 @@ Skip any step = lying, not verifying
 ✅ Write → Run (pass) → Revert fix → Run (MUST FAIL) → Restore → Run (pass)
 ❌ "I've written a regression test" (without red-green verification)
 ```
+

@@ -92,3 +92,4 @@ def get_dependencies_slice(gene_symbol, dataset_name="CRISPRGeneEffect"):
     data = response.json()
     return data
 ```
+

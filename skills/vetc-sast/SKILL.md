@@ -114,3 +114,4 @@ Location: `security/sast-reports/{YYYY-MM-DD}-{branch}.md`
 **File**: `wallet-service/src/main/java/vn/vetc/wallet/repo/TransactionRepo.java:87`
 **Description**: String concatenation in `WHERE account_no = '" + accountNo + "'"`
 **Fix**: Use `setParameter("accountNo", accountNo)`
+

@@ -115,3 +115,4 @@ Use your environment's HTTP fetch tool to call REST endpoints:
 If the fetch tool fails, fall back to `curl` via whatever shell tool is available.
 
 ### Special cases
+
