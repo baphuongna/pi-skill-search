@@ -112,4 +112,4 @@ FAIL: SQL injection via string concatenation:
 ```
 
 <!-- condensed from source -->
-
+```

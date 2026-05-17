@@ -117,4 +117,4 @@ Tạo Implementation Plan gồm:
 ## Acceptance Criteria
 
 <!-- condensed from source -->
-
+```

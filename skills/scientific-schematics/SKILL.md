@@ -116,4 +116,4 @@ The AI generation system uses **smart iteration** - it only regenerates if quali
 ```
 
 <!-- condensed from source -->
-
+```

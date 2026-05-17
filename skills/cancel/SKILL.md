@@ -83,3 +83,4 @@ MODE="ralplan"  # <-- replace with the target mode
 # Clear session-scoped state for the specific mode
 if [ -n "$SESSION_ID" ] && [ -d "$OMC_STATE/sessions/$SESSION_ID" ]; then
   rm -f "$OMC_STATE/sessions/$SESSION_ID/${MODE}-state.json"
+```

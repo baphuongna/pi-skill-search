@@ -109,4 +109,4 @@ area_sqm = gdf_metric.geometry.area
 ```
 
 <!-- condensed from source -->
-
+```

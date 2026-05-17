@@ -111,4 +111,4 @@ python scripts/generate_schematic.py "POSTER FORMAT for A0. ONE case study card:
 ```
 
 <!-- condensed from source -->
-
+```

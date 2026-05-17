@@ -83,3 +83,4 @@ if command -v ruby >/dev/null 2>&1; then
   echo "Ruby for Ralph: $(ruby --version 2>/dev/null | head -1)"
 else
   echo "Ruby for Ralph: MISSING"
+```

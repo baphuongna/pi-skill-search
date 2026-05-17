@@ -82,4 +82,4 @@ print(f"{adata.n_obs} observations × {adata.n_vars} variables")
 ```
 
 <!-- condensed from source -->
-
+```

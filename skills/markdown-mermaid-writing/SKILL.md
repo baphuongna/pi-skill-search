@@ -117,4 +117,4 @@ Key rules to internalize:
 Before creating any Mermaid diagram: read `references/mermaid_style_guide.md`.
 
 <!-- condensed from source -->
-
+```

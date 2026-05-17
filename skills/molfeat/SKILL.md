@@ -109,4 +109,4 @@ print(f"Shape: {features.shape}")  # (4, 2048)
 ```
 
 <!-- condensed from source -->
-
+```

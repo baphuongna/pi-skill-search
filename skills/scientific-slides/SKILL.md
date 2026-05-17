@@ -117,4 +117,4 @@ python scripts/slides_to_pdf.py slides/*.png -o presentation.pdf
 ```
 
 <!-- condensed from source -->
-
+```

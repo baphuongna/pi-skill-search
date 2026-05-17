@@ -117,4 +117,4 @@ Help the user write good release notes. Apply whichever convention the repo uses
 ```
 
 <!-- condensed from source -->
-
+```

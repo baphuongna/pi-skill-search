@@ -117,4 +117,4 @@ Before/after code comparison
 ## Quick Reference
 
 <!-- condensed from source -->
-
+```

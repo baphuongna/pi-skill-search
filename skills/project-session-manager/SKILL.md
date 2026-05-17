@@ -83,3 +83,4 @@ To use Jira, add an alias with `jira_project` and `provider: "jira"`:
       "local": "~/Workspace/my-project",
       "default_base": "develop",
       "provider": "jira"
+```

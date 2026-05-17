@@ -117,4 +117,4 @@ Tạo `docs/architecture/project-knowledge.md` — persistent knowledge base:
 | Đối soát | Reconciliation | Reconcile |
 
 <!-- condensed from source -->
-
+```

@@ -114,4 +114,4 @@ For multi-step tasks (e.g., "build a drug recommendation pipeline on MIMIC-IV"),
 Write minimal, idiomatic PyHealth. The library is opinionated; lean into its abstractions instead of reimplementing them in raw PyTorch. If you find yourself writing a custom training loop, ask whether `Trainer` would do the job — it almost always will, and it handles checkpointing, logging, and best-model selection for free.
 
 When the user has private MIMIC access, point them at the local CSV root; for demos and learning, the synthetic MIMIC-III bucket (`https://storage.googleapis.com/pyhealth/Synthetic_MIMIC-III/`) is fine and works without credentialing.
-
+```

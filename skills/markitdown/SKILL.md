@@ -110,4 +110,4 @@ markitdown document.pdf -o output.md -d -e "<document_intelligence_endpoint>"
 ```
 
 <!-- condensed from source -->
-
+```

@@ -111,4 +111,4 @@ Ghi vào `specs/{NNN}-{slug}/spec.md`. See template: `./references/spec-template
 ```
 
 <!-- condensed from source -->
-
+```

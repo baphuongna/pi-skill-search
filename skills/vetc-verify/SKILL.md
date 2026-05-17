@@ -116,4 +116,4 @@ npm test -- --coverage
 ```
 
 <!-- condensed from source -->
-
+```

@@ -114,4 +114,4 @@ image.save('output.png')
 ```
 
 <!-- condensed from source -->
-
+```

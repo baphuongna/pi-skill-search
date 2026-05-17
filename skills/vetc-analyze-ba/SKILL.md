@@ -117,4 +117,4 @@ Thiết kế API theo chuẩn VETC (từ `../../shared/api-design.md`):
 
 
 <!-- condensed from source -->
-
+```
