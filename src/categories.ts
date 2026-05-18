@@ -2,11 +2,9 @@
  * Category classifier — phan loai skill theo category.
  * Implement theo SPEC §6.1 rules va §6.2 logic.
  *
- * Luu y: Substring match — text.includes(kw).
- * Co the gay false positive (vi du "gene" match "generation").
- * Phase 9 se tuning cac keywords.
+ * Luu y: Word-boundary matching cho single-word keywords de tranh false positives.
+ * Multi-word keywords (phrases) match exact substring.
  */
-
 export interface CategoryRule {
 	name: string;
 	keywords: string[];
@@ -60,6 +58,12 @@ export const CATEGORY_RULES: CategoryRule[] = [
 			"spikeglx",
 			"openephys",
 			"electrophysiolog",
+			"cytometry",
+			"imaging",
+			"radiology",
+			"pathology",
+			"knowledge graph",
+			"microscopy",
 		],
 		maxExamples: 5,
 	},
@@ -85,6 +89,10 @@ export const CATEGORY_RULES: CategoryRule[] = [
 			"feature engineer",
 			"scikit",
 			"sklearn",
+			"quantum comput",
+			"probabilistic",
+			"bayesian",
+			"mcmc",
 		],
 		maxExamples: 5,
 	},
@@ -97,56 +105,18 @@ export const CATEGORY_RULES: CategoryRule[] = [
 			"diagnosis",
 			"treatment",
 			"ehr",
-			"dicom",
-			"pathology",
-			"survival analysis",
-			"drug safety",
-			"pharmacovigil",
-			"biomarker",
-			"cohort",
+			"electronic health",
+			"hospital",
+			"therap",
+			"trial",
+			"icd",
+			"hipaa",
 		],
 		maxExamples: 5,
 	},
 	{
-		name: "Physics & Quantum",
+		name: "Data Visualization & EDA",
 		keywords: [
-			"physics",
-			"quantum",
-			"astronom",
-			"cosmol",
-			"optics",
-			"particle",
-			"simulat",
-			"circuit",
-			"qubit",
-			"hamiltonian",
-			"spectroscopy",
-		],
-		maxExamples: 5,
-	},
-	{
-		name: "Databases & Data Sources",
-		keywords: [
-			"database",
-			"api",
-			"rest api",
-			"query",
-			"pubchem",
-			"chembl",
-			"uniprot",
-			"clinicaltrials",
-			"entrez",
-			"ncbi",
-			"ensembl",
-			"geo ",
-			"tcga",
-		],
-		maxExamples: 4,
-	},
-	{
-		name: "Data Analysis & Visualization",
-		keywords: [
-			"statistic",
 			"visualization",
 			"plotting",
 			"chart",
@@ -172,6 +142,11 @@ export const CATEGORY_RULES: CategoryRule[] = [
 			"slide",
 			"schematic",
 			"infographic",
+			"markdown",
+			"document convert",
+			"report",
+			"research proposal",
+			"latex",
 		],
 		maxExamples: 5,
 	},
@@ -205,6 +180,8 @@ export const CATEGORY_RULES: CategoryRule[] = [
 			"opentrons",
 			"benchling",
 			"latchbio",
+			"microscopy",
+			"hpc",
 		],
 		maxExamples: 5,
 	},
@@ -225,6 +202,9 @@ export const CATEGORY_RULES: CategoryRule[] = [
 			"pymoo",
 			"simpy",
 			"pymatgen",
+			"fluid dynamics",
+			"navier-stokes",
+			"turbulence",
 		],
 		maxExamples: 5,
 	},
@@ -239,6 +219,11 @@ export const CATEGORY_RULES: CategoryRule[] = [
 			"peer review",
 			"reproducib",
 			"experimental design",
+			"nsf",
+			"nih",
+			"doe",
+			"darpa",
+			"proposal",
 		],
 		maxExamples: 5,
 	},
@@ -247,36 +232,64 @@ export const CATEGORY_RULES: CategoryRule[] = [
 		keywords: [
 			"benchling",
 			"modal",
-			"dnanexus",
-			"latchbio",
-			"omero",
-			"lamindb",
-			"protocols.io",
-			"ginkgo",
-			"integration",
-			"markitdown",
-			"convert",
-			"pdf",
-			"vetc",
+			"streamlit",
+			"gradio",
+			"api",
+			"rest",
+			"webhook",
+			"service",
+			"deploy",
+		],
+		maxExamples: 5,
+	},
+	{
+		name: "Developer Tools & Workflow",
+		keywords: [
+			"debug",
+			"profile",
+			"test",
+			"ci/cd",
+			"lint",
+			"format",
+			"types",
+			"version control",
+			"repo",
+			"github",
+		],
+		maxExamples: 5,
+	},
+	{
+		name: "AI Agent & Pi Extensions",
+		keywords: [
+			"agent",
+			"crew",
+			"team",
+			"worker",
+			"pipeline",
+			"memory",
+			"pi-extension",
+			"extension",
+			"pi-skill",
+			"pi extension",
+			"skill",
+			"llm",
+			"prompt",
+			"task",
+			"orchestrat",
+			"async",
+			"parallel",
 			"pi-crew",
 			"pi crew",
-			"sdlc",
-			"cicd",
-			"codex",
-			"claude-code",
-			"autopilot",
-			"oh-my-claude",
-			"claude-mem",
-			"ralplan",
-			"ralph",
-			"hackernews",
-			"context-mode",
-			"spec-kit",
-			"worktree",
-			"delegation",
-			"orchestrat",
-			"superpowers",
-			"ultrawork",
+			"autonomous",
+			"react-agent",
+			"react agent",
+			"codegen",
+			"code generat",
+			"browser-agent",
+			"browser agent",
+			"langchain",
+			"langgraph",
+			"crewai",
 			"ultraqa",
 			"ultragoal",
 			"omc ",
@@ -286,7 +299,6 @@ export const CATEGORY_RULES: CategoryRule[] = [
 			"deepinit",
 			"deep codebase",
 			"learner",
-			"skill",
 			"make-plan",
 			"make plan",
 			"mcp",
@@ -317,7 +329,6 @@ export const CATEGORY_RULES: CategoryRule[] = [
 			"community extension",
 			"verify",
 			"plan",
-			"do ",
 			"finishing",
 			"development branch",
 			"learn-codebase",
@@ -330,18 +341,43 @@ export const CATEGORY_RULES: CategoryRule[] = [
 
 /**
  * Phan loai skill vao cac categories.
- * Substring match: neu bat ky keyword nao xuat hien trong name hoac description.
- * Tra ve ["Other"] neu khong match rule nao.
+ * Word-boundary matching: keyword phai la mot "word" trong text.
+ * Multi-word keywords (phrases) phai xuat hien exactly trong text.
+ * Gioi han false positives nhu "gene" matching "generation".
  */
 export function classify(entry: { name: string; description: string }): string[] {
 	const text = `${entry.name} ${entry.description}`.toLowerCase();
 	const matched: string[] = [];
 
 	for (const rule of CATEGORY_RULES) {
-		if (rule.keywords.some((kw) => text.includes(kw))) {
+		if (rule.keywords.some((kw) => matchKeyword(kw, text))) {
 			matched.push(rule.name);
 		}
 	}
 
 	return matched.length > 0 ? matched : ["Other"];
+}
+
+/**
+ * Match keyword trong text voi word-boundary semantics.
+ * - Single-word keyword: phai la mot "word" (bounded boi non-alphanumeric/start/end)
+ * - Multi-word keyword: phai xuat hien exactly trong text
+ */
+function matchKeyword(keyword: string, text: string): boolean {
+	const kw = keyword.toLowerCase();
+	if (kw.includes(" ")) {
+		// Multi-word: exact substring match
+		return text.includes(kw);
+	}
+	// Single-word: word boundary match
+	// Match: bounded by non-alphanumeric or start/end
+	const pattern = new RegExp(`(?:[^a-z0-9]|^)${escapeRegex(kw)}(?:[^a-z0-9]|$)`, "i");
+	return pattern.test(text);
+}
+
+/**
+ * Escape regex special characters.
+ */
+function escapeRegex(s: string): string {
+	return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
