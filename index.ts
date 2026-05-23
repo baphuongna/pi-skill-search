@@ -4,6 +4,8 @@
  *
  * Thay the Pi's inject-all pattern bang on-demand search tool + category summary.
  */
+import * as fs from "node:fs";
+import * as os from "node:os";
 import * as path from "node:path";
 import { formatCategorySummary, formatResults, renderToolDescription } from "./src/format.ts";
 import { buildIndex, fingerprintSkills } from "./src/indexer.ts";
@@ -46,13 +48,50 @@ export default function (pi: ExtensionAPI): void {
 	let index: SkillIndex | undefined;
 	let lastSkillsFingerprint = "";
 	let toolRegistered = false;
+	let skillSetupDone = false;
 
-	// Scan skills/ directory — bộ skill chính thức do pi-skill-search quản lý
+	/**
+	 * Auto-setup: copy skill-search to ~/.pi/agent/skills/ if not exists.
+	 * Runs once at first before_agent_start event.
+	 */
+	function ensureSkillSearchInstalled(): void {
+		if (skillSetupDone) return;
+		skillSetupDone = true;
+
+		const home = os.homedir();
+		const destDir = path.join(home, ".pi", "agent", "skills", "skill-search");
+		const destFile = path.join(destDir, "SKILL.md");
+
+		// Already installed?
+		if (fs.existsSync(destFile)) {
+			console.log("pi-skill-search: skill-search already installed");
+			return;
+		}
+
+		// Find source SKILL.md in extension data/
+		const extRoot = resolveExtensionRoot();
+		const sourceFile = pathJoin(extRoot, "data", "skill-search", "SKILL.md");
+
+		if (!fs.existsSync(sourceFile)) {
+			console.error("pi-skill-search: skill-search/SKILL.md not found in data/");
+			return;
+		}
+
+		try {
+			fs.mkdirSync(destDir, { recursive: true });
+			fs.copyFileSync(sourceFile, destFile);
+			console.log(`pi-skill-search: installed skill-search to ${destFile}`);
+		} catch (err) {
+			console.error("pi-skill-search: failed to install skill-search", err);
+		}
+	}
+
+	// Scan data/ directory — bộ skill chính thức do pi-skill-search quản lý
 	const extensionRoot = resolveExtensionRoot();
-	const skillsDir = pathJoin(extensionRoot, "skills");
-	const bundledSkills = scanSkillDirectory(skillsDir);
+	const dataDir = pathJoin(extensionRoot, "data");
+	const bundledSkills = scanSkillDirectory(dataDir);
 	if (bundledSkills.length > 0) {
-		console.log(`pi-skill-search: loaded ${bundledSkills.length} bundled skills from ${skillsDir}`);
+		console.log(`pi-skill-search: loaded ${bundledSkills.length} bundled skills from ${dataDir}`);
 	}
 	/**
 	 * Build (hoac rebuild) index.
@@ -79,12 +118,16 @@ export default function (pi: ExtensionAPI): void {
 	}
 	/**
 	 * before_agent_start handler:
+	 * - Auto-setup skill-search (first time only)
 	 * - Build/rebuild index
 	 * - Register skill-search tool (first time only)
 	 * - Strip <available_skills> block (ALWAYS — prevent Pi reset)
 	 * - Inject category summary (when skills exist)
 	 */
 	pi.on("before_agent_start", async (event: BeforeAgentStartEvent): Promise<BeforeAgentStartEventResult> => {
+		// Auto-setup skill-search on first activation
+		ensureSkillSearchInstalled();
+
 		const skills = event.systemPromptOptions?.skills as PiSkill[] | undefined;
 		const idx = ensureIndex(skills);
 
