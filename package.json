@@ -1,6 +1,6 @@
 {
   "name": "pi-skill-search",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "On-demand skill search extension for Pi — replaces inject-all with search tool + category summary",
   "type": "module",
   "types": "index.ts",
