@@ -21,10 +21,12 @@ Result: **~97% token reduction** in skill-related system prompt content.
 npx pi install .
 
 # Or from npm (when published)
-npm install pi-skill-search
+npx pi install pi-skill-search
 ```
 
-The `install.mjs` script automatically sets up the `skill-search` skill in `~/.pi/agent/skills/` so Pi can discover it.
+After installation, the extension automatically:
+1. Sets up the `skill-search` skill in `~/.pi/agent/skills/` (via `postinstall` script)
+2. Registers the `skill-search` tool and category summary for all Pi sessions
 
 ## Quick Start
 
