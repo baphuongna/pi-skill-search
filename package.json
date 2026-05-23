@@ -21,6 +21,8 @@
     "@types/js-yaml": "^4.0.0"
   },
   "scripts": {
+    "install:skill": "node install.mjs",
+    "postinstall": "node install.mjs",
     "check": "biome check . && tsc --noEmit",
     "test": "tsx node_modules/vitest/dist/cli.js --run",
     "test:watch": "tsx node_modules/vitest/dist/cli.js",
