@@ -81,9 +81,7 @@ export function scanSkillDirectory(dir: string): PiSkill[] {
  * 3. <global-npm>/pi-skill-search/data/ (global install + sibling data)
  */
 export function findCorpusPath(): string | undefined {
-	const thisFile = path.dirname(
-		new URL(import.meta.url).pathname.replace(/^\/([A-Z]:)/, "$1"),
-	);
+	const thisFile = path.dirname(new URL(import.meta.url).pathname.replace(/^\/([A-Z]:)/, "$1"));
 	const extRoot = path.basename(thisFile) === "src" ? path.dirname(thisFile) : thisFile;
 
 	// 1. Check ext-root/data/
@@ -107,7 +105,7 @@ export function findCorpusPath(): string | undefined {
 
 	// 3. Try global npm root
 	try {
-		const { execSync } = require("child_process");
+		const { execSync } = require("node:child_process");
 		const globalRoot = execSync("npm root -g", { encoding: "utf-8" }).trim();
 		for (const pkgName of ["pi-skill-search", "pss-corpus", "pss-data"]) {
 			const globalPath = path.join(globalRoot, pkgName, "data");
@@ -126,8 +124,6 @@ export function findCorpusPath(): string | undefined {
  * Resolve extension root — thu muc chua index.ts cua extension.
  */
 export function resolveExtensionRoot(): string {
-	const thisFile = path.dirname(
-		new URL(import.meta.url).pathname.replace(/^\/([A-Z]:)/, "$1"),
-	);
+	const thisFile = path.dirname(new URL(import.meta.url).pathname.replace(/^\/([A-Z]:)/, "$1"));
 	return path.basename(thisFile) === "src" ? path.dirname(thisFile) : thisFile;
 }
