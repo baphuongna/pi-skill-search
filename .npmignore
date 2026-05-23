@@ -1,0 +1,10 @@
+test/
+bench/
+scripts/
+*.test.ts
+*.bench.ts
+tsconfig.json
+biome.json
+vitest.config.ts
+.git/
+node_modules/

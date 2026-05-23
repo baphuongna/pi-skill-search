@@ -1,5 +1,20 @@
 # Changelog
 
+## 0.2.0 (2026-05-23)
+
+### Fixed
+- **Packaging conflict**: Renamed `skills/` to `data/` to prevent Pi from discovering and inject-all-ing 284 skills
+- **Install script**: Created `install.mjs` to copy `skill-search` skill to `~/.pi/agent/skills/` (where Pi discovers skills)
+- **Scoring weights**: Changed from +5/+2 to +3/+1 per SPEC §5.1 for better relevance scoring
+- **Unused nameIndex**: Removed from SkillIndex interface and buildIndex() function
+- **EOF newline**: Added missing newline in categories.ts
+- **SPEC §7.4**: Updated documentation to always return `{ systemPrompt }`, never undefined
+
+### Changed
+- Scanner now scans `data/` directory instead of `skills/`
+- Extension registers `skill-search` tool via `before_agent_start` event
+- 284 skills corpus in `data/` (Pi does not discover this directory)
+
 ## 0.1.0 (2026-05-17)
 
 ### Added
@@ -11,10 +26,7 @@
 - Strip regex to remove Pi's `<available_skills>` block from system prompt
 - Category summary injection via `before_agent_start` event
 - Proactive suggestion hook for Python package detection (opt-in)
-- **258 bundled skills** from 10 source repos:
-  - scientific-agent-skills (137), oh-my-claudecode (29), vetc-dev-kit (33)
-  - pi-crew (27), superpowers (14), oh-my-pi (2), claude-mem (12)
-  - gstack (1), context-mode (1), spec-kit (1)
+- **284 bundled skills** from 10 source repos
 - 14/14 categories, 0 Other
 - 123 tests across 14 test files including search quality benchmarks
 - Biome lint + TypeScript strict mode clean

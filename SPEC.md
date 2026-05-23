@@ -926,14 +926,17 @@ All extension code is wrapped in try/catch. Failure modes:
 
 | Failure | Behavior |
 | --- | --- |
-| `event.systemPromptOptions.skills` undefined or empty | No tool registration, no summary, session continues. |
+| `event.systemPromptOptions.skills` undefined or empty | Strip `<available_skills>` block, return `{ systemPrompt: stripped }`. No tool registration, no summary injection. Session continues. |
 | Malformed `Skill` from Pi (e.g., empty description) | Indexed with empty `descTokens`; scores zero on description matches. No crash. |
 | `buildIndex` throws | Logged to `console.error`; index stays `undefined`; tool stays unregistered; session continues. |
-| Strip regex finds no `<available_skills>` block | No-op fallback — extension still appends summary; output is sub-optimal but valid. Drift detector test in §9 alerts maintainers. |
+| Strip regex finds no `<available_skills>` block | No-op fallback — extension still appends summary if skills exist; output is sub-optimal but valid. Drift detector test in §9 alerts maintainers. |
 | Search throws | Handler returns `"Search failed: <message>"`. Session continues. |
 | Category summary rendering throws | No injection that turn; original `event.systemPrompt` returns unchanged. Session continues. |
 
 **Principle**: Extension failure must NEVER prevent agent from running. Skill search is a nice-to-have, not critical path.
+
+**Critical: Always return modified `systemPrompt` (never `undefined`)**.
+If the extension returns `undefined` from `before_agent_start`, Pi may reset to `baseSystemPrompt` which still contains the `<available_skills>` block — defeating the token-savings purpose. The handler MUST always return `{ systemPrompt: stripped }` (with or without summary appended).
 
 ### 7.5 Skill Source: Reuse Pi's `loadSkills()`
 

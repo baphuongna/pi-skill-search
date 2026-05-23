@@ -1,10 +1,15 @@
 /**
- * Custom directory scanner — doc skills tu thu muc chinh thuc
- * do pi-skill-search quan ly, doc lap voi Pi's skill discovery.
+ * Custom directory scanner — doc skills tu corpus data.
  *
- * Scan `skills/` trong extension root, parse SKILL.md frontmatter,
- * tra ve PiSkill[] de extension index.
- * Pi KHONG quet thu muc nay khi khoi dong — extension tu scan.
+ * pi-skill-search scan thu muc `data/` trong extension root.
+ * Thu muc nay KHONG chua `.md` files truc tiep ma chua subdirectories
+ * voi SKILL.md ben trong, nhung Pi chi quet files ket thuc bang `.md`,
+ * nen subdirectories nay se KHONG bi Pi discover nhu skills.
+ *
+ * Noi cach khac:
+ * - Pi quet: `<path>/*.md` hoac `<path>/<name>/SKILL.md`
+ * - pi-skill-search scan: `<path>/<name>/SKILL.md` (voi path la `data/`)
+ * - Ket qua: Pi khong quet `data/` vi no khong phai la skill directory
  */
 import * as fs from "node:fs";
 import * as path from "node:path";
@@ -69,17 +74,60 @@ export function scanSkillDirectory(dir: string): PiSkill[] {
 }
 
 /**
+ * Find corpus data directory (data/).
+ * Thu tu tim kiem:
+ * 1. <ext-root>/data/           (local development)
+ * 2. <ext-root>/../data/        (when installed, corpus in sibling dir)
+ * 3. <global-npm>/pi-skill-search/data/ (global install + sibling data)
+ */
+export function findCorpusPath(): string | undefined {
+	const thisFile = path.dirname(
+		new URL(import.meta.url).pathname.replace(/^\/([A-Z]:)/, "$1"),
+	);
+	const extRoot = path.basename(thisFile) === "src" ? path.dirname(thisFile) : thisFile;
+
+	// 1. Check ext-root/data/
+	const extDataPath = path.join(extRoot, "data");
+	if (fs.existsSync(extDataPath)) {
+		return extDataPath;
+	}
+
+	// 2. Check sibling directory (for when data is in separate package)
+	// e.g., node_modules/pi-skill-search/ and node_modules/pss-corpus/data/
+	const nodeModulesMatch = extRoot.match(/(.+\/node_modules)\/[^/]+$/);
+	if (nodeModulesMatch) {
+		// Try common corpus package names
+		for (const pkgName of ["pss-corpus", "pss-data", "pi-skill-corpus"]) {
+			const siblingPath = path.join(nodeModulesMatch[1], pkgName, "data");
+			if (fs.existsSync(siblingPath)) {
+				return siblingPath;
+			}
+		}
+	}
+
+	// 3. Try global npm root
+	try {
+		const { execSync } = require("child_process");
+		const globalRoot = execSync("npm root -g", { encoding: "utf-8" }).trim();
+		for (const pkgName of ["pi-skill-search", "pss-corpus", "pss-data"]) {
+			const globalPath = path.join(globalRoot, pkgName, "data");
+			if (fs.existsSync(globalPath)) {
+				return globalPath;
+			}
+		}
+	} catch {
+		// npm root -g failed
+	}
+
+	return undefined;
+}
+
+/**
  * Resolve extension root — thu muc chua index.ts cua extension.
- * Jiti/TS loader suong __dirname tu import.meta.
  */
 export function resolveExtensionRoot(): string {
 	const thisFile = path.dirname(
-		new URL(import.meta.url).pathname
-			// Windows: strip leading / from file:///C:/...
-			.replace(/^\/([A-Z]:)/, "$1"),
+		new URL(import.meta.url).pathname.replace(/^\/([A-Z]:)/, "$1"),
 	);
-	// thisFile = <root>/src khi chay tu src, hoac <root> khi chay tu index.ts
-	// Check: neu thisFile ten la "src" thi len 1 level
-	if (path.basename(thisFile) === "src") return path.dirname(thisFile);
-	return thisFile;
+	return path.basename(thisFile) === "src" ? path.dirname(thisFile) : thisFile;
 }

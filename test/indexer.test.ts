@@ -67,10 +67,11 @@ describe("buildIndex", () => {
 		expect(idx.entries.has("rdkit")).toBe(true);
 	});
 
-	it("builds nameIndex from tokenized names", () => {
+	it("builds entries map from skills", () => {
 		const idx = buildIndex(testSkills);
-		expect(idx.nameIndex.has("rdkit")).toBe(true);
-		expect(idx.nameIndex.get("rdkit")).toBe("rdkit");
+		expect(idx.entries.has("rdkit")).toBe(true);
+		expect(idx.entries.has("scanpy")).toBe(true);
+		expect(idx.entries.has("pytorch")).toBe(true);
 	});
 
 	it("filters disabled skills should happen outside buildIndex", () => {

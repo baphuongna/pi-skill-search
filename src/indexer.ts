@@ -16,7 +16,6 @@ import type { CategorySummary, PiSkill, SkillEntry, SkillIndex } from "./types.t
  */
 export function buildIndex(skills: PiSkill[]): SkillIndex {
 	const entries = new Map<string, SkillEntry>();
-	const nameIndex = new Map<string, string>();
 
 	// Pass 1: build entries
 	for (const skill of skills) {
@@ -34,11 +33,6 @@ export function buildIndex(skills: PiSkill[]): SkillIndex {
 		};
 
 		entries.set(skill.name, entry);
-
-		// Build nameIndex: tokenized name fragment → skill name
-		for (const token of nameTokens) {
-			nameIndex.set(token, skill.name);
-		}
 	}
 
 	// Pass 2: build CategorySummary[] in CATEGORY_RULES declaration order
@@ -86,7 +80,7 @@ export function buildIndex(skills: PiSkill[]): SkillIndex {
 		});
 	}
 
-	return { entries, categories, nameIndex };
+	return { entries, categories };
 }
 
 /**

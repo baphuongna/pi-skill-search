@@ -2,9 +2,9 @@ import { describe, expect, it } from "vitest";
 import { parseFrontmatter, resolveExtensionRoot, scanSkillDirectory } from "../src/scanner.ts";
 
 describe("scanSkillDirectory", () => {
-	it("scans skills/ and finds bundled skills", () => {
+	it("scans data/ and finds bundled skills", () => {
 		const root = resolveExtensionRoot();
-		const dir = `${root}/skills`;
+		const dir = `${root}/data`;
 		const skills = scanSkillDirectory(dir);
 
 		expect(skills.length).toBeGreaterThanOrEqual(200);
@@ -21,7 +21,7 @@ describe("scanSkillDirectory", () => {
 
 	it("finds rdkit skill with correct name", () => {
 		const root = resolveExtensionRoot();
-		const skills = scanSkillDirectory(`${root}/skills`);
+		const skills = scanSkillDirectory(`${root}/data`);
 		const rdkit = skills.find((s) => s.name === "rdkit");
 		expect(rdkit).toBeDefined();
 		expect(rdkit?.description).toContain("molecular");

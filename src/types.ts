@@ -8,6 +8,8 @@ import type {
 	BeforeAgentStartEventResult,
 	BuildSystemPromptOptions,
 	ExtensionAPI,
+	ResourcesDiscoverEvent,
+	ResourcesDiscoverResult,
 	ToolCallEvent,
 } from "@earendil-works/pi-coding-agent";
 
@@ -17,6 +19,8 @@ export type {
 	BeforeAgentStartEventResult,
 	BuildSystemPromptOptions,
 	ExtensionAPI,
+	ResourcesDiscoverEvent,
+	ResourcesDiscoverResult,
 	ToolCallEvent,
 };
 
@@ -60,5 +64,4 @@ export interface CategorySummary {
 export interface SkillIndex {
 	entries: Map<string, SkillEntry>;
 	categories: CategorySummary[];
-	nameIndex: Map<string, string>;
 }

@@ -7,7 +7,7 @@ import { resolveExtensionRoot, scanSkillDirectory } from "../src/scanner.ts";
 import { search } from "../src/search.ts";
 
 const root = resolveExtensionRoot();
-const allSkills = scanSkillDirectory(`${root}/skills`);
+const allSkills = scanSkillDirectory(`${root}/data`);
 const index = buildIndex(allSkills);
 
 const cases: Array<{ query: string; expectContains: string }> = [
